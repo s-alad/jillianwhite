@@ -1,0 +1,57 @@
+.flexspace {
+  flex: 1;
+}
+
+.App .bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.App .bg .name {
+  margin-left: 70px;
+  position: fixed;
+  font-size: 162px;
+  color: white;
+  z-index: 99;
+}
+.App .bg .background {
+  background: url(../../assets/static/jwbg.png) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  transition: all 3s ease;
+}
+.App .bg .background-darkened {
+  background: url(../../assets/static/jwbgh.png) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  transition: all 3s ease;
+}
+.App .navigation {
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  padding: 20px 40px 0px 40px;
+  z-index: 99;
+  display: flex;
+}
+.App .navigation .item {
+  margin-right: 20px;
+  font-size: 18px;
+  color: white;
+}
+.App .content {
+  padding-top: 100vh;
+  height: 2000px;
+  background-color: white;
+}
+.App .dim {
+  opacity: 0;
+}/*# sourceMappingURL=App.css.map */

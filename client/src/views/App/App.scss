@@ -1,0 +1,66 @@
+@use '../../shared/common.scss' as common;
+
+
+.App {
+
+    .bg {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+
+        .name {
+            margin-left: 70px;
+            position: fixed;
+            font-size: 162px;
+            color: white;
+            z-index: 99;
+        }
+
+        @mixin bg() {
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            z-index: 1;
+            transition: all 3s ease;
+        }
+        .background {
+            background: url(../../assets/static/jwbg.png) no-repeat center center fixed;
+            @include bg();
+        }
+        .background-darkened {
+            background: url(../../assets/static/jwbgh.png) no-repeat center center fixed;
+            @include bg();
+        }
+    }
+
+    .navigation {
+        position: fixed;
+        height: 100px;
+        width: 100%;
+        padding: 20px 40px 0px 40px;
+        z-index: 99;
+        display: flex;
+        .item {
+            margin-right: 20px;
+            font-size: 18px;
+            color: white;
+        }
+
+    }
+
+    .content {
+        padding-top: 100vh;
+        height: 2000px;
+        background-color: white;
+    }
+
+
+
+
+    
+    .dim {
+        opacity: 0;
+    }
+}
