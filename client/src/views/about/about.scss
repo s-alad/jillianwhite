@@ -1,0 +1,109 @@
+@use '../../shared/common.scss' as common;
+
+
+.info {
+    position: relative;
+
+    z-index: 9999;
+
+
+    background-color: #44543c;
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    h1 {
+        color: white;
+        font-size: 60px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+    h2 {
+        color: white;
+        font-size: 40px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+    p {
+        color: white;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: row;
+
+        .blob {
+            background-image: url(../../assets/static/blob.png);
+            height: 100px;
+        }
+
+        .left {
+            flex: 1;
+        }
+
+        .right {
+            width: 40%;
+            display: flex;
+            justify-content: end;
+
+            .block {
+                position: relative;
+                margin-top: 80px;
+                background-color: white;
+                height: 378px;
+                width: 500px;
+                border-radius: 6px;
+                background-image: url(../../assets/static/mba.jpg);
+                background-repeat: no-repeat;
+                background-position-y: 30%;
+                background-size: 693px;
+                background-position-x: 6%;
+                border: 3px solid white;
+            }
+        }
+    }
+    .awards {
+        .award {
+            display: flex;
+            margin-top: 20px;
+            background-color: #4c6140;
+            width: min-content;
+            height: min-content;
+            border-radius: 8px;
+            .award-logo {
+                border-radius: 8px;
+                overflow: hidden;
+                height: 80px;
+                width: 80px;
+                background-color: white;
+                @include common.center();
+                img {
+                    border-radius: 8px;
+                    height: 60px;
+                    width: 60px;
+                }
+            }
+            .award-text {
+                padding: 12px;
+                display: flex;
+                align-items: center;
+                margin-left: 10px;
+                width: 500px;
+                p {
+                    margin: 0px;
+                }
+            }
+        }
+    }
+
+}

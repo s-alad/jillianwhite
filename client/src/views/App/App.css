@@ -9,7 +9,7 @@
 }
 .App .bg .brief-right {
   z-index: 99;
-  position: fixed;
+  position: absolute;
   top: 8%;
   width: 500px;
   margin-left: 70px;
@@ -38,7 +38,7 @@
   display: flex;
 }
 .App .bg .background {
-  background: url(../../assets/static/jwbg.png) no-repeat center center fixed;
+  background: url(../../assets/static/jwbgl.png) no-repeat center center;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -48,7 +48,7 @@
   transition: all 1s ease;
 }
 .App .bg .background-darkened {
-  background: url(../../assets/static/jwbgh.png) no-repeat center center fixed;
+  background: url(../../assets/static/jwbgh.png) no-repeat center center;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -56,14 +56,6 @@
   top: 0;
   z-index: 1;
   transition: all 1s ease;
-}
-.App .content {
-  position: relative;
-  display: block;
-  z-index: 9999;
-  top: 100vh;
-  height: 100vh;
-  background-color: #44543c;
 }
 .App .dim {
   opacity: 0;

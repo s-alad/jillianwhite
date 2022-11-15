@@ -10,7 +10,7 @@
 
         .brief-right {
             z-index: 99;
-            position: fixed;
+            position: absolute; //fixed
             top: 8%;
             width: 500px;
             margin-left: 70px;
@@ -47,23 +47,16 @@
             transition: all 1s ease;
         }
         .background {
-            background: url(../../assets/static/jwbg.png) no-repeat center center fixed;
+            background: url(../../assets/static/jwbgl.png) no-repeat center center; //fixed;
             @include bg();
         }
         .background-darkened {
-            background: url(../../assets/static/jwbgh.png) no-repeat center center fixed;
+            background: url(../../assets/static/jwbgh.png) no-repeat center center; //fixed;
             @include bg();
         }
     }
 
-    .content {
-        position: relative;
-        display: block;
-        z-index: 9999;
-        top: 100vh;
-        height: 100vh;
-        background-color: #44543c;
-    }
+
 
 
 

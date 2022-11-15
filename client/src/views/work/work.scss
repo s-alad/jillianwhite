@@ -1,0 +1,60 @@
+@use '../../shared/common.scss' as common;
+
+.work {
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+
+    .works {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .peice {
+            margin-right: 28px;
+            width: 360px;
+            border-radius: 8px;
+            height: 400px;
+            background-color: #B9A98E;
+
+            display: flex;
+            flex-direction: column;
+            padding: 14px;
+
+            .title {
+                width: 100%;
+                color: white;
+                font-size: 24px;
+                font-weight: 500;
+                margin-bottom: 14px;
+                height: 96px;
+            }
+            .banner {
+                img {
+                    border: 2px solid white;
+                    border-radius: 8px;
+                    max-height: 200px;
+                    max-width: 100%;
+                }
+
+            }
+            .description {
+                margin-top: 4px;
+                color: rgba(255, 255, 255, 0.726);
+            }
+            .date {
+                color: white;
+            }
+        }
+    }
+
+    h1 {
+        color: black;
+        font-size: 60px;    
+        font-weight: 600;
+        margin-top: 0px;
+    }
+}

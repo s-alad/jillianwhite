@@ -5,6 +5,8 @@ import 'animate.css';
 
 import Header from '../../components/header/header';
 import Gobutton from '../../components/gobutton/gobutton';
+import Main from '../main/main';
+import Work from '../work/work';
 
 function App() {
 
@@ -20,30 +22,30 @@ function App() {
 
   return (
     <div className="App">
-      <div className='bg'>
-        <div className='background-darkened'></div>
-        <div className='background'></div>
-        <div className='brief-right animate__slideInLeft animate__animated'>
-          <div className='name'>
-            <div>Jillian</div>
-            <div>White</div>
-          </div>
-          <div className='punchline'>
-            Educating and Empowering Homeowners. <br />
-            <div className='go'>
-              <a href="#main">
-                <Gobutton></Gobutton>
-              </a>
+      <Header></Header>
+
+      <div className='intro'>
+        <div className='bg'>
+          <div className='background-darkened'></div>
+          <div className='background'></div>
+          <div className='brief-right animate__slideInLeft animate__animated'>
+            <div className='name'>
+              <div>Jillian</div>
+              <div>White</div>
+            </div>
+            <div className='punchline'>
+              Educating and Empowering Homeowners. <br />
+              <div className='go'>
+                <a href="#main">
+                  <Gobutton></Gobutton>
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      <Header></Header>
-
-      <div className='content' id='main'>
-        <div className='click'></div>
-      </div>
+      <Main ></Main>
     </div>
   );
 }

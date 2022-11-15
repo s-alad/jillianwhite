@@ -1,0 +1,9 @@
+.flexspace {
+  flex: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 9999;
+  top: 100vh;
+}/*# sourceMappingURL=main.css.map */

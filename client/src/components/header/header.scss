@@ -1,14 +1,70 @@
+.color {
+  /* background-color: black;
+  transition: .4s; */
+}
+
 .navigation {
     position: fixed;
-    height: 100px;
     width: 100%;
-    padding: 20px 40px 0px 40px;
+    padding: 20px 70px 0px 70px;
     z-index: 99999999;
+
+
     display: flex;
     .item {
         margin-right: 20px;
         font-size: 18px;
         color: white;
+        cursor: pointer;
+    }
+
+    .ico {
+      position: relative;
+      top: -13px;
+      border-radius: 4px;
+      
+    }
+
+    .underline {
+      ul { 
+        font-size: 18px;
+        margin: 0px auto 0; 
+        padding: 0; 
+        list-style: none; 
+        display: table;
+        width: 350px;
+        text-align: center;
+      }
+      li { 
+        display: table-cell; 
+        position: relative; 
+        padding: 0px 0;
+      }
+      a {
+        color: #fff;
+        
+        text-decoration: none;
+        
+        display: inline-block;
+        padding: 0px 10px 10px 10px;
+        position: relative;
+      }
+      a:after {    
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: #fff;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+      }
+      a:hover:after { 
+        width: 100%; 
+        left: 0; 
+      }
     }
 
 }
