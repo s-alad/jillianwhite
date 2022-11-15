@@ -1,0 +1,14 @@
+.navigation {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    padding: 20px 40px 0px 40px;
+    z-index: 99999999;
+    display: flex;
+    .item {
+        margin-right: 20px;
+        font-size: 18px;
+        color: white;
+    }
+
+}

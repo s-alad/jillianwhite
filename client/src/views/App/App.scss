@@ -8,12 +8,33 @@
         height: 100%;
         width: 100%;
 
-        .name {
-            margin-left: 70px;
-            position: fixed;
-            font-size: 162px;
-            color: white;
+        .brief-right {
             z-index: 99;
+            position: fixed;
+            top: 8%;
+            width: 500px;
+            margin-left: 70px;
+            .name {
+                position: relative;
+                font-size: 162px;
+                color: white;
+                z-index: 99;
+                div {height: 160px;} //name vertical spacing fix
+            }
+            .punchline {
+                margin-left: 20px;
+                margin-top: 60px;
+                position: relative;
+                color: white;
+                font-size: 30px;
+                .go {
+                    z-index: 1;
+                    margin-top: 30px;
+                    font-size: initial;
+                    position: relative;
+                    display: flex;
+                }
+            }
         }
 
         @mixin bg() {
@@ -23,7 +44,7 @@
             position: absolute;
             top: 0;
             z-index: 1;
-            transition: all 3s ease;
+            transition: all 1s ease;
         }
         .background {
             background: url(../../assets/static/jwbg.png) no-repeat center center fixed;
@@ -35,25 +56,13 @@
         }
     }
 
-    .navigation {
-        position: fixed;
-        height: 100px;
-        width: 100%;
-        padding: 20px 40px 0px 40px;
-        z-index: 99;
-        display: flex;
-        .item {
-            margin-right: 20px;
-            font-size: 18px;
-            color: white;
-        }
-
-    }
-
     .content {
-        padding-top: 100vh;
-        height: 2000px;
-        background-color: white;
+        position: relative;
+        display: block;
+        z-index: 9999;
+        top: 100vh;
+        height: 100vh;
+        background-color: #44543c;
     }
 
 

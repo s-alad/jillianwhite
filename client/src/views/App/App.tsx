@@ -1,6 +1,10 @@
 import React, { useEffect } from 'react';
 import './App.css';
 import '../../shared/common.css'
+import 'animate.css';
+
+import Header from '../../components/header/header';
+import Gobutton from '../../components/gobutton/gobutton';
 
 function App() {
 
@@ -19,20 +23,25 @@ function App() {
       <div className='bg'>
         <div className='background-darkened'></div>
         <div className='background'></div>
-        <div className='name'>
-          Jillian <br />
-          White
+        <div className='brief-right animate__slideInLeft animate__animated'>
+          <div className='name'>
+            <div>Jillian</div>
+            <div>White</div>
+          </div>
+          <div className='punchline'>
+            Educating and Empowering Homeowners. <br />
+            <div className='go'>
+              <a href="#main">
+                <Gobutton></Gobutton>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div className='navigation'>
-        <div className='flexspace'></div>
-        <div className='media item'>media</div>
-        <div className='blog item'>blog</div>
-        <div className='contact item'>contact</div>
-      </div>
+      <Header></Header>
 
-      <div className='content'>
+      <div className='content' id='main'>
         <div className='click'></div>
       </div>
     </div>

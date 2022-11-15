@@ -7,12 +7,35 @@
   height: 100%;
   width: 100%;
 }
-.App .bg .name {
-  margin-left: 70px;
+.App .bg .brief-right {
+  z-index: 99;
   position: fixed;
+  top: 8%;
+  width: 500px;
+  margin-left: 70px;
+}
+.App .bg .brief-right .name {
+  position: relative;
   font-size: 162px;
   color: white;
   z-index: 99;
+}
+.App .bg .brief-right .name div {
+  height: 160px;
+}
+.App .bg .brief-right .punchline {
+  margin-left: 20px;
+  margin-top: 60px;
+  position: relative;
+  color: white;
+  font-size: 30px;
+}
+.App .bg .brief-right .punchline .go {
+  z-index: 1;
+  margin-top: 30px;
+  font-size: initial;
+  position: relative;
+  display: flex;
 }
 .App .bg .background {
   background: url(../../assets/static/jwbg.png) no-repeat center center fixed;
@@ -22,7 +45,7 @@
   position: absolute;
   top: 0;
   z-index: 1;
-  transition: all 3s ease;
+  transition: all 1s ease;
 }
 .App .bg .background-darkened {
   background: url(../../assets/static/jwbgh.png) no-repeat center center fixed;
@@ -32,25 +55,15 @@
   position: absolute;
   top: 0;
   z-index: 1;
-  transition: all 3s ease;
-}
-.App .navigation {
-  position: fixed;
-  height: 100px;
-  width: 100%;
-  padding: 20px 40px 0px 40px;
-  z-index: 99;
-  display: flex;
-}
-.App .navigation .item {
-  margin-right: 20px;
-  font-size: 18px;
-  color: white;
+  transition: all 1s ease;
 }
 .App .content {
-  padding-top: 100vh;
-  height: 2000px;
-  background-color: white;
+  position: relative;
+  display: block;
+  z-index: 9999;
+  top: 100vh;
+  height: 100vh;
+  background-color: #44543c;
 }
 .App .dim {
   opacity: 0;
