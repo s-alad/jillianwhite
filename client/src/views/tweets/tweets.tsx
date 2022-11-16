@@ -4,7 +4,7 @@ import './tweets.css'
 function Tweets() {
     return (
         <div className='tweets'>
-            <h1>Recent Tweets</h1>
+            <h1>Current Work</h1>
         </div>
     )
 }

@@ -5,7 +5,7 @@
 .info {
   position: relative;
   z-index: 9999;
-  background-color: #44543c;
+  background-color: #3e4a3c;
   display: flex;
   flex-direction: column;
   padding-left: 70px;
@@ -67,7 +67,7 @@
 .info .awards .award {
   display: flex;
   margin-top: 20px;
-  background-color: #4c6140;
+  background-color: #667068;
   width: -webkit-min-content;
   width: -moz-min-content;
   width: min-content;
