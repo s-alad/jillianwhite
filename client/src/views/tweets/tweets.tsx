@@ -1,10 +1,12 @@
 import React from 'react';
 import './tweets.css'
 
+import {getMedia} from '../../api/api';
+
 function Tweets() {
     return (
         <div className='tweets'>
-            <h1>Current Work</h1>
+            <h1 onClick={() => getMedia()}>Current Work</h1>
         </div>
     )
 }
