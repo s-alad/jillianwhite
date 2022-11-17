@@ -3,9 +3,10 @@ import './main.css';
 
 import SBA from '../../assets/static/SBA.jpg';
 import West from '../../assets/static/westchester-county.png';
-import Work from '../work/work';
+import Media from '../media/media';
 import About from '../about/about';
 import Tweets from '../tweets/tweets';
+import Speaking from '../speaking/speaking';
 
 function Main() {
 
@@ -13,8 +14,9 @@ function Main() {
         <div className='content' id='main'>
             <About></About>
 
-            <Work></Work>
-            <Tweets></Tweets>
+            <Media></Media>
+            <Speaking></Speaking>
+            {/* <Tweets></Tweets> */}
         </div>
     )
 }

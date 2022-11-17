@@ -6,7 +6,7 @@ import 'animate.css';
 import Header from '../../components/header/header';
 import Gobutton from '../../components/gobutton/gobutton';
 import Main from '../main/main';
-import Work from '../work/work';
+import Work from '../media/media';
 
 function App() {
 

@@ -1,0 +1,23 @@
+h1 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+
+.flexspace {
+  flex: 1;
+}
+
+.speaking {
+  display: flex;
+  flex-direction: column;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 20px;
+  background-color: #44543c;
+}
+.speaking h1 {
+  color: white;
+}/*# sourceMappingURL=speaking.css.map */

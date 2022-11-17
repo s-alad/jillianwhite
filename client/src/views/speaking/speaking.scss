@@ -1,0 +1,11 @@
+@use '../../shared/common.scss' as common;
+@use '../../shared/palette/palette.scss' as palette;
+
+
+.speaking {
+    @include common.section();
+    background-color: palette.$forest-green;
+
+    h1 {color: white;}
+
+}

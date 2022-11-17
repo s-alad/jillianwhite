@@ -3,7 +3,7 @@ import './about.css';
 
 import SBA from '../../assets/static/SBA.jpg';
 import West from '../../assets/static/westchester-county.png';
-import Work from '../work/work';
+import Work from '../media/media';
 
 function About() {
     return (

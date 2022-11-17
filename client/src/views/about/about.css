@@ -5,6 +5,7 @@
 .info {
   position: relative;
   z-index: 9999;
+  border-radius: 20px;
   background-color: #3e4a3c;
   display: flex;
   flex-direction: column;

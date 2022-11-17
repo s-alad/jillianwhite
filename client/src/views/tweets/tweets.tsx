@@ -6,7 +6,7 @@ import {getMedia} from '../../api/api';
 function Tweets() {
     return (
         <div className='tweets'>
-            <h1 onClick={() => getMedia()}>Current Work</h1>
+            <h1 onClick={() => getMedia()}>Recent Tweets</h1>
         </div>
     )
 }
