@@ -4,6 +4,10 @@ h1 {
   margin-top: 0px;
 }
 
+h2 {
+  font-weight: 600;
+}
+
 .flexspace {
   flex: 1;
 }
@@ -15,6 +19,10 @@ h1 {
   padding-right: 70px;
   padding-top: 40px;
   padding-bottom: 40px;
+  border-radius: 20px;
+  background-color: #3e4a3c;
+  position: relative;
+  /* top: -25px; */
 }
 .work .works {
   display: flex;
@@ -26,7 +34,7 @@ h1 {
   width: 360px;
   border-radius: 8px;
   height: 400px;
-  background-color: #566563;
+  background-color: #667068;
   display: flex;
   flex-direction: column;
   padding: 14px;
@@ -53,7 +61,7 @@ h1 {
   color: white;
 }
 .work h1 {
-  color: black;
+  color: white;
   font-size: 60px;
   font-weight: 600;
   margin-top: 0px;

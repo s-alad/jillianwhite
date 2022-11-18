@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './media.css';
-import '../../shared/common.css';
+import '../../shared/common/common.css';
 import { getMedia } from '../../api/api';
 
 

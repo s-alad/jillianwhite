@@ -1,0 +1,15 @@
+h1 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: 0px;
+  color: white;
+}
+
+h2 {
+  font-weight: 600;
+  color: white;
+}
+
+.flexspace {
+  flex: 1;
+}/*# sourceMappingURL=common.css.map */

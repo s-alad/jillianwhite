@@ -1,12 +1,11 @@
-@use '../../shared/common.scss' as common;
+@use '../../shared/common/common.scss' as common;
+@use '../../shared/palette/palette.scss' as palette;
 
 .work {
-    display: flex;
-    flex-direction: column;
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    @include common.section();
+    background-color: palette.$kale-green;
+    position: relative;
+    /* top: -25px; */
     
 
     .works {
@@ -18,7 +17,7 @@
             width: 360px;
             border-radius: 8px;
             height: 400px;
-            background-color: #566563;
+            background-color: /* #566563 */ palette.$null-green;
 
             display: flex;
             flex-direction: column;
@@ -52,7 +51,7 @@
     }
 
     h1 {
-        color: black;
+        color: white;
         font-size: 60px;    
         font-weight: 600;
         margin-top: 0px;

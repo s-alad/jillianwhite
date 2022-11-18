@@ -13,8 +13,11 @@ button {
   font-size: inherit;
   font-family: inherit;
 }
+button.wide {
+  min-width: 20rem !important;
+}
 button.learn-more {
-  width: 12rem;
+  min-width: 12rem;
   height: auto;
 }
 button.learn-more .circle {
@@ -54,6 +57,7 @@ button.learn-more .circle .icon.arrow::before {
   transform: rotate(45deg);
 }
 button.learn-more .button-text {
+  white-space: nowrap;
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: absolute;
   top: 0;

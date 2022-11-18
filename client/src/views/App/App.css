@@ -1,3 +1,13 @@
+h1 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+
+h2 {
+  font-weight: 600;
+}
+
 .flexspace {
   flex: 1;
 }

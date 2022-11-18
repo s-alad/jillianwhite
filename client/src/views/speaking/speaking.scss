@@ -1,11 +1,52 @@
-@use '../../shared/common.scss' as common;
+@use '../../shared/common/common.scss' as common;
 @use '../../shared/palette/palette.scss' as palette;
 
+$offset: /* 15px */ 0px;
 
 .speaking {
-    @include common.section();
-    background-color: palette.$forest-green;
+    position: relative;
+    height: 110vh;
+    top: -($offset); // offset for radius effect
 
-    h1 {color: white;}
+    .content {
+        top: $offset; // offset for radius effect
+        position: absolute;
+        @include common.section(0px);
+
+
+        .schedule {
+            margin-top: 42px;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            padding: 12px;
+            border-radius: 12px;
+            /* background-color: #B9A98E; */
+            .upcoming {
+                .coming {
+                    border-radius: 14px;
+                    /* border: 2px solid palette.$null-green; */
+                    height: 60px;
+                    width: 400px;
+                }
+            }
+        }
+        
+
+
+    }
+
+    p {
+        color: white;
+        font-size: 20px;
+        margin-top: 20px;
+        width: 70%;
+    }
+    h1 {color: white; margin-bottom: 0;}
+    h2 {margin-top: 0; color: white; font-size: 32px;}
+
+    background-image: url(../../assets/static/speaking-background-darkened.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }

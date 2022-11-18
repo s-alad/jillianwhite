@@ -1,0 +1,33 @@
+h1 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+.flexspace {
+  flex: 1;
+}
+
+.consulting {
+  height: 100vh;
+  background-image: url(https://urbanland.uli.org/wp-content/uploads/sites/5/2022/10/ValuationChangesforPeopleofColor-4998_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 20px;
+  position: relative;
+  /* top: -45px; */
+  z-index: -1;
+}
+.consulting h1 {
+  color: white;
+}/*# sourceMappingURL=consulting.css.map */
