@@ -10,7 +10,7 @@ root.render(
   <React.StrictMode>
     {
       true ?
-      <div>in development.</div>
+      <div className=''>in development.</div>
       :
       <App/>
     }
