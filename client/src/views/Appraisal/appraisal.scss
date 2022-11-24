@@ -5,6 +5,12 @@
     @include c.section();
     background-color: p.$coffe;
 
+    p {
+        color: white;
+        font-size: 20px;
+        margin-top: 0px;
+    }
+
     video {
         width: 800px;
         border-radius: 8px;

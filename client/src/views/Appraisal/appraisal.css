@@ -27,6 +27,11 @@ h2 {
   /* border-radius: $radius; */
   background-color: #B9A98E;
 }
+.appraisal p {
+  color: white;
+  font-size: 20px;
+  margin-top: 0px;
+}
 .appraisal video {
   width: 800px;
   border-radius: 8px;
