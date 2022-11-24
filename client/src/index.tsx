@@ -8,6 +8,12 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App/>
+    {
+      true ?
+      <div>in development.</div>
+      :
+      <App/>
+    }
+
   </React.StrictMode>
 );
