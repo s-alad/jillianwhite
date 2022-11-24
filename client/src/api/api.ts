@@ -15,5 +15,11 @@ function getMedia() {
     }).then((response: { items: any; }) => {console.log(response.items); return response.items})
 }
 
+function getEvents() {
+    return client.getEntries({
+        content_type: 'speaking'
+    }).then((response: { items: any; }) => {console.log(response.items); return response.items})
+}
 
-export {getMedia}
+
+export {getMedia, getEvents}

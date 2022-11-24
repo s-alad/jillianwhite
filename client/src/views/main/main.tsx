@@ -9,6 +9,7 @@ import Tweets from '../tweets/tweets';
 import Speaking from '../speaking/speaking';
 import Consulting from '../consulting/consulting';
 import Linkedin from '../linkedin/linkedin';
+import Contact from '../../components/contact/contact';
 
 function Main() {
 
@@ -18,7 +19,8 @@ function Main() {
             <Speaking></Speaking>
             <Media></Media>
             <Consulting></Consulting>
-            <Linkedin></Linkedin>
+            <Contact></Contact>
+            {/* <Linkedin></Linkedin> */}
             {/* <Tweets></Tweets> */}
         </div>
     )

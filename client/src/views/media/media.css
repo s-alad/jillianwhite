@@ -2,10 +2,12 @@ h1 {
   font-size: 60px;
   font-weight: 600;
   margin-top: 0px;
+  color: #fffcf7;
 }
 
 h2 {
   font-weight: 600;
+  color: #fffcf7;
 }
 
 .flexspace {
@@ -19,10 +21,9 @@ h2 {
   padding-right: 70px;
   padding-top: 40px;
   padding-bottom: 40px;
-  border-radius: 20px;
+  /* border-radius: $radius; */
   background-color: #3e4a3c;
   position: relative;
-  /* top: -25px; */
 }
 .work .works {
   display: flex;
@@ -30,14 +31,14 @@ h2 {
   flex-wrap: wrap;
 }
 .work .works .peice {
+  margin-bottom: 28px;
   margin-right: 28px;
-  width: 360px;
   border-radius: 8px;
-  height: 400px;
+  height: 450px;
   background-color: #667068;
   display: flex;
   flex-direction: column;
-  padding: 14px;
+  padding: 24px;
 }
 .work .works .peice .title {
   width: 100%;
@@ -45,24 +46,22 @@ h2 {
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 14px;
-  height: 96px;
+}
+.work .works .peice .banner {
+  width: 100%;
 }
 .work .works .peice .banner img {
   border: 2px solid white;
   border-radius: 8px;
-  max-height: 200px;
-  max-width: 100%;
+  max-height: 240px;
+  width: 100%;
 }
 .work .works .peice .description {
+  height: 20px;
   margin-top: 4px;
   color: rgba(255, 255, 255, 0.726);
 }
 .work .works .peice .date {
+  height: 20px;
   color: white;
-}
-.work h1 {
-  color: white;
-  font-size: 60px;
-  font-weight: 600;
-  margin-top: 0px;
 }/*# sourceMappingURL=media.css.map */

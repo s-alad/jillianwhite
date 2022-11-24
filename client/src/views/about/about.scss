@@ -1,22 +1,11 @@
-@use '../../shared/common.scss' as common;
+@use '../../shared/common/common.scss' as common;
+@use '../../shared/palette/palette.scss' as p;
 
 
 .info {
     position: relative;
-
     z-index: 9999;
-    border-radius: 20px;
-
-    background-color: #3e4a3c;
-    display: flex;
-    flex-direction: column;
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    @include common.section();
 
     h1 {
         color: white;
@@ -76,7 +65,7 @@
         .award {
             display: flex;
             margin-top: 20px;
-            background-color: /* #4c6140 */ #667068;
+            background-color: /* #4c6140 */ p.$accent;
             width: min-content;
             height: min-content;
             border-radius: 8px;

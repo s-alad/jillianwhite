@@ -1,13 +1,17 @@
-import React, { useEffect } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import './App.css';
 import '../../shared/common/common.css'
 import 'animate.css';
 
 import Header from '../../components/header/header';
-import Gobutton from '../../components/gobutton/gobutton';
 import Main from '../main/main';
-import Work from '../media/media';
 import Background from '../background/background';
+import Speaking from '../../paths/Speaking/speaking';
+
+
+
+import ReactDOM from "react-dom/client";
+import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 
 function App() {
 
@@ -15,9 +19,19 @@ function App() {
     <div className="App">
       <Header></Header>
 
-      <Background></Background>
-
-      <Main ></Main>
+      <Router>
+        <Routes>
+          <Route path="/" element={
+            <div>
+                <Background></Background>
+                <Main ></Main>
+            </div>
+          }/>
+          <Route path='speaking' element={
+            <Speaking></Speaking>
+          }/>
+        </Routes>
+      </Router>
     </div>
   );
 }

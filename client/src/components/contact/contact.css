@@ -1,0 +1,93 @@
+h1 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: 0px;
+  color: #fffcf7;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-weight: 600;
+  color: #fffcf7;
+  font-size: 42px;
+  margin: 0;
+}
+
+.flexspace {
+  flex: 1;
+}
+
+.contact {
+  position: relative;
+  background-color: #3e4a3c;
+  display: flex;
+  flex-direction: column;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  /* border-radius: $radius; */
+}
+.contact .contact-form {
+  width: 100%;
+  display: flex;
+}
+.contact .contact-form .left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.contact .contact-form .left label {
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+}
+.contact .contact-form .left input {
+  border: none;
+  border-radius: 8px;
+  background-color: #667068;
+  padding: 14px;
+  margin-top: 8px;
+  margin-bottom: 14px;
+}
+.contact .contact-form .left input:focus {
+  outline: 2px solid white;
+}
+.contact .contact-form .left textarea {
+  border: none;
+  border-radius: 8px;
+  height: 100px;
+  background-color: #667068;
+  padding: 14px;
+  margin-top: 8px;
+  margin-bottom: 14px;
+}
+.contact .contact-form .left textarea:focus {
+  outline: 2px solid white;
+}
+.contact .contact-form .left button {
+  margin-top: 24px;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  padding: 14px;
+  background-color: #fffcf7;
+  color: #3e4a3c;
+  font-size: 20px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.contact .contact-form .right {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.contact .contact-form .right .blob {
+  background-image: url("https://cdn.dribbble.com/userupload/3401592/file/original-baf30a881e63618a0f376d39087e2fa6.jpg?compress=1&resize=1504x1128");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 90%;
+  border: 5px solid #fffcf7;
+  border-radius: 8px;
+}/*# sourceMappingURL=contact.css.map */

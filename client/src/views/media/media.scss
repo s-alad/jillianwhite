@@ -1,27 +1,25 @@
 @use '../../shared/common/common.scss' as common;
-@use '../../shared/palette/palette.scss' as palette;
+@use '../../shared/palette/palette.scss' as p;
 
 .work {
     @include common.section();
-    background-color: palette.$kale-green;
+    background-color: p.$primary;
     position: relative;
-    /* top: -25px; */
-    
 
     .works {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         .peice {
+            margin-bottom: 28px;
             margin-right: 28px;
-            width: 360px;
             border-radius: 8px;
-            height: 400px;
-            background-color: /* #566563 */ palette.$null-green;
+            height: 450px;
+            background-color: /* #566563 */ p.$accent;
 
             display: flex;
             flex-direction: column;
-            padding: 14px;
+            padding: 24px;
 
             .title {
                 width: 100%;
@@ -29,31 +27,29 @@
                 font-size: 24px;
                 font-weight: 500;
                 margin-bottom: 14px;
-                height: 96px;
+
             }
             .banner {
+                width: 100%;
                 img {
                     border: 2px solid white;
                     border-radius: 8px;
-                    max-height: 200px;
-                    max-width: 100%;
+                    max-height: 240px;
+                    width: 100%;
                 }
 
             }
             .description {
+                height: 20px;
+
                 margin-top: 4px;
                 color: rgba(255, 255, 255, 0.726);
             }
             .date {
+                height: 20px;
+
                 color: white;
             }
         }
-    }
-
-    h1 {
-        color: white;
-        font-size: 60px;    
-        font-weight: 600;
-        margin-top: 0px;
     }
 }

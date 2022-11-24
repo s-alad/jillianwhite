@@ -7,7 +7,7 @@ import Work from '../media/media';
 
 function About() {
     return (
-        <div className='info' id='main'>
+        <div className='info' id='about'>
             <div className='about'>
 
                 <div className='left'>

@@ -5,35 +5,47 @@ $offset: /* 15px */ 0px;
 
 .speaking {
     position: relative;
-    height: 110vh;
-    top: -($offset); // offset for radius effect
 
+
+    @include common.section();
     .content {
-        top: $offset; // offset for radius effect
-        position: absolute;
-        @include common.section(0px);
-
+        position: relative;
+        top: 0px;
 
         .schedule {
-            margin-top: 42px;
-            width: 50%;
+            margin-top: 58px;
+            width: 800px;
             display: flex;
             flex-direction: column;
-            padding: 12px;
-            border-radius: 12px;
-            /* background-color: #B9A98E; */
-            .upcoming {
-                .coming {
-                    border-radius: 14px;
+            border-radius: 8px;
+
+            background-color: palette.$primary;
+            padding: 24px;
+
+            h2 {font-size: 42px; margin-bottom: 12px; color: palette.$light-text; white-space: nowrap;}
+
+            .events {
+                display: flex;
+                flex-direction: column;
+                max-height: 200px;
+                overflow-y: scroll;
+                
+                .event {
+                    border-radius: 8px;
+                    background-color: palette.$null-green;
                     /* border: 2px solid palette.$null-green; */
-                    height: 60px;
-                    width: 400px;
+                    padding: 10px;
+                    color: white;
+                    width: 700px;
+                    margin-bottom: 8px;
+                    
+                    
                 }
             }
+            
+
+            a {color: inherit;}
         }
-        
-
-
     }
 
     p {
@@ -45,7 +57,7 @@ $offset: /* 15px */ 0px;
     h1 {color: white; margin-bottom: 0;}
     h2 {margin-top: 0; color: white; font-size: 32px;}
 
-    background-image: url(../../assets/static/speaking-background-darkened.png);
+    background-image: url(../../assets/static/speaking-background-nolight.png);
     background-repeat: no-repeat;
     background-size: cover;
 

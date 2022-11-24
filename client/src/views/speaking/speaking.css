@@ -2,10 +2,15 @@ h1 {
   font-size: 60px;
   font-weight: 600;
   margin-top: 0px;
+  color: #fffcf7;
+  margin-bottom: 30px;
 }
 
 h2 {
   font-weight: 600;
+  color: #fffcf7;
+  font-size: 42px;
+  margin: 0;
 }
 
 .flexspace {
@@ -14,37 +19,53 @@ h2 {
 
 .speaking {
   position: relative;
-  height: 110vh;
-  top: 0px;
-  background-image: url(../../assets/static/speaking-background-darkened.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.speaking .content {
-  top: 0px;
-  position: absolute;
   display: flex;
   flex-direction: column;
   padding-left: 70px;
   padding-right: 70px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  border-radius: 0px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  /* border-radius: $radius; */
+  background-image: url(../../assets/static/speaking-background-nolight.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.speaking .content {
+  position: relative;
+  top: 0px;
 }
 .speaking .content .schedule {
-  margin-top: 42px;
-  width: 50%;
+  margin-top: 58px;
+  width: 800px;
   display: flex;
   flex-direction: column;
-  padding: 12px;
-  border-radius: 12px;
-  /* background-color: #B9A98E; */
+  border-radius: 8px;
+  background-color: #3e4a3c;
+  padding: 24px;
 }
-.speaking .content .schedule .upcoming .coming {
-  border-radius: 14px;
+.speaking .content .schedule h2 {
+  font-size: 42px;
+  margin-bottom: 12px;
+  color: #fffcf7;
+  white-space: nowrap;
+}
+.speaking .content .schedule .events {
+  display: flex;
+  flex-direction: column;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+.speaking .content .schedule .events .event {
+  border-radius: 8px;
+  background-color: #667068;
   /* border: 2px solid palette.$null-green; */
-  height: 60px;
-  width: 400px;
+  padding: 10px;
+  color: white;
+  width: 700px;
+  margin-bottom: 8px;
+}
+.speaking .content .schedule a {
+  color: inherit;
 }
 .speaking p {
   color: white;

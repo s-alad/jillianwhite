@@ -26,10 +26,11 @@ function Header() {
       <div className="flexspace"></div>
       <div className='underline'>
         <ul>
-          <li><a href="#">leadership</a></li>
-          <li><a href="#">press</a></li>
-          <li><a href="#">blog</a></li>
-          <li><a href="#">contact</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#">Media</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </div>
       <SocialIcon url='https://www.linkedin.com/in/jillian-white-sra-93a23b6/' bgColor='transparent' fgColor='white' className='ico'></SocialIcon>
