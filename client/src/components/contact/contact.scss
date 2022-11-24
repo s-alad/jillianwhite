@@ -4,6 +4,7 @@
 .contact {
     position: relative;
     @include c.section();
+    background-color: p.$primary;
     
     .contact-form {
         width: 100%;
@@ -26,11 +27,13 @@
                 padding: 14px;
                 margin-top: 8px;
                 margin-bottom: 14px;
+                color: white;
                 &:focus {
                     outline: 2px solid white;
                 }
             }
             textarea {
+                color: white;
                 border: none;
                 border-radius: 8px;
                 height: 100px;

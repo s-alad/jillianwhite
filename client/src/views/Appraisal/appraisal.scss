@@ -1,0 +1,13 @@
+@use '../../shared/common/common.scss' as c;
+@use '../../shared/palette/palette.scss' as p;
+
+.appraisal {
+    @include c.section();
+    background-color: p.$coffe;
+
+    video {
+        width: 800px;
+        border-radius: 8px;
+        border: 4px solid white;
+    }
+}

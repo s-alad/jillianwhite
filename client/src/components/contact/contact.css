@@ -19,7 +19,6 @@ h2 {
 
 .contact {
   position: relative;
-  background-color: #3e4a3c;
   display: flex;
   flex-direction: column;
   padding-left: 70px;
@@ -27,6 +26,7 @@ h2 {
   padding-top: 70px;
   padding-bottom: 70px;
   /* border-radius: $radius; */
+  background-color: #3e4a3c;
 }
 .contact .contact-form {
   width: 100%;
@@ -49,11 +49,13 @@ h2 {
   padding: 14px;
   margin-top: 8px;
   margin-bottom: 14px;
+  color: white;
 }
 .contact .contact-form .left input:focus {
   outline: 2px solid white;
 }
 .contact .contact-form .left textarea {
+  color: white;
   border: none;
   border-radius: 8px;
   height: 100px;

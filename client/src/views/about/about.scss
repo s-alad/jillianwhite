@@ -5,6 +5,7 @@
 .info {
     position: relative;
     z-index: 9999;
+    background-color: p.$primary;
     @include common.section();
 
     h1 {

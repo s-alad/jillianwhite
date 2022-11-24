@@ -1,0 +1,34 @@
+h1 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: 0px;
+  color: #fffcf7;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-weight: 600;
+  color: #fffcf7;
+  font-size: 42px;
+  margin: 0;
+}
+
+.flexspace {
+  flex: 1;
+}
+
+.appraisal {
+  display: flex;
+  flex-direction: column;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  /* border-radius: $radius; */
+  background-color: #B9A98E;
+}
+.appraisal video {
+  width: 800px;
+  border-radius: 8px;
+  border: 4px solid white;
+}/*# sourceMappingURL=appraisal.css.map */

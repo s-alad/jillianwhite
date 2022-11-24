@@ -10,6 +10,7 @@ import Speaking from '../speaking/speaking';
 import Consulting from '../consulting/consulting';
 import Linkedin from '../linkedin/linkedin';
 import Contact from '../../components/contact/contact';
+import Appraisal from '../Appraisal/appraisal';
 
 function Main() {
 
@@ -18,6 +19,7 @@ function Main() {
             <About></About>
             <Speaking></Speaking>
             <Media></Media>
+            <Appraisal></Appraisal>
             <Consulting></Consulting>
             <Contact></Contact>
             {/* <Linkedin></Linkedin> */}
