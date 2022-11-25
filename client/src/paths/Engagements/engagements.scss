@@ -1,0 +1,39 @@
+@use '../../shared/common/common.scss' as c;
+@use '../../shared/palette/palette.scss' as p;
+
+.back {
+
+        position: absolute;
+        height: 100%;
+        width: 100%;
+
+        @mixin bg() {
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            z-index: 1;
+            transition: all 1s ease;
+        }
+        .background {
+            background: url(../../assets/static/20221021_145859.jpg) no-repeat center center; //fixed;
+            @include bg();
+        }
+        .background-darkened {
+            background: url(../../assets/static/engagements.png) no-repeat center center; //fixed;
+            @include bg();
+        }
+
+        .content {
+            position: absolute;
+            top: 0;
+            @include c.section();
+            z-index: 9;
+        }
+    
+
+    .dim {
+        opacity: 0;
+    }
+}

@@ -5,6 +5,7 @@
     position: relative;
     @include c.section();
     background-color: p.$primary;
+    min-height: 100vh;
     
     .contact-form {
         width: 100%;

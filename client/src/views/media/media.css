@@ -18,15 +18,16 @@ h2 {
 }
 
 .work {
-  display: flex;
-  flex-direction: column;
-  padding-left: 70px;
-  padding-right: 70px;
-  padding-top: 70px;
-  padding-bottom: 70px;
-  /* border-radius: $radius; */
+  /* @include common.section(); */
   background-color: #3e4a3c;
   position: relative;
+}
+.work h1 {
+  color: white;
+  font-size: 60px;
+  margin-top: 0px;
+  margin-bottom: 30px !important;
+  font-weight: 600;
 }
 .work .works {
   display: flex;
@@ -34,37 +35,47 @@ h2 {
   flex-wrap: wrap;
 }
 .work .works .peice {
+  border: 2px solid white;
   margin-bottom: 28px;
   margin-right: 28px;
   border-radius: 8px;
-  height: 450px;
+  height: 400px;
   background-color: #667068;
   display: flex;
   flex-direction: column;
-  padding: 24px;
 }
-.work .works .peice .title {
+.work .works .peice .data {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  padding-top: 12px;
+  flex: 1;
+}
+.work .works .peice .data .title {
   width: 100%;
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   margin-bottom: 14px;
 }
-.work .works .peice .banner {
-  width: 100%;
-}
-.work .works .peice .banner img {
-  border: 2px solid white;
-  border-radius: 8px;
-  max-height: 240px;
-  width: 100%;
-}
-.work .works .peice .description {
+.work .works .peice .data .description {
   height: 20px;
-  margin-top: 4px;
   color: rgba(255, 255, 255, 0.726);
 }
-.work .works .peice .date {
+.work .works .peice .data .date {
   height: 20px;
   color: white;
+}
+.work .works .peice a .banner {
+  width: 100%;
+}
+.work .works .peice a .banner img {
+  /* border: 2px solid white; */
+  border-radius: 8px;
+  height: 200px;
+  width: 100%;
+}
+
+.react-multiple-carousel__arrow {
+  background: rgba(255, 255, 255, 0.5) !important;
 }/*# sourceMappingURL=media.css.map */

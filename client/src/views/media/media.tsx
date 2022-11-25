@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import './media.css';
 import '../../shared/common/common.css';
 import { getMedia } from '../../api/api';
+
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -27,45 +28,50 @@ function Work() {
 
     const responsive = {
         superLargeDesktop: {
-          // the naming can be any, depends on you.
-          breakpoint: { max: 4000, min: 3000 },
-          items: 5
+            // the naming can be any, depends on you.
+            breakpoint: { max: 4000, min: 3000 },
+            items: 5
         },
         desktop: {
-          breakpoint: { max: 3000, min: 1024 },
-          items: 3
+            breakpoint: { max: 3000, min: 1024 },
+            items: 4
         },
         tablet: {
-          breakpoint: { max: 1024, min: 464 },
-          items: 2
+            breakpoint: { max: 1024, min: 464 },
+            items: 2
         },
         mobile: {
-          breakpoint: { max: 464, min: 0 },
-          items: 1
+            breakpoint: { max: 464, min: 0 },
+            items: 1
         }
-      };
+    };
 
     return (
         <div className='work'>
             <h1>In The News</h1>
-            <Carousel responsive={responsive} className='works' itemClass="nowidth">
+            <Carousel responsive={responsive} className='works' itemClass="nowidth" >
                 {
                     loading
                         ? <div>Loading...</div>
                         : items.map((item: any) => (
                             <div className='peice' key={item['fields']['title']}>
-                                <div className='title'>
-                                    {item['fields']['title']}
+
+                                <a href={item['fields']['link']}>
+                                    <div className='banner'>
+                                        <img src={item['fields']['banner']['fields']['file']['url']} alt='work' />
+                                    </div>
+                                </a>
+
+                                <div className='data'>
+                                    <div className='title'>
+                                        {item['fields']['title']}
+                                    </div>
+                                    <div className='flexspace'></div>
+                                    <div className='description'>
+                                        {item['fields']['outlet']}
+                                    </div>
+                                    <div className='date'>{item['fields']['datetime']}</div>
                                 </div>
-                                
-                                <div className='banner'>
-                                    <img src={item['fields']['banner']['fields']['file']['url']} alt='work' />
-                                </div>
-                                <div className='flexspace'></div>
-                                <div className='description'>
-                                    {item['fields']['outlet']}
-                                </div>
-                                <div className='date'>{item['fields']['datetime']}</div>
                             </div>
                         ))
                 }

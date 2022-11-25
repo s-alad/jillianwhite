@@ -5,7 +5,7 @@ $offset: /* 15px */ 0px;
 
 .speaking {
     position: relative;
-
+    min-height: 100vh;
 
     @include common.section();
     .content {
@@ -52,7 +52,8 @@ $offset: /* 15px */ 0px;
         color: white;
         font-size: 20px;
         margin-top: 20px;
-        width: 70%;
+        width: 50%;
+        margin-bottom: 40px;
     }
     h1 {color: white;}
     h2 {margin-top: 0; color: white; font-size: 32px;}

@@ -1,0 +1,52 @@
+h1 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: 0px;
+  color: #fffcf7;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-weight: 600;
+  color: #fffcf7;
+  font-size: 42px;
+  margin: 0;
+}
+
+.flexspace {
+  flex: 1;
+}
+
+.schedule {
+  margin-top: 58px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: #3e4a3c;
+  padding: 24px;
+}
+.schedule h2 {
+  font-size: 42px;
+  margin-bottom: 12px;
+  color: #fffcf7;
+  white-space: nowrap;
+}
+.schedule .events {
+  display: flex;
+  flex-direction: column;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+.schedule .events .event {
+  border-radius: 8px;
+  background-color: #667068;
+  /* border: 2px solid palette.$null-green; */
+  padding: 10px;
+  color: white;
+  width: 700px;
+  margin-bottom: 8px;
+}
+.schedule a {
+  color: inherit;
+}/*# sourceMappingURL=schedule.css.map */

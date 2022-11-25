@@ -1,0 +1,37 @@
+@use '../../shared/common/common.scss' as common;
+@use '../../shared/palette/palette.scss' as palette;
+
+.schedule {
+    margin-top: 58px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+
+    background-color: palette.$primary;
+    padding: 24px;
+
+    h2 {font-size: 42px; margin-bottom: 12px; color: palette.$light-text; white-space: nowrap;}
+
+    .events {
+        display: flex;
+        flex-direction: column;
+        max-height: 200px;
+        overflow-y: scroll;
+        
+        .event {
+            border-radius: 8px;
+            background-color: palette.$null-green;
+            /* border: 2px solid palette.$null-green; */
+            padding: 10px;
+            color: white;
+            width: 700px;
+            margin-bottom: 8px;
+            
+            
+        }
+    }
+    
+
+    a {color: inherit;}
+}

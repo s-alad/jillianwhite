@@ -3,16 +3,31 @@
 
 .appraisal {
     @include c.section();
-    background-color: p.$coffe;
+    background-color: p.$primary;
 
     p {
         color: white;
         font-size: 20px;
-        margin-top: 0px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .leftright {
+        display: flex;
+        background-color: p.$accent;
+        padding: 32px;
+        border-radius: 8px;
+        .left {
+            flex: 1;
+            padding-right: 32px;
+            .vertical-spacer {height: 24px;}
+        }
+        .right {
+            width: min-content;
+        }
     }
 
     video {
-        width: 800px;
+        width: 720px;
         border-radius: 8px;
         border: 4px solid white;
     }

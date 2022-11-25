@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     {
-      true ?
+      false ?
       <div className='dev'>in development.</div>
       :
       <App/>

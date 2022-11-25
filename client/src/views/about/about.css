@@ -60,7 +60,7 @@ h2 {
   flex: 1;
 }
 .info .about .right {
-  width: 40%;
+  width: 0%;
   display: flex;
   justify-content: end;
 }
@@ -77,41 +77,4 @@ h2 {
   background-size: 693px;
   background-position-x: 6%;
   border: 3px solid white;
-}
-.info .awards .award {
-  display: flex;
-  margin-top: 20px;
-  background-color: #667068;
-  width: -webkit-min-content;
-  width: -moz-min-content;
-  width: min-content;
-  height: -webkit-min-content;
-  height: -moz-min-content;
-  height: min-content;
-  border-radius: 8px;
-}
-.info .awards .award .award-logo {
-  border-radius: 8px;
-  overflow: hidden;
-  height: 80px;
-  width: 80px;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.info .awards .award .award-logo img {
-  border-radius: 8px;
-  height: 60px;
-  width: 60px;
-}
-.info .awards .award .award-text {
-  padding: 12px;
-  display: flex;
-  align-items: center;
-  margin-left: 10px;
-  width: 500px;
-}
-.info .awards .award .award-text p {
-  margin: 0px;
 }/*# sourceMappingURL=about.css.map */

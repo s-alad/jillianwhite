@@ -27,6 +27,7 @@ h2 {
   padding-bottom: 70px;
   /* border-radius: $radius; */
   background-color: #3e4a3c;
+  min-height: 100vh;
 }
 .contact .contact-form {
   width: 100%;

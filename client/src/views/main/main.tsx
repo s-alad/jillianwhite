@@ -18,7 +18,7 @@ function Main() {
         <div className='content' id='main'>
             <About></About>
             <Speaking></Speaking>
-            <Media></Media>
+            {/* <Media></Media> */}
             <Appraisal></Appraisal>
             <Consulting></Consulting>
             <Contact></Contact>

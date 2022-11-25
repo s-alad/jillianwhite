@@ -1,0 +1,36 @@
+@use '../../shared/common/common.scss' as common;
+@use '../../shared/palette/palette.scss' as p;
+
+.awards {
+    .award {
+        display: flex;
+        margin-top: 20px;
+        background-color: /* #4c6140 */ p.$accent;
+        width: min-content;
+        height: min-content;
+        border-radius: 8px;
+        .award-logo {
+            border-radius: 8px;
+            overflow: hidden;
+            height: 80px;
+            width: 80px;
+            background-color: white;
+            @include common.center();
+            img {
+                border-radius: 8px;
+                height: 60px;
+                width: 60px;
+            }
+        }
+        .award-text {
+            padding: 12px;
+            display: flex;
+            align-items: center;
+            margin-left: 10px;
+            width: 500px;
+            p {
+                margin: 0px;
+            }
+        }
+    }
+}

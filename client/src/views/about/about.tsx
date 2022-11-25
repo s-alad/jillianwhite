@@ -4,6 +4,8 @@ import './about.css';
 import SBA from '../../assets/static/SBA.jpg';
 import West from '../../assets/static/westchester-county.png';
 import Work from '../media/media';
+import Awards from '../../components/awards/awards';
+import Media from '../media/media';
 
 function About() {
     return (
@@ -18,34 +20,13 @@ function About() {
                 </div>
                 <div className='right'>
 
-                    <div className='block'>
-                    </div>
+                    {/* <div className='block'>
+                    </div> */}
                 </div>
             </div>
+            <Media></Media>
 
-            <div className='awards'>
-                <h1>Awards</h1>
-                <div className='award'>
-                    <div className='award-logo'>
-                        <img src={SBA} alt='SBA' />
-                    </div>
-                    <div className='award-text'>
-                        <p>
-                        Jillian was named the Young Entrepreneur of the Year by the Small Business Administration.
-                        </p>
-                    </div>
-                </div>
-                <div className='award'>
-                    <div className='award-logo'>
-                        <img src={West} alt='SBA' />
-                    </div>
-                    <div className='award-text'>
-                        <p>
-                        Jillian was named one of the ten most influential black leaders changing Westchester County.
-                        </p>
-                    </div>
-                </div>
-            </div>
+            {/* <Awards></Awards> */}
 
         </div>
     );

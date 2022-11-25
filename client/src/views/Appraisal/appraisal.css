@@ -9,8 +9,12 @@ h1 {
 h2 {
   font-weight: 600;
   color: #fffcf7;
-  font-size: 42px;
+  font-size: 36px;
   margin: 0;
+}
+
+.vertical-spacer {
+  height: 20px;
 }
 
 .flexspace {
@@ -25,15 +29,34 @@ h2 {
   padding-top: 70px;
   padding-bottom: 70px;
   /* border-radius: $radius; */
-  background-color: #B9A98E;
+  background-color: #3e4a3c;
 }
 .appraisal p {
   color: white;
   font-size: 20px;
-  margin-top: 0px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.appraisal .leftright {
+  display: flex;
+  background-color: #667068;
+  padding: 32px;
+  border-radius: 8px;
+}
+.appraisal .leftright .left {
+  flex: 1;
+  padding-right: 32px;
+}
+.appraisal .leftright .left .vertical-spacer {
+  height: 24px;
+}
+.appraisal .leftright .right {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
 }
 .appraisal video {
-  width: 800px;
+  width: 720px;
   border-radius: 8px;
   border: 4px solid white;
 }/*# sourceMappingURL=appraisal.css.map */

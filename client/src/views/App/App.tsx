@@ -6,7 +6,7 @@ import 'animate.css';
 import Header from '../../components/header/header';
 import Main from '../main/main';
 import Background from '../background/background';
-import Speaking from '../../paths/Speaking/speaking';
+import Speaking from '../../paths/Engagements/engagements';
 
 
 

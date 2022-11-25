@@ -1,18 +1,31 @@
 import React from 'react';
+import Gobutton from '../../components/gobutton/gobutton';
 import './appraisal.css';
+import V from '../../assets/static/video/lianacoya.mp4';
 
 function Appraisal() {
 
     return (
         <div className="appraisal">
-            <h1>Appraisal Work</h1>
-            <p>
-            Motivated by her professional experience as an appraiser and personal experience whitewashing her family’s home in order to get a fair value, Jillian has made it her personal mission to educate and empower all homeowners by seeking fairness in appraisals.
+            <h1>Have an issue with your appraisal?</h1>
+            <div className='leftright'>
+                <div className='left'>
+                <h2>let Jillian help you get a fair value for your home.</h2>
+                    <p>
+                        Motivated by her professional experience as an appraiser and personal experience whitewashing her family’s home in order to get a fair value, Jillian has made it her personal mission to educate and empower all homeowners by seeking fairness in appraisals.
+                    </p>
 
-            </p>
-            <video controls>
-                <source src="https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/v1/video-secured-attachments/message/order_attachments/b562225bd08ec7dadd0941a99b238416-1669066728986/lianacoya?__cld_token__=exp=1669344920~hmac=8826342379a650377b2801cea7292713c8a8d0c0106018ecfe1032fa3b325b56"  height="300" width="300" type="video/mp4"></source>
-            </video>
+                    <Gobutton text={'Contact'} ></Gobutton>
+                </div>
+                <div className='right'>
+                    <video controls>
+                        <source src={V} height="300" width="300" type="video/mp4"></source>
+                    </video>
+                </div>
+
+            </div>
+
+
         </div>
     );
 }

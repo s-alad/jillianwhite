@@ -19,6 +19,7 @@ h2 {
 
 .speaking {
   position: relative;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   padding-left: 70px;
@@ -71,7 +72,8 @@ h2 {
   color: white;
   font-size: 20px;
   margin-top: 20px;
-  width: 70%;
+  width: 50%;
+  margin-bottom: 40px;
 }
 .speaking h1 {
   color: white;
