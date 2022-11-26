@@ -21,7 +21,9 @@ function Speaking() {
 
                     {/* Through speaking about her two decades as an executive in the appraisal industry, or her personal experience whitewashing her family’s home in order to get a fair appraisal, Jillian believes she can make an impact by helping shine a light on inequality in homeownership.  */}{/* Whether it’s calling out specific examples of injustice, or discussing appraisal best practices, proposed reforms and solutions to bias plaguing the country’s homeownership industry, Jillian believes in having difficult conversations to empower people to build their best life, through real estate and otherwise. */}
                 </p>
-                <Link to='/speaking'><Gobutton text='inquire about speaking' wide={true}></Gobutton></Link>
+                <a href='/speaking'><Gobutton text='inquire about speaking' wide={true}></Gobutton></a>
+                <div className='vertical-spacer'></div>
+
 
                 {/* <Schedule></Schedule> */}
             </div>

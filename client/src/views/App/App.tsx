@@ -12,6 +12,7 @@ import Speaking from '../../paths/Engagements/engagements';
 
 import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
+import Media from '../../paths/Media/Media';
 
 function App() {
 
@@ -29,6 +30,12 @@ function App() {
           }/>
           <Route path='speaking' element={
             <Speaking></Speaking>
+          }/>
+          <Route path='media' element={
+            <Media></Media>
+          }/>
+          <Route path='appraisal' element={
+            <div>appraisal</div>
           }/>
         </Routes>
       </Router>

@@ -42,7 +42,7 @@ function Schedule() {
                 loading ? <div>Loading...</div> :
                     <Fragment>
 
-                        {upcomingSpeakingItems.length != 0 ? <h2>Upcoming Appearances</h2> : ''}
+                        {upcomingSpeakingItems.length != 0 ? <h1>Upcoming Appearances</h1> : ''}
                         <div className='events'>
                             {
                                 upcomingSpeakingItems.map((item: any) => (
@@ -58,7 +58,7 @@ function Schedule() {
                         </div>
 
 
-                        {pastSpeakingItems.length != 0 ? <h2>Past Appearances</h2> : ''}
+                        {pastSpeakingItems.length != 0 ? <h1>Past Appearances</h1> : ''}
                         <div className='events'>
                             {
                                 pastSpeakingItems.map((item: any) => (

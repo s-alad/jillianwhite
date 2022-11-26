@@ -12,6 +12,16 @@ $offset: /* 15px */ 0px;
         position: relative;
         top: 0px;
 
+        .actions {
+            display: flex;
+            justify-content: space-between;
+            width: 50%;
+        }
+        .secondary-action {
+            color: palette.$secondary;
+            font-size: 22px;
+        }
+
         .schedule {
             margin-top: 58px;
             width: 800px;

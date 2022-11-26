@@ -47,7 +47,7 @@ function Work() {
     };
 
     return (
-        <div className='work'>
+        <div className='work' id='media'>
             <h1>In The News</h1>
             <Carousel responsive={responsive} className='works' itemClass="nowidth" >
                 {

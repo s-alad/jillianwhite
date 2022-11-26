@@ -9,8 +9,12 @@ h1 {
 h2 {
   font-weight: 600;
   color: #fffcf7;
-  font-size: 42px;
+  font-size: 36px;
   margin: 0;
+}
+
+.vertical-spacer {
+  height: 20px;
 }
 
 .flexspace {
@@ -21,6 +25,7 @@ h2 {
   position: absolute;
   height: 100%;
   width: 100%;
+  background-color: #3e4a3c;
 }
 .back .background {
   background: url(../../assets/static/20221021_145859.jpg) no-repeat center center;
@@ -42,17 +47,132 @@ h2 {
   z-index: 1;
   transition: all 1s ease;
 }
-.back .content {
-  position: absolute;
+.back .content, .back .sched {
+  position: relative;
   top: 0;
   display: flex;
   flex-direction: column;
   padding-left: 70px;
   padding-right: 70px;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 55px;
+  padding-bottom: 55px;
   /* border-radius: $radius; */
   z-index: 9;
+  width: 100%;
+  background-color: #3e4a3c;
+}
+.back .content .split, .back .sched .split {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+.back .content .split .left, .back .sched .split .left {
+  flex: 1;
+}
+.back .content .split .left .reach, .back .sched .split .left .reach {
+  /* padding: 24px;
+  background-color: p.$coffe; */
+  width: 50%;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+}
+.back .content .split .left .reach .row, .back .sched .split .left .reach .row {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.back .content .split .left .reach .row .col, .back .sched .split .left .reach .row .col {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+.back .content .split .left .reach label, .back .sched .split .left .reach label {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+.back .content .split .left .reach input, .back .sched .split .left .reach input {
+  border: none;
+  border-radius: 6px;
+  background-color: #667068;
+  padding: 14px;
+  margin-top: 8px;
+  margin-bottom: 14px;
+  color: white;
+}
+.back .content .split .left .reach input:focus, .back .sched .split .left .reach input:focus {
+  outline: 2px solid white;
+}
+.back .content .split .left .reach textarea, .back .sched .split .left .reach textarea {
+  color: white;
+  border: none;
+  border-radius: 8px;
+  height: 100px;
+  background-color: #667068;
+  padding: 14px;
+  margin-top: 8px;
+  margin-bottom: 14px;
+}
+.back .content .split .left .reach textarea:focus, .back .sched .split .left .reach textarea:focus {
+  outline: 2px solid white;
+}
+.back .content .split .left .reach button, .back .sched .split .left .reach button {
+  border-radius: 6px;
+  margin-top: 24px;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  padding: 8px;
+  background-color: #fffcf7;
+  color: #3e4a3c;
+  font-size: 20px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.back .content .split .right, .back .sched .split .right {
+  position: absolute;
+  z-index: 10;
+  width: 45%;
+  height: 100vh;
+  top: 0;
+  right: 0px;
+  background-image: url(../../assets/static/stand.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  filter: brightness(80%);
+}
+.back .content .split .right-two, .back .sched .split .right-two {
+  position: absolute;
+  z-index: 10;
+  width: 45%;
+  height: 100vh;
+  top: 0px;
+  right: 0px;
+  background-image: url(../../assets/static/three.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  filter: brightness(80%);
+}
+.back .sched {
+  display: flex;
+  flex-direction: column;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  /* border-radius: $radius; */
+  position: relative !important;
+  height: 100vh;
+  background-color: #B9A98E;
 }
 .back .dim {
   opacity: 0;

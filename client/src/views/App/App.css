@@ -9,8 +9,12 @@ h1 {
 h2 {
   font-weight: 600;
   color: #fffcf7;
-  font-size: 42px;
+  font-size: 36px;
   margin: 0;
+}
+
+.vertical-spacer {
+  height: 20px;
 }
 
 .flexspace {

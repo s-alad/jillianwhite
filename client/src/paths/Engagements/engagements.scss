@@ -6,6 +6,7 @@
         position: absolute;
         height: 100%;
         width: 100%;
+        background-color: p.$primary;
 
         @mixin bg() {
             background-size: cover;
@@ -25,13 +26,125 @@
             @include bg();
         }
 
-        .content {
-            position: absolute;
+        .content, .sched {
+            position: relative;
             top: 0;
             @include c.section();
             z-index: 9;
+            width: 100%;
+            background-color: p.$primary;
+
+            .split {
+                display: flex;
+                flex-direction: row;
+                height: 100%;
+                width: 100%;
+                .left {
+                    flex: 1;
+                    .reach {
+                        
+                        /* padding: 24px;
+                        background-color: p.$coffe; */
+                        width: 50%;
+                        border-radius: 6px;
+                        
+                        display: flex;
+                        flex-direction: column;
+                        .row {
+                            margin-top: 20px;
+                            display: flex;
+                            width: 100%;
+                            flex-wrap: nowrap;
+                            justify-content: space-between;
+                            .col {
+                                display: flex;
+                                flex-direction: column;
+                                width: 48%;
+                            }
+                        }
+                        label {
+                            color: white;
+                            font-size: 22px;
+                            font-weight: 600;
+                        }
+                        input {
+                            border: none;
+                            border-radius: 6px;
+                            background-color: p.$accent;
+                            padding: 14px;
+                            margin-top: 8px;
+                            margin-bottom: 14px;
+                            color: white;
+                            &:focus {
+                                outline: 2px solid white;
+                            }
+                        }
+                        textarea {
+                            color: white;
+                            border: none;
+                            border-radius: 8px;
+                            height: 100px;
+                            background-color: p.$accent;
+                            padding: 14px;
+                            margin-top: 8px;
+                            margin-bottom: 14px;
+                            &:focus {
+                                outline: 2px solid white;
+                            }
+                        }
+                        button {
+                            border-radius: 6px;
+                            margin-top: 24px;
+                            width: min-content;
+                            padding: 8px;
+                            background-color: p.$secondary;
+                            color: p.$primary;
+                            font-size: 20px;
+                            font-weight: 600;
+                            white-space: nowrap;
+                        }
+                    }
+
+                }
+                .right {
+                    position: absolute;
+                    z-index: 10;
+                    width: 45%;
+                    height: 100vh;
+                    top: 0;
+                    right: 0px;
+                    background-image: url(../../assets/static/stand.jpg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    border-left: 2px solid white;
+                    border-bottom: 2px solid white;
+                    filter: brightness(80%);
+                }
+                .right-two {
+                    position: absolute;
+                    z-index: 10;
+                    width: 45%;
+                    height: 100vh;
+                    top: 0px;
+                    right: 0px;
+                    background-image: url(../../assets/static/three.jpeg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+
+                    border-left: 2px solid white;
+                    border-bottom: 2px solid white;
+                    filter: brightness(80%);
+                }
+            }
         }
-    
+        
+        .sched {
+            @include c.section();
+            position: relative !important;
+            height: 100vh;
+            background-color: p.$coffe;
+        }
 
     .dim {
         opacity: 0;

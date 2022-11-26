@@ -3,16 +3,25 @@ import './contact.css';
 
 function Contact() {
     return (
-        <div className='contact'>
+        <div className='contact' id='contact'>
             <h1>Let's Talk</h1>
+            <p>Interested in contacting Jillian? Reach out below or send an email to <a href='mailto:someone@example.com'>&lt;placeholder&gt;@gmail.com</a> to inquire about speaking engagements, consulting services, media opportunities, or appearances</p>
             <div className='contact-form'>
                 <div className='left'>
-                    <label>Name</label>
-                    <input placeholder='Jillian White'></input>
-                    <label>Email</label>
-                    <input placeholder='Jillian@gmail.com'></input>
+                <div className='row'>
+								<div className='col'>
+									<label>Name</label>
+									<input placeholder='Jillian White'></input>
+								</div>
+								<div className='col'>
+									<label>Email</label>
+									<input placeholder='Jillian@gmail.com'></input>
+								</div>
+							</div>
+                    <label>Subject</label>
+                    <input placeholder='Appraisal Issue'></input>
                     <label>Message</label>
-                    <textarea placeholder='Lorem Iptsum'></textarea>
+                    <textarea placeholder='Hi, ...'></textarea>
                     <button>Send Message</button>
                 </div>
                 <div className='right'>

@@ -2,6 +2,7 @@
 @use '../../shared/palette/palette.scss' as p;
 
 .work {
+    scroll-margin-top: 58px;
     /* @include common.section(); */
     background-color: p.$primary;
     position: relative;

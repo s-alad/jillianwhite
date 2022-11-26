@@ -9,8 +9,12 @@ h1 {
 h2 {
   font-weight: 600;
   color: #fffcf7;
-  font-size: 42px;
+  font-size: 36px;
   margin: 0;
+}
+
+.vertical-spacer {
+  height: 20px;
 }
 
 .flexspace {
@@ -18,13 +22,14 @@ h2 {
 }
 
 .schedule {
-  margin-top: 58px;
-  width: 800px;
+  /* margin-top: 58px; */
+  width: 50%;
   display: flex;
   flex-direction: column;
   border-radius: 8px;
-  background-color: #3e4a3c;
-  padding: 24px;
+  /* background-color: palette.$primary; */
+  /* padding: 24px;
+  */
 }
 .schedule h2 {
   font-size: 42px;
@@ -35,16 +40,16 @@ h2 {
 .schedule .events {
   display: flex;
   flex-direction: column;
-  max-height: 200px;
+  max-height: 50vh;
   overflow-y: scroll;
 }
 .schedule .events .event {
   border-radius: 8px;
-  background-color: #667068;
+  background-color: #3e4a3c;
   /* border: 2px solid palette.$null-green; */
-  padding: 10px;
+  padding: 14px;
   color: white;
-  width: 700px;
+  width: 95%;
   margin-bottom: 8px;
 }
 .schedule a {

@@ -9,8 +9,12 @@ h1 {
 h2 {
   font-weight: 600;
   color: #fffcf7;
-  font-size: 42px;
+  font-size: 36px;
   margin: 0;
+}
+
+.vertical-spacer {
+  height: 20px;
 }
 
 .flexspace {
@@ -24,8 +28,8 @@ h2 {
   flex-direction: column;
   padding-left: 70px;
   padding-right: 70px;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 55px;
+  padding-bottom: 55px;
   /* border-radius: $radius; */
   background-image: url(../../assets/static/speaking-background-nolight.png);
   background-repeat: no-repeat;
@@ -34,6 +38,15 @@ h2 {
 .speaking .content {
   position: relative;
   top: 0px;
+}
+.speaking .content .actions {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.speaking .content .secondary-action {
+  color: #fffcf7;
+  font-size: 22px;
 }
 .speaking .content .schedule {
   margin-top: 58px;

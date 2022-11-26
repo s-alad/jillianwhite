@@ -8,6 +8,8 @@
   width: 100%;
   padding: 20px 70px 0px 70px;
   z-index: 99999999;
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
   display: flex;
 }
 .navigation .item {
@@ -57,4 +59,22 @@
 .navigation .underline a:hover:after {
   width: 100%;
   left: 0;
+}
+.navigation .divider {
+  height: 24px;
+  width: 2px;
+  margin-left: 8px;
+  margin-right: 8px;
+  background-color: white;
+}
+
+.my-social-icon .social-svg {
+  color: #BBC7CC;
+  background: transparent !important;
+}
+
+.my-social-icon .social-svg:hover {
+  color: #55acee !important;
+  background: white;
+  transition: 1s;
 }/*# sourceMappingURL=header.css.map */
