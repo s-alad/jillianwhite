@@ -1,0 +1,11 @@
+@use '../../shared/common/common.scss' as c;
+@use '../../shared/palette/palette.scss' as p;
+
+
+.business {
+    @include c.section();
+    background-color: p.$primary;
+    min-height: 100vh;
+
+    
+}
