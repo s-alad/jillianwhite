@@ -28,7 +28,7 @@ function Header() {
         <ul>
           <li><a href="/#about">About</a></li>
           <li><a href="/speaking">Speaking</a></li>
-          <li><a href="/#appraisal">Appraisal</a></li>
+          <li><a href="/appraisal">Appraisal</a></li>
           <li><a href="/media">Media</a></li>
           <li><a href="/blog">Blog</a></li>
           <li><a href="/#contact">Contact</a></li>

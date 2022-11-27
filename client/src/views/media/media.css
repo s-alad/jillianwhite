@@ -43,7 +43,7 @@ h2 {
   border: 2px solid white;
   margin-bottom: 28px;
   margin-right: 28px;
-  border-radius: 8px;
+  border-radius: 4px;
   height: 400px;
   background-color: #667068;
   display: flex;
@@ -76,7 +76,7 @@ h2 {
 }
 .work .works .peice a .banner img {
   /* border: 2px solid white; */
-  border-radius: 8px;
+  border-radius: 4px;
   height: 200px;
   width: 100%;
 }
