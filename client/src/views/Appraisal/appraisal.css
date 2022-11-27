@@ -31,6 +31,14 @@ h2 {
   /* border-radius: $radius; */
   background-color: #3e4a3c;
 }
+@media screen and (max-width: 450px) {
+  .appraisal {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
 .appraisal p {
   color: white;
   font-size: 20px;

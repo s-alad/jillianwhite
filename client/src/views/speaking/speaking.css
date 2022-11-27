@@ -35,6 +35,14 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media screen and (max-width: 450px) {
+  .speaking {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
 .speaking .content {
   position: relative;
   top: 0px;
@@ -87,6 +95,20 @@ h2 {
   margin-top: 20px;
   width: 50%;
   margin-bottom: 40px;
+}
+@media screen and (max-width: 900px) {
+  .speaking p {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .speaking h1 {
+    font-size: 34px;
+  }
+  .speaking p {
+    width: 90%;
+    font-size: 18px;
+  }
 }
 .speaking h1 {
   color: white;

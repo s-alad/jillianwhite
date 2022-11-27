@@ -33,6 +33,14 @@ h2 {
   background-color: #3e4a3c;
   min-height: 100vh;
 }
+@media screen and (max-width: 450px) {
+  .contact {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
 .contact p {
   color: white;
   font-size: 20px;
@@ -43,6 +51,27 @@ h2 {
 .contact a {
   color: #B9A98E;
   text-decoration: underline;
+}
+@media screen and (max-width: 450px) {
+  .contact {
+    min-height: initial !important;
+  }
+  .contact h1 {
+    font-size: 34px;
+  }
+  .contact label, .contact button {
+    font-size: 18px !important;
+  }
+  .contact .right {
+    display: none !important;
+  }
+  .contact .left {
+    width: 100% !important;
+  }
+  .contact p {
+    width: 100% !important;
+    font-size: 16px !important;
+  }
 }
 .contact .contact-form {
   width: 100%;

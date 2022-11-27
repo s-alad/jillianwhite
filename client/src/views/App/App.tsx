@@ -13,6 +13,7 @@ import Speaking from '../../paths/Engagements/engagements';
 import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import Media from '../../paths/Media/Media';
+import Business from '../../paths/Business/Business';
 
 function App() {
 
@@ -35,7 +36,7 @@ function App() {
             <Media></Media>
           }/>
           <Route path='appraisal' element={
-            <div>appraisal</div>
+            <Business></Business>
           }/>
         </Routes>
       </Router>

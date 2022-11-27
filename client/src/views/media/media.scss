@@ -14,6 +14,17 @@
         margin-bottom: 30px !important;
         font-weight: 600;
     }
+    @media screen and (max-width: 450px) {
+        h1 {
+            font-size: 34px;
+        }
+        .title {
+            font-size: 18px !important;
+        }
+        .peice {
+            width: 100% !important;
+        }
+    }
 
     .works {
         display: flex;

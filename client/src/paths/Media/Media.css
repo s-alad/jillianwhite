@@ -36,6 +36,14 @@ h2 {
   display: flex;
   flex-direction: column;
 }
+@media screen and (max-width: 450px) {
+  .Media {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
 .Media .twoway {
   display: flex;
   flex-direction: row;

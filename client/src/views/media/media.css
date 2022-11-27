@@ -34,6 +34,17 @@ h2 {
   margin-bottom: 30px !important;
   font-weight: 600;
 }
+@media screen and (max-width: 450px) {
+  .work h1 {
+    font-size: 34px;
+  }
+  .work .title {
+    font-size: 18px !important;
+  }
+  .work .peice {
+    width: 100% !important;
+  }
+}
 .work .works {
   display: flex;
   flex-direction: row;

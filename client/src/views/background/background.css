@@ -55,4 +55,30 @@
 }
 .back .dim {
   opacity: 0;
+}
+
+@media screen and (max-width: 450px) {
+  .bg {
+    height: 180% !important;
+    width: 110% !important;
+  }
+  .brief-right {
+    margin-left: 40px !important;
+    top: 3% !important;
+  }
+  .brief-right .name {
+    font-size: 80px !important;
+  }
+  .brief-right .name div {
+    height: 80px !important;
+  }
+  .brief-right .punchline {
+    margin-left: 0px;
+    margin-top: 30px !important;
+    font-size: 20px !important;
+    width: 50%;
+  }
+  .brief-right .punchline .go {
+    margin-top: 20px !important;
+  }
 }/*# sourceMappingURL=background.css.map */

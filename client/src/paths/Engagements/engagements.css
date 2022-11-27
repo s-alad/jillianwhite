@@ -61,6 +61,14 @@ h2 {
   width: 100%;
   background-color: #3e4a3c;
 }
+@media screen and (max-width: 450px) {
+  .back .content, .back .sched {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
 .back .content .split, .back .sched .split {
   display: flex;
   flex-direction: row;
@@ -173,6 +181,14 @@ h2 {
   position: relative !important;
   height: 100vh;
   background-color: #B9A98E;
+}
+@media screen and (max-width: 450px) {
+  .back .sched {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 .back .dim {
   opacity: 0;

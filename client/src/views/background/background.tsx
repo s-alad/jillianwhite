@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Gobutton from '../../components/gobutton/gobutton';
 import '../../shared/common/common.css'
+import './background.css';
 
 function Background() {
 
@@ -20,7 +21,7 @@ function Background() {
                 <div className='background'></div>
                 <div className='brief-right animate__slideInLeft animate__animated'>
                     <div className='name'>
-                        <div>Jillian</div>
+                        <div className='resize-text'>Jillian</div>
                         <div>White</div>
                     </div>
                     <div className='punchline'>

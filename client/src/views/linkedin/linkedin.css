@@ -33,6 +33,14 @@ h2 {
   position: relative;
   /* top: -65px; */
 }
+@media screen and (max-width: 450px) {
+  .linkedin {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
 .linkedin h1 {
   color: white;
 }
