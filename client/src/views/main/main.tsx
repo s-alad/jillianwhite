@@ -11,6 +11,7 @@ import Consulting from '../consulting/consulting';
 import Linkedin from '../linkedin/linkedin';
 import Contact from '../../components/contact/contact';
 import Appraisal from '../Appraisal/appraisal';
+import Premiere from '../premiere/premiere';
 
 function Main() {
 
@@ -20,7 +21,8 @@ function Main() {
             <Speaking></Speaking>
             {/* <Media></Media> */}
             <Appraisal></Appraisal>
-            <Consulting></Consulting>
+            {/* <Premiere></Premiere> */}
+            {/* <Consulting></Consulting> */}
             <Contact></Contact>
             {/* <Linkedin></Linkedin> */}
             {/* <Tweets></Tweets> */}

@@ -89,6 +89,82 @@ h2 {
 .speaking .content .schedule a {
   color: inherit;
 }
+.speaking .content .notables {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.speaking .content .notables .event {
+  border: 2px solid white;
+  border-radius: 4px;
+  width: 300px;
+  /* height: 200px; */
+  background-color: #667068;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+}
+.speaking .content .notables .event .title {
+  color: white;
+  height: 24px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.speaking .content .notables .event .date {
+  color: white;
+  height: 24px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.speaking .content .notables .event .image {
+  margin-top: 4px;
+  width: 100%;
+  flex: 1;
+}
+.speaking .content .notables .event .image img {
+  height: 160px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 40%;
+     object-position: 40%;
+  border-radius: 4px;
+}
+.speaking .division {
+  width: 100%;
+  background-color: white;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  height: 4px;
+}
+.speaking .notable {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  height: 220px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  -webkit-backdrop-filter: blur(5%);
+          backdrop-filter: blur(5%);
+  -webkit-backdrop-filter: brightness(0.5);
+          backdrop-filter: brightness(0.5);
+  display: flex;
+  flex-direction: column;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  /* border-radius: $radius; */
+}
+@media screen and (max-width: 450px) {
+  .speaking .notable {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
 .speaking p {
   color: white;
   font-size: 20px;

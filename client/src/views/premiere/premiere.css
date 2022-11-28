@@ -1,0 +1,45 @@
+h1 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: 0px;
+  color: #fffcf7;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-weight: 600;
+  color: #fffcf7;
+  font-size: 36px;
+  margin: 0;
+}
+
+.vertical-spacer {
+  height: 20px;
+}
+
+.flexspace {
+  flex: 1;
+}
+
+.premiere {
+  display: flex;
+  flex-direction: column;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  /* border-radius: $radius; */
+  min-height: 100vh;
+  background-color: #B9A98E;
+  background-image: url("https://i0.wp.com/urbanbridgez.com/wp-content/uploads/2022/10/OA-LOWBALLED_THUMB-TUNE-IN.jpg?w=1200&ssl=1");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@media screen and (max-width: 450px) {
+  .premiere {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}/*# sourceMappingURL=premiere.css.map */

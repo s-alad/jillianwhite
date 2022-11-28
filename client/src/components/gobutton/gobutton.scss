@@ -22,7 +22,10 @@ button {
   font-size: inherit;
   font-family: inherit;
   &.wide {
-    min-width: 20rem !important;
+    min-width: 20.5rem !important;
+    .button-text {
+      margin: 0 0 0 2.3rem !important;
+    }
   }
   &.learn-more {
     min-width: 12rem;

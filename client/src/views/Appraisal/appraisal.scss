@@ -1,7 +1,8 @@
 @use '../../shared/common/common.scss' as c;
 @use '../../shared/palette/palette.scss' as p;
 
-.appraisal {
+
+.appraisal, .prem, .information {
     @include c.section();
     background-color: p.$primary;
 
@@ -11,15 +12,35 @@
         margin-top: 20px;
         margin-bottom: 30px;
     }
+    .sub {
+        display: flex;
+        /* background-color: p.$accent;
+        padding: 32px; */
+        padding-top: 20px;
+        position: relative;
+
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+
+    }
     .leftright {
         display: flex;
         background-color: p.$accent;
         padding: 32px;
-        border-radius: 8px;
+        border-radius: 4px;
         .left {
             flex: 1;
             padding-right: 32px;
             .vertical-spacer {height: 24px;}
+            .premiere {
+                background-image: url('https://i0.wp.com/urbanbridgez.com/wp-content/uploads/2022/10/OA-LOWBALLED_THUMB-TUNE-IN.jpg?w=1200&ssl=1');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position-x: 60%;
+                height: 100%;
+                width: 100%;
+                border-radius: 4px;
+            }
         }
         .right {
             width: min-content;
@@ -28,7 +49,47 @@
 
     video {
         width: 720px;
-        border-radius: 8px;
+        border-radius: 4px;
         border: 4px solid white;
+    }
+}
+.prem {
+    /* background-image: url("https://cdn.abcotvs.com/dip/images/12341012_OA-LOWBALLED_THUMB-Clean-V1.jpg") !important;
+    backdrop-filter: blur(200px); */
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-color: #070511;
+    background-size: contain;
+    position: relative;
+    .poster {
+        background-image: url("https://i0.wp.com/urbanbridgez.com/wp-content/uploads/2022/10/OA-LOWBALLED_THUMB-TUNE-IN.jpg?fit=1200%2C675&ssl=1");
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 66%;
+        border-radius: 4px;
+        border: 4px solid white;
+    }
+    .lefright {
+        background-color: white !important;
+    }
+    .white {
+        background-color: transparent  !important;
+        padding: 0px;
+        video {
+            border: 4px solid #fff;
+        }
+    }
+}
+.information {
+    @include c.section();
+    background: linear-gradient(to right, #070511 30%, #090916 45%, #131222 60%, #130f22 70%, #070f1a 80%, #090913 89%) !important;
+    backdrop-filter: blur(200px);
+    padding-top: 0px !important ;
+    .leftright {
+        .left {
+
+        }
     }
 }
