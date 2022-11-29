@@ -107,12 +107,11 @@
             display: flex;
             justify-content: flex-end;
             .blob {
-                /* background-image: url('https://cdn.dribbble.com/userupload/3401592/file/original-baf30a881e63618a0f376d39087e2fa6.jpg?compress=1&resize=1504x1128'); */
                 position: absolute;
                 right: 0;
                 top: 0;
 
-                background-image: url(../../assets/static/two.jpg);
+                background-image: url(../../assets/static/rock.jpg);
                 background-size: cover;
                 background-repeat: no-repeat;
                 height: 100vh;

@@ -1,5 +1,5 @@
 h1 {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 600;
   margin-top: 0px;
   color: #fffcf7;
@@ -9,7 +9,7 @@ h1 {
 h2 {
   font-weight: 600;
   color: #fffcf7;
-  font-size: 36px;
+  font-size: 30px;
   margin: 0;
 }
 
@@ -29,7 +29,7 @@ h2 {
 }
 .work h1 {
   color: white;
-  font-size: 60px;
+  font-size: 40px;
   margin-top: 0px;
   margin-bottom: 30px !important;
   font-weight: 600;

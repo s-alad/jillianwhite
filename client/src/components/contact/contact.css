@@ -1,5 +1,5 @@
 h1 {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 600;
   margin-top: 0px;
   color: #fffcf7;
@@ -9,7 +9,7 @@ h1 {
 h2 {
   font-weight: 600;
   color: #fffcf7;
-  font-size: 36px;
+  font-size: 30px;
   margin: 0;
 }
 
@@ -142,11 +142,10 @@ h2 {
   justify-content: flex-end;
 }
 .contact .contact-form .right .blob {
-  /* background-image: url('https://cdn.dribbble.com/userupload/3401592/file/original-baf30a881e63618a0f376d39087e2fa6.jpg?compress=1&resize=1504x1128'); */
   position: absolute;
   right: 0;
   top: 0;
-  background-image: url(../../assets/static/two.jpg);
+  background-image: url(../../assets/static/rock.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
