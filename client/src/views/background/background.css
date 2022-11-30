@@ -1,7 +1,16 @@
 .back .bg {
   position: absolute;
-  height: 110%;
+  height: 100%;
   width: 100%;
+}
+.back .bg .credits {
+  position: absolute;
+  color: white;
+  opacity: 0.5;
+  z-index: 10;
+  bottom: 20px;
+  right: 20px;
+  font-size: 14px;
 }
 .back .bg .brief-right {
   z-index: 99;

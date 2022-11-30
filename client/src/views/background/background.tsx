@@ -17,6 +17,8 @@ function Background() {
     return (
         <div className='back'>
             <div className='bg'>
+                {/* image credits https://www.nbcnews.com/news/us-news/black-appraisers-call-out-industry-s-racial-bias-need-systemic-n1269452 */}
+                <div className='credits'>Image Credits: NBC News</div>
                 <div className='background-darkened'></div>
                 <div className='background'></div>
                 <div className='brief-right animate__slideInLeft animate__animated'>
