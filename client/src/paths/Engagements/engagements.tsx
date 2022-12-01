@@ -4,6 +4,7 @@ import Gobutton from '../../components/gobutton/gobutton';
 import Schedule from '../../components/schedule/schedule';
 import Header from '../../components/header/header';
 import './engagements.css';
+import RB from '../../assets/static/video/racialbiases.mp4';
 
 function Engagements() {
 	useEffect(() => {
@@ -18,18 +19,55 @@ function Engagements() {
 	return (
 		<div className='back'>
 			{/* <div className='background-darkened'></div>
-                <div className='background'></div> */}
+            <div className='background'></div> */}
 			<div className='content' id='start'>
-				<h1>Speaking & Engagements</h1>
+				<h1>Past Speeches</h1>
+				{/* <div className="twoway">
+					<div className="nav">
+						<div className="nav-item"><a href="#photos">Speeches</a></div>
+						<div className="nav-item"><a href="#news">Upcoming</a></div>
+						<div className="nav-item"><a href="#podcasts">Past</a></div>
+		
+					</div>
+					<div className="way">
+						<div className="videos" id="videos">
+							<h1>Speeches</h1>
 
-				<div>
-					
-				</div>
+							<div className="video">
+								<div className="description">
+									Racial And Ethnic Biases in the Appraisal Process
+								</div>
+								<iframe width="500" height="300" className='vid'
+									src="https://www.youtube.com/embed/9ZGaVARzt_U">
+								</iframe>
+							</div>
+							<div>
+								
+							</div>
+						</div>
+					</div>
+				</div> */}
 
 				<div className='split'>
 					<div className='left'>
-					
-						<div className='reach'>
+						<div className='speech'>
+							<div className="description">
+								Racial And Ethnic Biases in the Appraisal Process
+							</div>
+							<video controls className="">
+								<source src={(RB as string) + "#t=6"} height="300" width="300" type="video/mp4"></source>
+							</video>
+						</div>
+						<div className='speech'>
+							<div className="description">
+								2021 Hero Conference
+							</div>
+							<video controls className="">
+								<source src={(RB as string) + "#t=6"} height="300" width="300" type="video/mp4"></source>
+							</video>
+						</div>
+
+						{/* <div className='reach'>
 							<h2>Let Jillian spruce up your next event. </h2>
 							<div className='row'>
 								<div className='col'>
@@ -46,13 +84,12 @@ function Engagements() {
 							<label>Comments</label>
 							<input placeholder='Jillian@gmail.com'></input>
 							<button>Send Message</button>
-						</div>
+						</div> */}
 
 					</div>
 					<div className='right'>
 					</div>
 				</div>
-				
 			</div>
 			<div className='sched'>
 				<Schedule></Schedule>
@@ -62,8 +99,8 @@ function Engagements() {
 						
 
 					</div>
-					<div className='right-two'>
-					</div>
+					{/* <div className='right-two'>
+					</div> */}
 				</div>
 			</div>
 

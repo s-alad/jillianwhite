@@ -23,7 +23,7 @@ h2 {
 
 .schedule {
   /* margin-top: 58px; */
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   border-radius: 8px;
@@ -41,15 +41,57 @@ h2 {
   display: flex;
   flex-direction: column;
   max-height: 50vh;
-  overflow-y: scroll;
+  margin-bottom: 20px;
+  /* overflow-y: scroll; */
+}
+.schedule .events:last-child {
+  margin-bottom: 0;
+}
+.schedule .events .up {
+  width: 45% !important;
+  height: 100px !important;
 }
 .schedule .events .event {
-  border-radius: 8px;
-  background-color: #3e4a3c;
-  /* border: 2px solid palette.$null-green; */
-  padding: 14px;
-  color: white;
+  border: 2px solid white;
+  border-radius: 4px;
   width: 95%;
+  height: 200px;
+  background-color: #3e4a3c;
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+}
+.schedule .events .event .title {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+.schedule .events .event .date {
+  color: white;
+  height: 24px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.schedule .events .event .image {
+  margin-top: 4px;
+  width: 100%;
+  flex: 1;
+}
+.schedule .events .event .image img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  height: 160px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 40%;
+     object-position: 40%;
+  border-radius: 4px;
+}
+.schedule .events-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 8px;
 }
 .schedule a {
