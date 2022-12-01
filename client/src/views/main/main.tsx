@@ -19,10 +19,11 @@ function Main() {
         <div className='content' id='main'>
             <About></About>
             <Speaking></Speaking>
-            {/* <Media></Media> */}
+            
             <Appraisal></Appraisal>
             {/* <Premiere></Premiere> */}
             {/* <Consulting></Consulting> */}
+            {/* <div className='section'><Media></Media></div> */}
             <Contact></Contact>
             {/* <Linkedin></Linkedin> */}
             {/* <Tweets></Tweets> */}

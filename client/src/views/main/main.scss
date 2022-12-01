@@ -1,4 +1,5 @@
-@use '../../shared/common.scss' as common;
+@use '../../shared/common/common.scss' as common;
+@use '../../shared/palette/palette.scss' as p;
 
 
 .content {
@@ -7,4 +8,9 @@
     z-index: 9999;
     top: 100vh;
 
+}
+
+.section {
+    @include common.section();
+    background-color: p.$coffe;
 }

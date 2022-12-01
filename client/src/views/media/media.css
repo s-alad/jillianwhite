@@ -24,7 +24,7 @@ h2 {
 .work {
   scroll-margin-top: 58px;
   /* @include common.section(); */
-  background-color: #3e4a3c;
+  /* background-color: p.$primary; */
   position: relative;
 }
 .work h1 {
