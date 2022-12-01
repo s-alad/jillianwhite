@@ -123,6 +123,8 @@ h2 {
   flex: 1;
 }
 .speaking .content .notables .event .image img {
+  width: 100%;
+  aspect-ratio: 1/1;
   height: 160px;
   -o-object-fit: cover;
      object-fit: cover;

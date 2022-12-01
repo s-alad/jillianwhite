@@ -40,7 +40,7 @@
                 height: 560px;
             }
             .news {
-                
+                padding-top: 20px;
             }
             .videos {
                 .video {
@@ -56,6 +56,66 @@
                         padding: 24px;
                         color: white;
                         font-size: 20px;
+                    }
+                }
+            }
+            .podcasts {
+                .pod {
+                    display: flex;
+                    flex-direction: row;
+                    border: 2px solid white;
+               
+                    border-radius: 4px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    background-color: p.$accent;
+                   /*  width: 400px; */
+                    max-width: 600px;
+                    padding: 24px;
+                    .head {
+                        /* width: 200px; */
+                        min-height: 100px;
+                        img {
+                            min-width: 100px;
+                            height: 100px;
+                            border-radius: 4px;
+                            background-color: white;
+                        }
+                    }
+                    .vertical-line {
+                        width: 2px;
+                        background-color: white;
+                        margin-left: 24px;
+                        /* margin-right: 12px; */
+                    }
+                    .pod-body {
+                        padding-left: 24px;
+                        display: flex;
+                        flex-direction: column;
+                        .title {
+                            font-size: 20px;
+                            color: white;
+                            font-weight: 500;
+                            margin-bottom: 6px;
+                        }
+                        .description {
+                            color: white;
+                            font-size: 16px;
+                        }
+                        .outlet {
+                            border-radius: 4px;
+                            /* background-color: p.$primary; */
+                            color: white;
+                            font-size: 14px;
+                            padding: 8px;
+                            width: min-content;
+                            white-space: nowrap;
+                            background-color: p.$primary;
+                            cursor: pointer;
+                        }
+                        .blue {
+                            background-color: #101c94;
+                        }
                     }
                 }
             }

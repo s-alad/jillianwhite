@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { SocialIcon } from 'react-social-icons';
 import './header.css';
+import Logo from './logo/logo';
 
 function Header() {
 
@@ -23,6 +24,7 @@ function Header() {
 
   return (
     <div className={'navigation' + filled}>
+      <Logo></Logo>
       <div className="flexspace"></div>
       <div className='underline'>
         <ul>

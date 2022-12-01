@@ -26,7 +26,7 @@ function About() {
             </div>
             <Media></Media>
 
-            {/* <Awards></Awards> */}
+            <Awards></Awards>
 
         </div>
     );

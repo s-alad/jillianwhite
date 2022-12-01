@@ -1,3 +1,7 @@
+@use '../../shared/common/common.scss' as c;
+@use '../../shared/palette/palette.scss' as p;
+
+
 .color {
   /* background-color: black;
   transition: .4s; */
@@ -12,6 +16,34 @@
     backdrop-filter: blur(3px);
     height: 50px;
 
+    a {text-decoration: none;}
+    .logo {
+      /* width: 100px; */
+      white-space: nowrap;
+      width: min-content;
+      display: flex;
+      flex-direction: row;
+      .rect {
+        white-space: nowrap;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1.4em;
+        letter-spacing: .1em;
+        cursor: pointer;
+        .box {
+          background-color: p.$accent;
+          padding: 4px;
+          padding-left: 12px;
+          padding-right: 12px;
+          border-radius: 2px;
+          margin-left: 4px;
+          text-align: center;
+        }
+      }
+    }
 
     display: flex;
     .item {

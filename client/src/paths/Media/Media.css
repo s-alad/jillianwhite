@@ -73,6 +73,9 @@ h2 {
   margin-bottom: 10px;
   height: 560px;
 }
+.Media .twoway .way .news {
+  padding-top: 20px;
+}
 .Media .twoway .way .videos .video {
   width: 680px;
   margin-top: 20px;
@@ -87,6 +90,65 @@ h2 {
   padding: 24px;
   color: white;
   font-size: 20px;
+}
+.Media .twoway .way .podcasts .pod {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid white;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #667068;
+  /*  width: 400px; */
+  max-width: 600px;
+  padding: 24px;
+}
+.Media .twoway .way .podcasts .pod .head {
+  /* width: 200px; */
+  min-height: 100px;
+}
+.Media .twoway .way .podcasts .pod .head img {
+  min-width: 100px;
+  height: 100px;
+  border-radius: 4px;
+  background-color: white;
+}
+.Media .twoway .way .podcasts .pod .vertical-line {
+  width: 2px;
+  background-color: white;
+  margin-left: 24px;
+  /* margin-right: 12px; */
+}
+.Media .twoway .way .podcasts .pod .pod-body {
+  padding-left: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.Media .twoway .way .podcasts .pod .pod-body .title {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+.Media .twoway .way .podcasts .pod .pod-body .description {
+  color: white;
+  font-size: 16px;
+}
+.Media .twoway .way .podcasts .pod .pod-body .outlet {
+  border-radius: 4px;
+  /* background-color: p.$primary; */
+  color: white;
+  font-size: 14px;
+  padding: 8px;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  white-space: nowrap;
+  background-color: #3e4a3c;
+  cursor: pointer;
+}
+.Media .twoway .way .podcasts .pod .pod-body .blue {
+  background-color: #101c94;
 }
 .Media .twoway .way h1 {
   font-weight: 600;
