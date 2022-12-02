@@ -56,7 +56,7 @@ function Appraisal() {
                 </div>
                 <div className='sub'>
                     <div className='left'>
-                        <h2>Premieres on December 2nd</h2>
+                        <h2>Premiered on December 2nd</h2>
                         <p>
                             "Our America: Lowballed" follows Black and Latino families as they fight for fair home values after lower than expected appraisals. ABC's 18-month long investigation explores appraisal discrimination and solutions to a problem potentially costing families billions in equity.
                         </p>
