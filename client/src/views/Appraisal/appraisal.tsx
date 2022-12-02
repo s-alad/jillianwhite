@@ -29,9 +29,11 @@ function Appraisal() {
                             <source src={(V as string)+"#t=1"} height="300" width="300" type="video/mp4"></source>
                         </video>
                     </div>
-                    <div className='mobile-contact'>
-                        Contact About Appraisals
-                    </div>
+                    <a href="/#contact">
+                        <div className='mobile-contact'>
+                            Contact About Appraisals
+                        </div>
+                    </a>
 
                 </div>
                 <div className='vertical-spacer'></div>
