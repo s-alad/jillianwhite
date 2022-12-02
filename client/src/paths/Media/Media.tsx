@@ -70,6 +70,15 @@ function Media() {
                         <source src={V} height="300" width="200" type="video/mp4"></source>
                     </video>
                 </div>
+                <div className="video">
+                    <div className="description">
+                        Getting a Fair Appraisal 
+                    </div>
+                    <video controls className="video">
+								<source src={"https://embed-ssl.wistia.com/deliveries/a248766c87e69991cba26fab7048f266.mp4#t=1"} height="300" width="200" type="video/mp4"></source>
+							</video>
+                </div>
+                
                 
             </div>
         </div>

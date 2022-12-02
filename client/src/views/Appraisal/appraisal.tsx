@@ -8,7 +8,7 @@ function Appraisal() {
 
     return (
         <div>
-            <div className="appraisal">
+            <div className="appraisal" id="appraisal">
                 <h1>Have an issue with your appraisal?</h1>
                 <div className='leftright'>
                     <div className='left'>

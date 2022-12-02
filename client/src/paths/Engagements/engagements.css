@@ -93,6 +93,8 @@ h2 {
   background-color: #667068;
   border-radius: 4px;
   border: 2px solid white;
+  max-width: 600px;
+  min-width: 600px;
 }
 .back .twoway .way .videos .video .description {
   flex: 1;
@@ -282,6 +284,9 @@ h2 {
   font-size: 20px;
   margin-bottom: 12px;
   font-weight: 600;
+}
+.back .speech-content .split .left .speech .video, .back .sched .split .left .speech .video {
+  width: 640px;
 }
 .back .speech-content .split .right, .back .sched .split .right {
   position: absolute;

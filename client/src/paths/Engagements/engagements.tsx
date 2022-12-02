@@ -62,11 +62,12 @@ function Engagements() {
 						</div>
 						<div className='speech'>
 							<div className="description">
-								2021 Hero Conference
+								Fears Run Rampant, Creating Opportunity For The Bold 
 							</div>
-							<video controls className="">
-								<source src={(RB as string) + "#t=6"} height="300" width="300" type="video/mp4"></source>
+							<video controls className="video">
+								<source src={"https://embed-ssl.wistia.com/deliveries/a248766c87e69991cba26fab7048f266.mp4#t=1"} height="300" width="300" type="video/mp4"></source>
 							</video>
+							{/* <iframe src="https://embed-ssl.wistia.com/deliveries/a248766c87e69991cba26fab7048f266.mp4" scrolling="no" className="wistia_embed" name="wistia_embed" width="300" height="300"></iframe> */}
 						</div>
 
 						{/* <div className='reach'>

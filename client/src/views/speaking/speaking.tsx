@@ -24,7 +24,7 @@ function Speaking() {
                 </p>
                 <a href='/speaking'><Gobutton text='inquire about speaking' wide={true}></Gobutton></a>
                 <div className='division'></div>
-                <h2>Notable Appearances</h2>
+                <h1>Notable Appearances</h1>
                 <div className='notables'>
                     <div className='event'>
                         <div className='title'>
