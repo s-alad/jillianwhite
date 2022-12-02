@@ -47,7 +47,7 @@ function Header() {
           <div className='exit' onClick={() => closeOut()}>X</div>
             <HashLink to="/" onClick={() => closeOut()}>Home</HashLink>
             <HashLink to="/about" onClick={() => closeOut()}>About</HashLink>
-            <HashLink to="/speaking" onClick={() => closeOut()}>Speaking</HashLink>
+            <HashLink to="/speaking#speaking" onClick={() => closeOut()}>Speaking</HashLink>
             <HashLink to="/#appraisal" onClick={() => closeOut()}>Appraisal</HashLink>
             <HashLink to="/#premiere" onClick={() => closeOut()}>Premiere</HashLink>
             {/* <a href="/media" onClick={() => closeOut()}>Media</a> */}
@@ -61,7 +61,7 @@ function Header() {
         <ul>
         <li><a href="/#home">Home</a></li>
           <li><HashLink to="/about">About</HashLink></li>
-          <li><HashLink to="/speaking">Speaking</HashLink></li>
+          <li><HashLink to="/speaking#speaking">Speaking</HashLink></li>
           <li><HashLink to="/#appraisal">Appraisal</HashLink></li>
           <li><HashLink to="/#premiere">Premiere</HashLink></li>
           <li><HashLink to="/media">Media</HashLink></li>
