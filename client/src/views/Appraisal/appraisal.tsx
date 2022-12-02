@@ -29,15 +29,16 @@ function Appraisal() {
                             <source src={(V as string)+"#t=1"} height="300" width="300" type="video/mp4"></source>
                         </video>
                     </div>
-                    <a href="/#contact">
-                        <div className='mobile-contact'>
+                    <a href="/#contact" className='mobile-contact-up'>
+                        {/* <div className='mobile-contact'>
                             Contact About Appraisals
-                        </div>
+                        </div> */}
+                        <Gobutton text={'Contact'} wide={false}></Gobutton>
                     </a>
 
                 </div>
-                <div className='vertical-spacer'></div>
-                <div className='vertical-spacer'></div>
+                <div className='vertical-spacer mobile-close'></div>
+                <div className='vertical-spacer mobile-close'></div>
             </div>
             <div className='prem' id="premiere">
                 <h1>Our America: Lowballed</h1>

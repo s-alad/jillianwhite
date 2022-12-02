@@ -81,7 +81,8 @@
 
 @media screen and (max-width: 550px) {
   .bg {
-    height: 140% !important;
+    width: 115% !important;
+    height: 160% !important;
     /* background-position-y: bottom !important; */
   }
   .resize-button {

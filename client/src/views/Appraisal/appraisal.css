@@ -56,6 +56,9 @@ h2 {
   .right {
     margin-top: 0px !important;
   }
+  .mobile-contact-up {
+    margin-top: 20px !important;
+  }
   .mobile-contact {
     display: block !important;
     border: 2px solid white;
