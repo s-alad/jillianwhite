@@ -30,7 +30,7 @@ function Background() {
                         Educating and Empowering Homeowners. <br />
                         <div className='go'>
                             <a href="#appraisal" className='resize-button'>
-                                <Gobutton text='continue'></Gobutton>
+                                <Gobutton text='Appraisal'></Gobutton>
                             </a>
                         </div>
                     </div>
