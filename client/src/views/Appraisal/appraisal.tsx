@@ -20,12 +20,17 @@ function Appraisal() {
                             Reach out to learn more about how to get a fair value for your home.
                         </p>
 
-                        <Gobutton text={'Contact About Appraisals'} wide={true}></Gobutton>
+                        <a href="/#contact" className='resize-button-app'>
+                            <Gobutton text={'Contact About Appraisals'} wide={true}></Gobutton>
+                        </a>
                     </div>
                     <div className='right'>
                         <video controls>
                             <source src={V} height="300" width="300" type="video/mp4"></source>
                         </video>
+                    </div>
+                    <div className='mobile-contact'>
+                        Contact About Appraisals
                     </div>
 
                 </div>
@@ -53,7 +58,7 @@ function Appraisal() {
                             "Our America: Lowballed" follows Black and Latino families as they fight for fair home values after lower than expected appraisals. ABC's 18-month long investigation explores appraisal discrimination and solutions to a problem potentially costing families billions in equity.
                         </p>
 
-                        <Gobutton text={'Watch'} wide={false}></Gobutton>
+                        <a href='https://abc7.com/our-america-lowball-home-appraisal-racial-bias-discrimination/12325606/' target={'_blank'}><Gobutton text={'Watch'} wide={false}></Gobutton></a>
                     </div>
                     <div className='right'>
                         {/* <video controls>

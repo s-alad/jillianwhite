@@ -41,7 +41,9 @@
     .contact-form {
         width: 100%;
         display: flex;
+        flex: 1;
         .left {
+            
             width: 50%;
             display: flex;
             flex-direction: column;
@@ -78,10 +80,10 @@
                 }
             }
             textarea {
+                height: 30%;
                 color: white;
                 border: none;
                 border-radius: 4px;
-                height: 100px;
                 background-color: p.$accent;
                 padding: 14px;
                 margin-top: 8px;
@@ -99,7 +101,13 @@
                 font-size: 20px;
                 font-weight: 600;
                 white-space: nowrap;
+                transition: .2s;
+                &:hover {
+                    color: p.$coffe;
+
+                }
             }
+        
 
         }
         .right {
@@ -109,7 +117,7 @@
             .blob {
                 background-image: url(../../assets/static/rock.jpg);
                 background-repeat: no-repeat;
-                background-size: 849px;
+                background-size: cover;
                 border-left: 2px solid #fffcf7;
                 border-radius: 4px;
                 height: 100vh;
@@ -121,5 +129,61 @@
             }
         }
         
+    }
+}
+
+@media screen and (max-height: 1370px) {
+    .contact {
+        min-height: 800px !important;
+        max-height: 800px;
+        height: 800px;
+    }
+    .blob {
+        min-height: 800px;
+        max-height: 800px;
+        height: 800px;
+    }
+}
+@media screen and (max-height: 1000px) {
+    .contact {
+        min-height: 700px !important;
+        max-height: 700px;
+        height: 700px;
+    }
+    .blob {
+        min-height: 700px;
+        max-height: 700px;
+        height: 700px;
+    }
+}
+@media screen and (max-width: 1050) {
+    .blob {
+        background-position-x: 50% !important;
+    }
+}
+@media screen and (max-width: 860px) {
+    .left {
+        width: 60% !important;
+    }
+    .right {
+        width: 40% !important;
+    }
+    .blob {
+        width: 35% !important;
+        background-position-x: 70% !important;
+    }
+}
+@media screen and (max-width: 750px) {
+    .contact p {
+        width: 100% !important;
+    }
+    .left {
+        width: 100% !important;
+    }
+    .right {
+        width: 0% !important;
+    }
+    .blob {
+        display: none !important;
     }
 }

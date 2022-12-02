@@ -25,7 +25,7 @@ function Header() {
   return (
     <div className={'navigation' + filled}>
       {/* <Logo></Logo> */}
-      <div className="flexspace"></div>
+      <div className="navflexspace"></div>
       <div className='underline'>
         <ul>
         <li><a href="/">Home</a></li>

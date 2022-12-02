@@ -187,10 +187,18 @@ h2 {
   width: 100%;
   background-color: #3e4a3c;
 }
+@media screen and (max-width: 650px) {
+  .back .speech-content, .back .sched {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
 @media screen and (max-width: 450px) {
   .back .speech-content, .back .sched {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
   }
@@ -329,10 +337,18 @@ h2 {
   height: 100vh;
   background-color: #B9A98E;
 }
+@media screen and (max-width: 650px) {
+  .back .sched {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
 @media screen and (max-width: 450px) {
   .back .sched {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
   }

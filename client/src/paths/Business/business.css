@@ -36,10 +36,18 @@ h2 {
   background-color: #3e4a3c;
   min-height: 100vh;
 }
+@media screen and (max-width: 650px) {
+  .business {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
 @media screen and (max-width: 450px) {
   .business {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
   }

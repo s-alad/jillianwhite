@@ -41,10 +41,18 @@ h2 {
   /* border-radius: $radius; */
   background-color: #B9A98E;
 }
+@media screen and (max-width: 650px) {
+  .section {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
 @media screen and (max-width: 450px) {
   .section {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
   }

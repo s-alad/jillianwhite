@@ -71,7 +71,13 @@
   opacity: 0;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
+  .resize-button {
+    display: none;
+  }
+  .resize-button-app {
+    display: none;
+  }
   .bg {
     height: 180% !important;
     width: 110% !important;

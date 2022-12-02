@@ -25,6 +25,93 @@ h2 {
   background-color: #3e4a3c !important;
 }
 
+@media screen and (max-width: 420px) {
+  .appraisal p {
+    font-size: 16px !important;
+  }
+  .appraisal h2 {
+    font-size: 24px !important;
+  }
+}
+@media screen and (max-width: 550px) {
+  .resize-button-app {
+    scale: 0.5 !important;
+  }
+  .right {
+    margin-top: 0px !important;
+  }
+  .mobile-contact {
+    display: block !important;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: #3e4a3c;
+    background-color: white;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 18px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 750px) {
+  .prem .leftright {
+    flex-wrap: wrap !important;
+  }
+  .prem .leftright .left {
+    height: 300px;
+    width: 100% !important;
+    padding-right: 0px !important;
+  }
+  .prem .leftright .left .poster {
+    background-position-x: 49%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .prem .leftright {
+    flex-wrap: wrap !important;
+  }
+  .prem .leftright .left {
+    height: 300px !important;
+    width: 100% !important;
+    padding-right: 0px !important;
+  }
+  .prem .leftright .left .poster {
+    background-position-x: 49%;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .appraisal .leftright {
+    flex-wrap: wrap !important;
+  }
+  .appraisal .leftright .right {
+    width: 100% !important;
+    margin-top: 20px;
+  }
+  .prem .leftright {
+    flex-wrap: wrap !important;
+  }
+  .prem .leftright .left {
+    height: 500px;
+    width: 100% !important;
+    padding-right: 0px !important;
+  }
+  .prem .leftright .left p {
+    width: 80% !important;
+  }
+  .prem .leftright .right {
+    width: 100% !important;
+    margin-top: 20px !important;
+  }
+  .sub .left {
+    width: 100% !important;
+    padding-right: 0px !important;
+  }
+  .sub .left p {
+    width: 100% !important;
+  }
+}
 .appraisal, .prem, .information {
   display: flex;
   flex-direction: column;
@@ -35,10 +122,21 @@ h2 {
   /* border-radius: $radius; */
   background-color: #3e4a3c;
 }
+.appraisal .mobile-contact, .prem .mobile-contact, .information .mobile-contact {
+  display: none;
+}
+@media screen and (max-width: 650px) {
+  .appraisal, .prem, .information {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
 @media screen and (max-width: 450px) {
   .appraisal, .prem, .information {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
   }
@@ -81,9 +179,10 @@ h2 {
   border-radius: 4px;
 }
 .appraisal .leftright .right, .prem .leftright .right, .information .leftright .right {
-  width: -webkit-min-content;
-  width: -moz-min-content;
-  width: min-content;
+  width: 50%;
+}
+.appraisal .leftright .right video, .prem .leftright .right video, .information .leftright .right video {
+  width: 100%;
 }
 .appraisal video, .prem video, .information video {
   width: 720px;
@@ -134,10 +233,18 @@ h2 {
           backdrop-filter: blur(200px);
   padding-top: 0px !important;
 }
+@media screen and (max-width: 650px) {
+  .information {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
 @media screen and (max-width: 450px) {
   .information {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
   }

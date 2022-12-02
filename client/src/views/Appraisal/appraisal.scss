@@ -1,8 +1,95 @@
 @use '../../shared/common/common.scss' as c;
 @use '../../shared/palette/palette.scss' as p;
 
+@media screen and (max-width: 420px) {
+    .appraisal p {
+        font-size: 16px !important;
+    }
+    .appraisal h2 {
+        font-size: 24px !important;
+    }   
+}
+
+@media screen and (max-width: 550px) {
+    .resize-button-app {
+        scale: .5 !important;
+    }
+    .right {
+        margin-top: 0px !important;
+    }
+    .mobile-contact {
+        display: block !important;
+        border: 2px solid white;
+        border-radius: 4px;
+        color: p.$primary;
+        background-color: white;
+        padding: 12px;
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 18px;
+        cursor: pointer;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 750px) {
+    .prem .leftright {
+        flex-wrap: wrap !important;
+        .left {
+            height: 300px;
+            width: 100% !important;
+            padding-right: 0px !important;
+            .poster {background-position-x: 49%;}
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+    .prem .leftright {
+        flex-wrap: wrap !important;
+        .left {
+            height: 300px !important;
+            width: 100% !important;
+            padding-right: 0px !important;
+            .poster {background-position-x: 49%;}
+        }
+    }
+}
+@media screen and (max-width: 1050px) {
+    .appraisal .leftright {
+        flex-wrap: wrap !important;
+        .right {
+            width: 100% !important;
+            margin-top: 20px;
+        }
+    }
+    .prem .leftright {
+        flex-wrap: wrap !important;
+        .left {
+            height: 500px;
+            width: 100% !important;
+            padding-right: 0px !important;
+            p {
+                width: 80% !important;
+            }
+        }
+        .right {
+            width: 100% !important;
+            margin-top: 20px !important;
+        }
+    }
+    .sub .left {
+        width: 100% !important;
+        padding-right: 0px !important;
+        p {
+            width: 100% !important;
+        }
+    }
+}
 
 .appraisal, .prem, .information {
+    .mobile-contact {
+        display: none;
+    }
     @include c.section();
     background-color: p.$primary;
 
@@ -43,7 +130,11 @@
             }
         }
         .right {
-            width: min-content;
+            width: 50%;
+            video {
+                width: 100%;
+               
+            }
         }
     }
 

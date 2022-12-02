@@ -29,7 +29,7 @@ function Background() {
                     <div className='punchline'>
                         Educating and Empowering Homeowners. <br />
                         <div className='go'>
-                            <a href="#main">
+                            <a href="#main" className='resize-button'>
                                 <Gobutton text='continue'></Gobutton>
                             </a>
                         </div>

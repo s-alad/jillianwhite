@@ -21,9 +21,15 @@
     padding-top: 55px;
     padding-bottom: 55px;
     /* border-radius: $radius; */
+    @media screen and (max-width: 650px) {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
     @media screen and (max-width: 450px) {
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
         padding-top: 30px;
         padding-bottom: 30px;
     }
@@ -34,6 +40,11 @@ h1 {
     margin-top: 0px;
     color: p.$light-text;
     margin-bottom: 30px
+}
+@media screen and (max-width: 450px) {
+    h1 {
+        font-size: 34px !important;
+    }
 }
 h2 {
     font-weight: 600;

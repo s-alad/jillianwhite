@@ -27,7 +27,7 @@ h2 {
 
 .color {
   /* background-color: black;
-  transition: .4s; */
+   transition: .4s; */
 }
 
 .navigation {
@@ -71,12 +71,6 @@ h2 {
   border-radius: 2px;
   margin-left: 4px;
   text-align: center;
-}
-.navigation .item {
-  margin-right: 20px;
-  font-size: 18px;
-  color: white;
-  cursor: pointer;
 }
 .navigation .ico {
   position: relative;
@@ -128,6 +122,10 @@ h2 {
   background-color: white;
 }
 
+.navflexspace {
+  flex: 1;
+}
+
 .my-social-icon .social-svg {
   color: #BBC7CC;
   background: transparent !important;
@@ -137,4 +135,39 @@ h2 {
   color: #55acee !important;
   background: white;
   transition: 1s;
+}
+
+@media screen and (max-width: 821px) {
+  ul {
+    font-size: 16px !important;
+  }
+  .navigation {
+    padding: 20px 50px 0px 50px !important;
+    justify-content: center !important;
+  }
+  .ico {
+    height: 40px !important;
+    width: 40px !important;
+    top: -10px !important;
+  }
+}
+@media screen and (max-width: 770px) {
+  .navflexspace {
+    flex: none !important;
+  }
+}
+@media screen and (max-width: 740px) {
+  ul {
+    font-size: 14px !important;
+  }
+}
+@media screen and (max-width: 670px) {
+  ul {
+    font-size: 12px !important;
+  }
+  .ico {
+    height: 30px !important;
+    width: 30px !important;
+    top: -5px !important;
+  }
 }/*# sourceMappingURL=header.css.map */

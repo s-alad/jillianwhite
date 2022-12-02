@@ -39,10 +39,18 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media screen and (max-width: 650px) {
+  .speaking {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
 @media screen and (max-width: 450px) {
   .speaking {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
   }
@@ -163,10 +171,18 @@ h2 {
   padding-bottom: 55px;
   /* border-radius: $radius; */
 }
+@media screen and (max-width: 650px) {
+  .speaking .notable {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
 @media screen and (max-width: 450px) {
   .speaking .notable {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
   }
