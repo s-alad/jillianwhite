@@ -8,6 +8,12 @@
 }
 
 .navigation {
+	.mobile-lines {
+		display: none;
+	}
+	.mobile-navigation {
+		display: none;
+	}
 	position: fixed;
 	width: 100%;
 	padding: 20px 70px 0px 70px;
@@ -164,4 +170,66 @@
 		top: -5px !important;
 	}
 }
-	
+@media screen and (max-width: 575px) {
+	.underline, .divider, .social-svg {
+		display: none !important;
+	}
+	.mobile-lines {
+		display: flex !important;
+		position: absolute;
+		top: 20px;
+		right: 30px;
+		width: 40px;
+		height: 30px;
+		z-index: 99;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		cursor: pointer;
+		.line {
+			width: 100%;
+			height: 10%;
+			background-color: white;
+		}
+	}
+	.mobile-navigation {
+		.exit {
+			position: absolute;
+			top: 30px;
+			right: 30px;
+			width: 50px;
+			height: 50px;
+			color: white;
+			font-weight: bolder;
+			cursor: pointer;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 32px !important;
+		}
+		/* display: flex !important; */
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		background-color: p.$primary;
+		flex-direction: column;
+		padding-top: 150px;
+		align-items: center;
+		color: white;
+		a {
+			color: white;
+			font-size: 1.8em;
+			margin-bottom: 12px;
+		}
+	}
+}
+
+.pop {
+	display: flex !important;
+}
+.gone {
+	display: none !important;
+}
