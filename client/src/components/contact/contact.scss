@@ -107,17 +107,17 @@
             display: flex;
             justify-content: flex-end;
             .blob {
+                background-image: url(../../assets/static/rock.jpg);
+                background-repeat: no-repeat;
+                background-size: 849px;
+                border-left: 2px solid #fffcf7;
+                border-radius: 4px;
+                height: 100vh;
                 position: absolute;
                 right: 0;
                 top: 0;
-
-                background-image: url(../../assets/static/rock.jpg);
-                background-size: cover;
-                background-repeat: no-repeat;
-                height: 100vh;
                 width: 45%;
-                border-left: 2px solid p.$secondary;
-                border-radius: 4px;
+                background-position-x: 86%;
             }
         }
         

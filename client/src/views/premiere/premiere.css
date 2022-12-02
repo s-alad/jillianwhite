@@ -21,6 +21,10 @@ h2 {
   flex: 1;
 }
 
+.green {
+  background-color: #3e4a3c !important;
+}
+
 .premiere {
   display: flex;
   flex-direction: column;
