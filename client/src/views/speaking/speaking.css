@@ -192,6 +192,7 @@ h2 {
     background-image: none !important;
     background-color: #3e4a3c !important;
     background: #3e4a3c !important;
+    padding-bottom: 0px !important;
   }
   .mobile-hide {
     display: none;
