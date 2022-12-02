@@ -6,6 +6,11 @@ h1 {
   margin-bottom: 30px;
 }
 
+@media screen and (max-width: 450px) {
+  h1 {
+    font-size: 34px !important;
+  }
+}
 h2 {
   font-weight: 600;
   color: #fffcf7;
@@ -29,6 +34,8 @@ h2 {
   position: relative;
   z-index: 9999;
   top: 100vh;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 .section {

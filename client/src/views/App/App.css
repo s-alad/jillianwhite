@@ -6,6 +6,11 @@ h1 {
   margin-bottom: 30px;
 }
 
+@media screen and (max-width: 450px) {
+  h1 {
+    font-size: 34px !important;
+  }
+}
 h2 {
   font-weight: 600;
   color: #fffcf7;
@@ -23,63 +28,4 @@ h2 {
 
 .green {
   background-color: #3e4a3c !important;
-}
-
-.App .bg {
-  position: absolute;
-  height: 110%;
-  width: 100%;
-}
-.App .bg .brief-right {
-  z-index: 99;
-  position: absolute;
-  top: 8%;
-  width: 500px;
-  margin-left: 70px;
-}
-.App .bg .brief-right .name {
-  position: relative;
-  font-size: 162px;
-  color: white;
-  z-index: 99;
-}
-.App .bg .brief-right .name div {
-  height: 160px;
-}
-.App .bg .brief-right .punchline {
-  margin-left: 20px;
-  margin-top: 60px;
-  position: relative;
-  color: white;
-  font-size: 30px;
-}
-.App .bg .brief-right .punchline .go {
-  z-index: 1;
-  margin-top: 30px;
-  font-size: initial;
-  position: relative;
-  display: flex;
-}
-.App .bg .background {
-  background: url(../../assets/static/jwbgl.png) no-repeat center center;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  z-index: 1;
-  transition: all 1s ease;
-}
-.App .bg .background-darkened {
-  background: url(../../assets/static/jwbgh.png) no-repeat center center;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  z-index: 1;
-  transition: all 1s ease;
-}
-.App .dim {
-  opacity: 0;
 }/*# sourceMappingURL=App.css.map */
