@@ -17,12 +17,13 @@ import Business from '../../paths/Business/Business';
 import About from '../about/about';
 
 function App() {
+  
 
   return (
     <div className="App">
-      <Header></Header>
 
       <Router>
+        <Header></Header>
         <Routes>
           <Route path="/" element={
             <div>

@@ -16,7 +16,7 @@ import Background from '../background/background';
 
 function Main() {
     return (
-        <div className='content' id='main'>
+        <div className='content' id='home'>
             {/* <About></About> */}
             {/* <Speaking></Speaking> */}
             <Background></Background>

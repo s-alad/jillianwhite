@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import { SocialIcon } from 'react-social-icons';
 import './header.css';
 import Logo from './logo/logo';
@@ -43,13 +45,13 @@ function Header() {
       </div>
       <div className='mobile-navigation'>
           <div className='exit' onClick={() => closeOut()}>X</div>
-            <a href="/" onClick={() => closeOut()}>Home</a>
-            <a href="/about" onClick={() => closeOut()}>About</a>
-            <a href="/speaking" onClick={() => closeOut()}>Speaking</a>
-            <a href="/#appraisal" onClick={() => closeOut()}>Appraisal</a>
-            <a href="/#premiere" onClick={() => closeOut()}>Premiere</a>
+            <HashLink to="/" onClick={() => closeOut()}>Home</HashLink>
+            <HashLink to="/about" onClick={() => closeOut()}>About</HashLink>
+            <HashLink to="/speaking" onClick={() => closeOut()}>Speaking</HashLink>
+            <HashLink to="/#appraisal" onClick={() => closeOut()}>Appraisal</HashLink>
+            <HashLink to="/#premiere" onClick={() => closeOut()}>Premiere</HashLink>
             {/* <a href="/media" onClick={() => closeOut()}>Media</a> */}
-            <a href="/#contact" onClick={() => closeOut()}>Contact</a>
+            <HashLink to={'/#contact'} onClick={() => closeOut()}>Contact</HashLink>
             <a href="https://www.linkedin.com/in/jillian-white-sra-93a23b6/" onClick={() => closeOut()}>Linkedin</a>
 
       </div>
@@ -57,13 +59,13 @@ function Header() {
       <div className="navflexspace"></div>
       <div className='underline'>
         <ul>
-        <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/speaking">Speaking</a></li>
-          <li><a href="/#appraisal">Appraisal</a></li>
-          <li><a href="/#premiere">Premiere</a></li>
-          <li><a href="/media">Media</a></li>
-          <li><a href="/#contact">Contact</a></li>
+        <li><a href="/#home">Home</a></li>
+          <li><HashLink to="/about">About</HashLink></li>
+          <li><HashLink to="/speaking">Speaking</HashLink></li>
+          <li><HashLink to="/#appraisal">Appraisal</HashLink></li>
+          <li><HashLink to="/#premiere">Premiere</HashLink></li>
+          <li><HashLink to="/media">Media</HashLink></li>
+          <li><HashLink to="/#contact">Contact</HashLink></li>
         </ul>
       </div>
       <div className='divider'></div>
