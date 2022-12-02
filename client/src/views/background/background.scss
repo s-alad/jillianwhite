@@ -1,6 +1,7 @@
 .back {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     .bg {
+        overflow-x: hidden;
         position: absolute;
         height: 100%;
         width: 100%;
@@ -88,10 +89,6 @@
     }
     .resize-button-app {
         display: none;
-    }
-    .bg {
-        height: 100% !important;
-        width: 100% !important;
     }
 
     .brief-right {

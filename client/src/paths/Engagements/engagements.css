@@ -6,6 +6,11 @@ h1 {
   margin-bottom: 30px;
 }
 
+@media screen and (max-width: 450px) {
+  h1 {
+    font-size: 34px !important;
+  }
+}
 h2 {
   font-weight: 600;
   color: #fffcf7;
@@ -334,7 +339,9 @@ h2 {
   padding-bottom: 55px;
   /* border-radius: $radius; */
   position: relative !important;
-  height: 100vh;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
   background-color: #B9A98E;
 }
 @media screen and (max-width: 650px) {

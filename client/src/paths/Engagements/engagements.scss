@@ -288,7 +288,7 @@
         .sched {
             @include c.section();
             position: relative !important;
-            height: 100vh;
+            height: min-content;
             background-color: p.$coffe;
         }
 
