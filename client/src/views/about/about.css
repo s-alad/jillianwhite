@@ -120,15 +120,21 @@ h2 {
   filter: brightness(80%);
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
   .about {
     flex-direction: column;
   }
   .about .left {
     width: 100%;
-    padding-right: 0px;
+    padding-right: 0px !important;
+  }
+  .about .left p {
+    width: 100% !important;
   }
   .about .right {
-    display: none;
+    display: none !important;
+  }
+  .about .right .block {
+    display: none !important;
   }
 }/*# sourceMappingURL=about.css.map */

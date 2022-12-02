@@ -75,15 +75,21 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
     .about {
         flex-direction: column;
         .left {
             width: 100%;
-            padding-right: 0px;
+            padding-right: 0px !important;
+            p {
+                width: 100% !important;
+            }
         }
         .right {
-            display: none;
+            display: none !important;
+            .block {
+                display: none !important;
+            }
         }
     }
     
