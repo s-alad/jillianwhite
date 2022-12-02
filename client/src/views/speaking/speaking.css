@@ -108,6 +108,7 @@ h2 {
 }
 .speaking .content .notables {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 20px;
   margin-bottom: 30px;
 }
@@ -220,4 +221,34 @@ h2 {
   margin-top: 0;
   color: white;
   font-size: 32px;
+}
+
+@media screen and (max-width: 540px) {
+  .speaking {
+    background-position: 76% !important;
+  }
+  .mobile-hide {
+    display: none;
+  }
+  .speaking {
+    padding-top: 60px !important;
+  }
+  .speaking .event {
+    margin-bottom: 18px !important;
+  }
+  .speaking .event:last-child {
+    margin-bottom: 0px !important;
+  }
+  .speech {
+    width: 100% !important;
+  }
+  .speech video {
+    width: 100% !important;
+  }
+  .speech .video {
+    width: 100% !important;
+  }
+  .up {
+    width: 100% !important;
+  }
 }/*# sourceMappingURL=speaking.css.map */

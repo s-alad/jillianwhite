@@ -59,6 +59,7 @@ $offset: /* 15px */ 0px;
 
         .notables {
             display: flex;
+            flex-wrap: wrap;
             margin-top: 20px;
             margin-bottom: 30px;
 
@@ -149,5 +150,35 @@ $offset: /* 15px */ 0px;
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+
+@media screen and (max-width: 540px) {
+    .speaking {
+        background-position: 76% !important;
+    }
+    .mobile-hide {
+        display: none;
+    }
+    .speaking {
+        padding-top: 60px !important;
+        .event {
+            margin-bottom: 18px !important;
+            &:last-child {
+                margin-bottom: 0px !important;
+            }
+        }
+    }
+    .speech {
+        width: 100% !important;
+        video {
+            width: 100% !important;
+        }
+        .video {
+            width: 100% !important;
+        }
+    }
+    .up {
+        width: 100% !important;
+    }
 }
 

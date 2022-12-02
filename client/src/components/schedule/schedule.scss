@@ -14,6 +14,14 @@
     h2 {font-size: 42px; margin-bottom: 12px; color: palette.$light-text; white-space: nowrap;}
 
     .events {
+        @media screen and (max-width: 650px) {
+            .up {
+                width: 100% !important;
+            }
+            .event {
+                width: 100% !important;
+            }
+        }
         display: flex;
         flex-direction: column;
         max-height: 50vh;

@@ -53,6 +53,14 @@ h2 {
   margin-bottom: 20px;
   /* overflow-y: scroll; */
 }
+@media screen and (max-width: 650px) {
+  .schedule .events .up {
+    width: 100% !important;
+  }
+  .schedule .events .event {
+    width: 100% !important;
+  }
+}
 .schedule .events:last-child {
   margin-bottom: 0;
 }
