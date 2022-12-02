@@ -67,4 +67,19 @@ h2 {
 .awards .award .award-text p {
   margin: 0px;
   font-size: 18px;
+}
+
+@media screen and (max-width: 550px) {
+  .award {
+    width: 100% !important;
+  }
+  .award-text {
+    padding: 6px !important;
+    margin-left: 4px !important;
+    padding-right: 10px !important;
+  }
+  p {
+    font-size: 12px !important;
+    width: initial !important;
+  }
 }/*# sourceMappingURL=awards.css.map */
