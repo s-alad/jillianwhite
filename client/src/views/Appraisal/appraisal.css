@@ -39,6 +39,17 @@ h2 {
   }
 }
 @media screen and (max-width: 550px) {
+  .leftright {
+    padding: 0px !important;
+    background-color: transparent !important;
+  }
+  .leftright p {
+    margin-top: 0px !important;
+    font-size: 20px !important;
+  }
+  .mobile-close {
+    display: none;
+  }
   .resize-button-app {
     scale: 0.5 !important;
   }

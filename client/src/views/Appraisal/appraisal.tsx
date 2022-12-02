@@ -12,7 +12,7 @@ function Appraisal() {
                 <h1>Have an issue with your appraisal?</h1>
                 <div className='leftright'>
                     <div className='left'>
-                        <h2>What to do when appraisal comes in low</h2>
+                        <h2 className='mobile-close'>What to do when appraisal comes in low</h2>
                         <p>
                             Motivated by her professional experience as an appraiser and personal experience whitewashing her family’s home in order to get a fair value, Jillian has made it her personal mission to educate and empower all homeowners by seeking fairness in appraisals.
                             <br />
