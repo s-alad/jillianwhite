@@ -1,0 +1,53 @@
+@use '../../shared/common/common.scss' as common;
+@use '../../shared/palette/palette.scss' as palette;
+
+.linkedin {
+    @include common.section();
+    background-color: palette.$kale-green;
+    position: relative;
+    /* top: -65px; */
+
+    h1 { color: white;}
+
+    .posts {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .post {
+            margin-right: 28px;
+            width: 360px;
+            border-radius: 8px;
+            height: 400px;
+            background-color: /* #566563 */ palette.$null-green;
+
+            display: flex;
+            flex-direction: column;
+            padding: 14px;
+
+            .title {
+                width: 100%;
+                color: white;
+                font-size: 24px;
+                font-weight: 500;
+                margin-bottom: 14px;
+                height: 96px;
+            }
+            .banner {
+                img {
+                    border: 2px solid white;
+                    border-radius: 8px;
+                    max-height: 200px;
+                    max-width: 100%;
+                }
+
+            }
+            .description {
+                margin-top: 4px;
+                color: rgba(255, 255, 255, 0.726);
+            }
+            .date {
+                color: white;
+            }
+        }
+    }
+}

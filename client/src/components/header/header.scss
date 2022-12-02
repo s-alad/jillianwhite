@@ -1,0 +1,125 @@
+@use '../../shared/common/common.scss' as c;
+@use '../../shared/palette/palette.scss' as p;
+
+
+.color {
+  /* background-color: black;
+  transition: .4s; */
+}
+
+.navigation {
+    position: fixed;
+    width: 100%;
+    padding: 20px 70px 0px 70px;
+    z-index: 99999999;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    height: 50px;
+
+    a {text-decoration: none;}
+    .logo {
+      /* width: 100px; */
+      white-space: nowrap;
+      width: min-content;
+      display: flex;
+      flex-direction: row;
+      .rect {
+        white-space: nowrap;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1.4em;
+        letter-spacing: .1em;
+        cursor: pointer;
+        .box {
+          background-color: p.$accent;
+          padding: 4px;
+          padding-left: 12px;
+          padding-right: 12px;
+          border-radius: 2px;
+          margin-left: 4px;
+          text-align: center;
+        }
+      }
+    }
+
+    display: flex;
+    .item {
+        margin-right: 20px;
+        font-size: 18px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .ico {
+      position: relative;
+      top: -13px;
+      border-radius: 4px;
+      
+    }
+
+    .underline {
+      ul { 
+        font-size: 18px;
+        margin: 0px auto 0; 
+        padding: 0; 
+        list-style: none; 
+        display: table;
+        width: 350px;
+        text-align: center;
+      }
+      li { 
+        display: table-cell; 
+        position: relative; 
+        padding: 0px 0;
+      }
+      a {
+        color: #fff;
+        
+        text-decoration: none;
+        
+        display: inline-block;
+        padding: 0px 10px 10px 10px;
+        position: relative;
+      }
+      a:after {    
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: #fff;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+      }
+      a:hover:after { 
+        width: 100%; 
+        left: 0; 
+      }
+    }
+
+    .divider {
+      height: 24px;
+      width: 2px;
+      margin-left: 8px;
+      margin-right: 8px;
+      background-color: white;
+    }
+
+}
+
+
+.my-social-icon .social-svg {
+  color: #BBC7CC;
+  background: transparent !important;
+}
+
+.my-social-icon .social-svg:hover {
+  color: #55acee !important;
+  background: white;
+  transition: 1s;
+}

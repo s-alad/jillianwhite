@@ -1,0 +1,57 @@
+@use "../palette/palette.scss" as p;
+
+@mixin max {
+    width: 100%;
+    height: 100%;
+}
+@mixin flexspace {
+    flex: 1;
+}
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin section($radius: 0px) {
+    
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    /* border-radius: $radius; */
+    @media screen and (max-width: 450px) {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+h1 {
+    font-size: 40px;    
+    font-weight: 600;
+    margin-top: 0px;
+    color: p.$light-text;
+    margin-bottom: 30px
+}
+h2 {
+    font-weight: 600;
+    color: p.$light-text;
+    font-size: 30px;
+    margin: 0;
+}
+
+$h2: 42px;
+
+
+.vertical-spacer {
+    height: 20px;
+}
+
+.flexspace {
+    @include flexspace;
+}
+.green {
+    background-color: p.$primary !important;
+}

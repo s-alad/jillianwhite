@@ -1,0 +1,136 @@
+@use '../../shared/common/common.scss' as c;
+@use '../../shared/palette/palette.scss' as p;
+
+.Media {
+    @include c.section();
+    background-color: p.$primary;
+    max-height: 100vh;
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    .twoway {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+        overflow-y: hidden;
+        flex: 1;
+
+        .nav {
+            width: 180px;
+            position: relative;
+            .nav-item {
+                a {
+                    color: white;
+                    text-decoration: underline;
+                    font-size: 1.8em;
+                    cursor: pointer;
+                }
+                margin-bottom: 12px;
+            }
+        }
+        .way {
+            scroll-behavior: smooth;
+            flex: 1;
+            overflow-y: scroll;
+            .photos {
+                margin-bottom: 10px;
+                height: 560px;
+            }
+            .news {
+                padding-top: 20px;
+            }
+            .videos {
+                .video {
+                    width: 680px;
+                    margin-top: 20px;
+                    display: flex;
+                    flex-direction: row;
+                    background-color: p.$accent;
+                    border-radius: 4px;
+                    border: 2px solid white;
+                    .description {
+                        flex: 1;
+                        padding: 24px;
+                        color: white;
+                        font-size: 20px;
+                    }
+                }
+            }
+            .podcasts {
+                .pod {
+                    display: flex;
+                    flex-direction: row;
+                    border: 2px solid white;
+               
+                    border-radius: 4px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    background-color: p.$accent;
+                   /*  width: 400px; */
+                    max-width: 600px;
+                    padding: 24px;
+                    .head {
+                        /* width: 200px; */
+                        min-height: 100px;
+                        img {
+                            min-width: 100px;
+                            height: 100px;
+                            border-radius: 4px;
+                            background-color: white;
+                        }
+                    }
+                    .vertical-line {
+                        width: 2px;
+                        background-color: white;
+                        margin-left: 24px;
+                        /* margin-right: 12px; */
+                    }
+                    .pod-body {
+                        padding-left: 24px;
+                        display: flex;
+                        flex-direction: column;
+                        .title {
+                            font-size: 20px;
+                            color: white;
+                            font-weight: 500;
+                            margin-bottom: 6px;
+                        }
+                        .description {
+                            color: white;
+                            font-size: 16px;
+                        }
+                        .outlet {
+                            border-radius: 4px;
+                            /* background-color: p.$primary; */
+                            color: white;
+                            font-size: 14px;
+                            padding: 8px;
+                            width: min-content;
+                            white-space: nowrap;
+                            background-color: p.$primary;
+                            cursor: pointer;
+                        }
+                        .blue {
+                            background-color: #101c94;
+                        }
+                    }
+                }
+            }
+            h1 {
+                font-weight: 600;
+                color: p.$light-text;
+                font-size: 36px;    
+                margin: 0;
+            }
+        }
+    }
+    .vid {
+        width: 500px;
+        border-radius: 4px;
+        border-left: 2px solid white;
+        /* border: 2px solid white; */
+    }
+}

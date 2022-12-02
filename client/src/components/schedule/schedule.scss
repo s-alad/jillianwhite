@@ -1,0 +1,75 @@
+@use '../../shared/common/common.scss' as common;
+@use '../../shared/palette/palette.scss' as palette;
+
+.schedule {
+    /* margin-top: 58px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+
+    /* background-color: palette.$primary; */
+    /* padding: 24px;
+ */
+    h2 {font-size: 42px; margin-bottom: 12px; color: palette.$light-text; white-space: nowrap;}
+
+    .events {
+        display: flex;
+        flex-direction: column;
+        max-height: 50vh;
+        margin-bottom: 20px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        /* overflow-y: scroll; */
+        .up {
+            width: 45% !important;
+            height: 100px !important;
+        }
+        .event {
+            border: 2px solid white;
+            border-radius: 4px;
+            width: 95%;
+            height: 200px;
+            background-color: palette.$primary;
+            display: flex;
+            flex-direction: column;
+            padding: 14px;
+            .title {
+                color: white;
+                
+                font-size: 20px;
+                font-weight: 600;
+            }
+            .date {
+                color: white;
+                height: 24px;
+                font-size: 14px;
+                font-weight: 500;
+            }
+            .image {
+                margin-top: 4px;
+                width: 100%;
+                flex: 1;
+                img {
+                    width: 100%;
+                    aspect-ratio: 1/1;
+                    height: 160px;
+                    object-fit: cover;
+                    object-position: 40%;
+                    border-radius: 4px;
+                }
+            }
+        }
+    }
+    .events-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 8px;
+    }
+    
+
+    a {color: inherit;}
+}

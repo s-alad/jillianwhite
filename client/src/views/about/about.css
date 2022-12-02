@@ -1,0 +1,104 @@
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 0px;
+  color: #fffcf7;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-weight: 600;
+  color: #fffcf7;
+  font-size: 30px;
+  margin: 0;
+}
+
+.vertical-spacer {
+  height: 20px;
+}
+
+.flexspace {
+  flex: 1;
+}
+
+.info {
+  position: relative;
+  z-index: 9999;
+  background-color: #3e4a3c;
+  display: flex;
+  flex-direction: column;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  /* border-radius: $radius; */
+}
+@media screen and (max-width: 450px) {
+  .info {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+.info h1 {
+  color: white;
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.info h2 {
+  color: white;
+  font-size: 32px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.info p {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 450px) {
+  .info h1 {
+    font-size: 34px;
+  }
+  .info p {
+    font-size: 16px;
+  }
+}
+.info .about {
+  display: flex;
+  flex-direction: row;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.info .about .blob {
+  background-image: url(../../assets/static/blob.png);
+  height: 100px;
+}
+.info .about .left {
+  width: 55%;
+  padding-right: 60px;
+}
+.info .about .right {
+  display: flex;
+  justify-content: end;
+}
+.info .about .right .block {
+  position: absolute;
+  z-index: 10;
+  width: 45%;
+  height: 100%;
+  top: 0;
+  right: 0px;
+  background-image: url(../../assets/static/Jillian\ White_00058.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  filter: brightness(80%);
+}/*# sourceMappingURL=about.css.map */

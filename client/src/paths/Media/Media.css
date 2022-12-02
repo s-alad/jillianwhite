@@ -1,0 +1,164 @@
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 0px;
+  color: #fffcf7;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-weight: 600;
+  color: #fffcf7;
+  font-size: 30px;
+  margin: 0;
+}
+
+.vertical-spacer {
+  height: 20px;
+}
+
+.flexspace {
+  flex: 1;
+}
+
+.Media {
+  display: flex;
+  flex-direction: column;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  /* border-radius: $radius; */
+  background-color: #3e4a3c;
+  max-height: 100vh;
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 450px) {
+  .Media {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+.Media .twoway {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  overflow-y: hidden;
+  flex: 1;
+}
+.Media .twoway .nav {
+  width: 180px;
+  position: relative;
+}
+.Media .twoway .nav .nav-item {
+  margin-bottom: 12px;
+}
+.Media .twoway .nav .nav-item a {
+  color: white;
+  text-decoration: underline;
+  font-size: 1.8em;
+  cursor: pointer;
+}
+.Media .twoway .way {
+  scroll-behavior: smooth;
+  flex: 1;
+  overflow-y: scroll;
+}
+.Media .twoway .way .photos {
+  margin-bottom: 10px;
+  height: 560px;
+}
+.Media .twoway .way .news {
+  padding-top: 20px;
+}
+.Media .twoway .way .videos .video {
+  width: 680px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: #667068;
+  border-radius: 4px;
+  border: 2px solid white;
+}
+.Media .twoway .way .videos .video .description {
+  flex: 1;
+  padding: 24px;
+  color: white;
+  font-size: 20px;
+}
+.Media .twoway .way .podcasts .pod {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid white;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #667068;
+  /*  width: 400px; */
+  max-width: 600px;
+  padding: 24px;
+}
+.Media .twoway .way .podcasts .pod .head {
+  /* width: 200px; */
+  min-height: 100px;
+}
+.Media .twoway .way .podcasts .pod .head img {
+  min-width: 100px;
+  height: 100px;
+  border-radius: 4px;
+  background-color: white;
+}
+.Media .twoway .way .podcasts .pod .vertical-line {
+  width: 2px;
+  background-color: white;
+  margin-left: 24px;
+  /* margin-right: 12px; */
+}
+.Media .twoway .way .podcasts .pod .pod-body {
+  padding-left: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.Media .twoway .way .podcasts .pod .pod-body .title {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+.Media .twoway .way .podcasts .pod .pod-body .description {
+  color: white;
+  font-size: 16px;
+}
+.Media .twoway .way .podcasts .pod .pod-body .outlet {
+  border-radius: 4px;
+  /* background-color: p.$primary; */
+  color: white;
+  font-size: 14px;
+  padding: 8px;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  white-space: nowrap;
+  background-color: #3e4a3c;
+  cursor: pointer;
+}
+.Media .twoway .way .podcasts .pod .pod-body .blue {
+  background-color: #101c94;
+}
+.Media .twoway .way h1 {
+  font-weight: 600;
+  color: #fffcf7;
+  font-size: 36px;
+  margin: 0;
+}
+.Media .vid {
+  width: 500px;
+  border-radius: 4px;
+  border-left: 2px solid white;
+  /* border: 2px solid white; */
+}/*# sourceMappingURL=Media.css.map */

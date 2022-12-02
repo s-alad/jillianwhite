@@ -1,0 +1,125 @@
+@use '../../shared/common/common.scss' as c;
+@use '../../shared/palette/palette.scss' as p;
+
+.contact {
+    position: relative;
+    @include c.section();
+
+    background-color: p.$primary;
+    min-height: 100vh;
+    p {
+        color: white;
+        font-size: 20px;
+        margin-top: 0px;
+        width: 50%;
+        margin-bottom: 0px;
+    }
+    a {
+        color: p.$coffe;
+        text-decoration: underline;
+    }
+    @media screen and (max-width: 450px) {
+        min-height: initial !important;
+        h1 {
+            font-size: 34px;
+        }
+        label, button  {
+            font-size: 18px !important;
+        }
+        .right {
+            display: none !important;  
+        }
+        .left {
+            width: 100% !important;
+        }
+        p {
+            width: 100% !important;
+            font-size: 16px !important;
+        }
+    }
+    
+    .contact-form {
+        width: 100%;
+        display: flex;
+        .left {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+
+
+            .row {
+                margin-top: 20px;
+                display: flex;
+                width: 100%;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                .col {
+                    display: flex;
+                    flex-direction: column;
+                    width: 48%;
+                }
+            }
+
+            label {
+                color: white;
+                font-size: 22px;
+                font-weight: 600;
+            }
+            input {
+                border: none;
+                border-radius: 4px;
+                background-color: p.$accent;
+                padding: 14px;
+                margin-top: 8px;
+                margin-bottom: 14px;
+                color: white;
+                &:focus {
+                    outline: 2px solid white;
+                }
+            }
+            textarea {
+                color: white;
+                border: none;
+                border-radius: 4px;
+                height: 100px;
+                background-color: p.$accent;
+                padding: 14px;
+                margin-top: 8px;
+                margin-bottom: 14px;
+                &:focus {
+                    outline: 2px solid white;
+                }
+            }
+            button {
+                margin-top: 12px;
+                width: min-content;
+                padding: 8px;
+                background-color: p.$secondary;
+                color: p.$primary;
+                font-size: 20px;
+                font-weight: 600;
+                white-space: nowrap;
+            }
+
+        }
+        .right {
+            width: 50%;
+            display: flex;
+            justify-content: flex-end;
+            .blob {
+                position: absolute;
+                right: 0;
+                top: 0;
+
+                background-image: url(../../assets/static/rock.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 100vh;
+                width: 45%;
+                border-left: 2px solid p.$secondary;
+                border-radius: 4px;
+            }
+        }
+        
+    }
+}

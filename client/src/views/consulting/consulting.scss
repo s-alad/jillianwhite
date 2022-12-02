@@ -1,0 +1,15 @@
+@use '../../shared/common/common.scss' as common;
+@use '../../shared/palette/palette.scss' as p;
+
+.consulting {
+    position: relative;
+    height: 100vh;
+    background-image: url(https://urbanland.uli.org/wp-content/uploads/sites/5/2022/10/ValuationChangesforPeopleofColor-4998_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    @include common.section();
+
+    h1 {color: p.$light-text;}
+}

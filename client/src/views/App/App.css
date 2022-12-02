@@ -1,0 +1,81 @@
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 0px;
+  color: #fffcf7;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-weight: 600;
+  color: #fffcf7;
+  font-size: 30px;
+  margin: 0;
+}
+
+.vertical-spacer {
+  height: 20px;
+}
+
+.flexspace {
+  flex: 1;
+}
+
+.App .bg {
+  position: absolute;
+  height: 110%;
+  width: 100%;
+}
+.App .bg .brief-right {
+  z-index: 99;
+  position: absolute;
+  top: 8%;
+  width: 500px;
+  margin-left: 70px;
+}
+.App .bg .brief-right .name {
+  position: relative;
+  font-size: 162px;
+  color: white;
+  z-index: 99;
+}
+.App .bg .brief-right .name div {
+  height: 160px;
+}
+.App .bg .brief-right .punchline {
+  margin-left: 20px;
+  margin-top: 60px;
+  position: relative;
+  color: white;
+  font-size: 30px;
+}
+.App .bg .brief-right .punchline .go {
+  z-index: 1;
+  margin-top: 30px;
+  font-size: initial;
+  position: relative;
+  display: flex;
+}
+.App .bg .background {
+  background: url(../../assets/static/jwbgl.png) no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  transition: all 1s ease;
+}
+.App .bg .background-darkened {
+  background: url(../../assets/static/jwbgh.png) no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  transition: all 1s ease;
+}
+.App .dim {
+  opacity: 0;
+}/*# sourceMappingURL=App.css.map */

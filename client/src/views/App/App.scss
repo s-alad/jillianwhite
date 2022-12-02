@@ -1,0 +1,68 @@
+@use '../../shared/common/common.scss' as common;
+
+
+.App {
+
+    .bg {
+        position: absolute;
+        height: 110%;
+        width: 100%;
+
+        .brief-right {
+            z-index: 99;
+            position: absolute; //fixed
+            top: 8%;
+            width: 500px;
+            margin-left: 70px;
+            .name {
+                position: relative;
+                font-size: 162px;
+                color: white;
+                z-index: 99;
+                div {height: 160px;} //name vertical spacing fix
+            }
+            .punchline {
+                margin-left: 20px;
+                margin-top: 60px;
+                position: relative;
+                color: white;
+                font-size: 30px;
+                .go {
+                    z-index: 1;
+                    margin-top: 30px;
+                    font-size: initial;
+                    position: relative;
+                    display: flex;
+                }
+            }
+        }
+
+        @mixin bg() {
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            z-index: 1;
+            transition: all 1s ease;
+        }
+        .background {
+            background: url(../../assets/static/jwbgl.png) no-repeat center center; //fixed;
+            @include bg();
+        }
+        .background-darkened {
+            background: url(../../assets/static/jwbgh.png) no-repeat center center; //fixed;
+            @include bg();
+        }
+    }
+
+
+
+
+
+
+    
+    .dim {
+        opacity: 0;
+    }
+}

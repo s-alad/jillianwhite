@@ -1,0 +1,101 @@
+@use '../../shared/common/common.scss' as common;
+@use '../../shared/palette/palette.scss' as p;
+
+.work {
+    scroll-margin-top: 58px;
+    /* @include common.section(); */
+    /* background-color: p.$primary; */
+    position: relative;
+
+    h1 {
+        color: white;
+        font-size: 40px;
+        margin-top: 0px;
+        margin-bottom: 30px !important;
+        font-weight: 600;
+    }
+    @media screen and (max-width: 450px) {
+        h1 {
+            font-size: 34px;
+        }
+        .title {
+            font-size: 18px !important;
+        }
+        .peice {
+            width: 100% !important;
+        }
+    }
+
+    .works {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+
+        .peice {
+            border: 2px solid white;
+            margin-bottom: 28px;
+            margin-right: 28px;
+            border-radius: 4px;
+            height: 400px;
+            background-color:
+                /* #566563 */
+                p.$accent;
+
+            display: flex;
+            flex-direction: column;
+
+            .data {
+                display: flex;
+                flex-direction: column;
+                padding: 24px;
+                padding-top: 12px;
+                flex: 1;
+
+                .title {
+                    width: 100%;
+                    color: white;
+                    font-size: 20px;
+                    font-weight: 500;
+                    margin-bottom: 14px;
+                    max-height: 105px;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                }
+
+                .description {
+                    min-height: 20px;
+
+                    color: rgba(255, 255, 255, 0.726);
+                }
+
+                .date {
+                    height: 20px;
+
+                    color: white;
+                }
+            }
+
+            a {
+
+                .banner {
+                    width: 100%;
+
+                    img {
+                        /* border: 2px solid white; */
+                        border-radius: 4px;
+                        height: 200px;
+                        width: 100%;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+
+
+.react-multiple-carousel__arrow {
+    background: rgba(255, 255, 255, 0.5) !important;
+}

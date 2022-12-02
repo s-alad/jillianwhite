@@ -1,0 +1,153 @@
+@use '../../shared/common/common.scss' as common;
+@use '../../shared/palette/palette.scss' as palette;
+
+$offset: /* 15px */ 0px;
+
+.speaking {
+    position: relative;
+    min-height: 100vh;
+
+    @include common.section();
+    .content {
+        position: relative;
+        top: 0px;
+
+        .actions {
+            display: flex;
+            justify-content: space-between;
+            width: 50%;
+        }
+        .secondary-action {
+            color: palette.$secondary;
+            font-size: 22px;
+        }
+
+        .schedule {
+            margin-top: 58px;
+            width: 800px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 8px;
+
+            background-color: palette.$primary;
+            padding: 24px;
+
+            h2 {font-size: 42px; margin-bottom: 12px; color: palette.$light-text; white-space: nowrap;}
+
+            .events {
+                display: flex;
+                flex-direction: column;
+                max-height: 200px;
+                overflow-y: scroll;
+                
+                .event {
+                    border-radius: 8px;
+                    background-color: palette.$null-green;
+                    /* border: 2px solid palette.$null-green; */
+                    padding: 10px;
+                    color: white;
+                    width: 700px;
+                    margin-bottom: 8px;
+                    
+                    
+                }
+            }
+            
+
+            a {color: inherit;}
+        }
+
+        .notables {
+            display: flex;
+            margin-top: 20px;
+            margin-bottom: 30px;
+
+            .event {
+                border: 2px solid white;
+                border-radius: 4px;
+                width: 300px;
+                /* height: 200px; */
+                background-color: palette.$accent;
+                margin-right: 10px;
+                display: flex;
+                flex-direction: column;
+                padding: 14px;
+                .title {
+                    color: white;
+                    height: 24px;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+                .date {
+                    color: white;
+                    height: 24px;
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+                .image {
+                    margin-top: 4px;
+                    width: 100%;
+                    flex: 1;
+                    img {
+                        width: 100%;
+                        aspect-ratio: 1/1;
+                        height: 160px;
+                        object-fit: cover;
+                        object-position: 40%;
+                        border-radius: 4px;
+                    }
+                }
+            }
+        }
+
+    }
+    .division {
+        width: 100%;
+        background-color: white;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        height: 4px;
+    }
+    .notable {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        width: 100%;
+        height: 220px;
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+        backdrop-filter: blur(5%);
+        backdrop-filter: brightness(0.5);
+        @include common.section();
+    }
+
+    p {
+        color: white;
+        font-size: 20px;
+        margin-top: 20px;
+        width: 50%;
+        margin-bottom: 40px;
+    }
+    @media screen and (max-width: 900px) {
+        p {
+            width: 80%;
+        }
+    }
+    @media screen and (max-width: 450px) {
+        h1 {
+            font-size: 34px;
+        }
+        p {
+            width: 90%;
+            font-size: 18px;
+        }
+    }
+    h1 {color: white;}
+    h2 {margin-top: 0; color: white; font-size: 32px;}
+
+    background-image: url(../../assets/static/speaking-background-nolight.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+

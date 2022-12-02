@@ -1,0 +1,99 @@
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 0px;
+  color: #fffcf7;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-weight: 600;
+  color: #fffcf7;
+  font-size: 30px;
+  margin: 0;
+}
+
+.vertical-spacer {
+  height: 20px;
+}
+
+.flexspace {
+  flex: 1;
+}
+
+.schedule {
+  /* margin-top: 58px; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  /* background-color: palette.$primary; */
+  /* padding: 24px;
+  */
+}
+.schedule h2 {
+  font-size: 42px;
+  margin-bottom: 12px;
+  color: #fffcf7;
+  white-space: nowrap;
+}
+.schedule .events {
+  display: flex;
+  flex-direction: column;
+  max-height: 50vh;
+  margin-bottom: 20px;
+  /* overflow-y: scroll; */
+}
+.schedule .events:last-child {
+  margin-bottom: 0;
+}
+.schedule .events .up {
+  width: 45% !important;
+  height: 100px !important;
+}
+.schedule .events .event {
+  border: 2px solid white;
+  border-radius: 4px;
+  width: 95%;
+  height: 200px;
+  background-color: #3e4a3c;
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+}
+.schedule .events .event .title {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+.schedule .events .event .date {
+  color: white;
+  height: 24px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.schedule .events .event .image {
+  margin-top: 4px;
+  width: 100%;
+  flex: 1;
+}
+.schedule .events .event .image img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  height: 160px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 40%;
+     object-position: 40%;
+  border-radius: 4px;
+}
+.schedule .events-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.schedule a {
+  color: inherit;
+}/*# sourceMappingURL=schedule.css.map */

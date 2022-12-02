@@ -1,0 +1,136 @@
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 0px;
+  color: #fffcf7;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-weight: 600;
+  color: #fffcf7;
+  font-size: 30px;
+  margin: 0;
+}
+
+.vertical-spacer {
+  height: 20px;
+}
+
+.flexspace {
+  flex: 1;
+}
+
+.color {
+  /* background-color: black;
+  transition: .4s; */
+}
+
+.navigation {
+  position: fixed;
+  width: 100%;
+  padding: 20px 70px 0px 70px;
+  z-index: 99999999;
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  height: 50px;
+  display: flex;
+}
+.navigation a {
+  text-decoration: none;
+}
+.navigation .logo {
+  /* width: 100px; */
+  white-space: nowrap;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  display: flex;
+  flex-direction: row;
+}
+.navigation .logo .rect {
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.4em;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+}
+.navigation .logo .rect .box {
+  background-color: #667068;
+  padding: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 2px;
+  margin-left: 4px;
+  text-align: center;
+}
+.navigation .item {
+  margin-right: 20px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+.navigation .ico {
+  position: relative;
+  top: -13px;
+  border-radius: 4px;
+}
+.navigation .underline ul {
+  font-size: 18px;
+  margin: 0px auto 0;
+  padding: 0;
+  list-style: none;
+  display: table;
+  width: 350px;
+  text-align: center;
+}
+.navigation .underline li {
+  display: table-cell;
+  position: relative;
+  padding: 0px 0;
+}
+.navigation .underline a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 10px 10px 10px;
+  position: relative;
+}
+.navigation .underline a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.navigation .underline a:hover:after {
+  width: 100%;
+  left: 0;
+}
+.navigation .divider {
+  height: 24px;
+  width: 2px;
+  margin-left: 8px;
+  margin-right: 8px;
+  background-color: white;
+}
+
+.my-social-icon .social-svg {
+  color: #BBC7CC;
+  background: transparent !important;
+}
+
+.my-social-icon .social-svg:hover {
+  color: #55acee !important;
+  background: white;
+  transition: 1s;
+}/*# sourceMappingURL=header.css.map */

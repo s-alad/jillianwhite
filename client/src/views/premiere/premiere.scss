@@ -1,0 +1,11 @@
+@use '../../shared/common/common.scss' as c;
+@use '../../shared/palette/palette.scss' as p;
+
+.premiere {
+    @include c.section();
+    min-height: 100vh;
+    background-color: p.$coffe;
+    background-image: url('https://i0.wp.com/urbanbridgez.com/wp-content/uploads/2022/10/OA-LOWBALLED_THUMB-TUNE-IN.jpg?w=1200&ssl=1');
+    background-repeat: no-repeat;
+    background-size: contain;
+}

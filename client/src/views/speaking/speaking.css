@@ -1,0 +1,198 @@
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 0px;
+  color: #fffcf7;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-weight: 600;
+  color: #fffcf7;
+  font-size: 30px;
+  margin: 0;
+}
+
+.vertical-spacer {
+  height: 20px;
+}
+
+.flexspace {
+  flex: 1;
+}
+
+.speaking {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  /* border-radius: $radius; */
+  background-image: url(../../assets/static/speaking-background-nolight.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 450px) {
+  .speaking {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+.speaking .content {
+  position: relative;
+  top: 0px;
+}
+.speaking .content .actions {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.speaking .content .secondary-action {
+  color: #fffcf7;
+  font-size: 22px;
+}
+.speaking .content .schedule {
+  margin-top: 58px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: #3e4a3c;
+  padding: 24px;
+}
+.speaking .content .schedule h2 {
+  font-size: 42px;
+  margin-bottom: 12px;
+  color: #fffcf7;
+  white-space: nowrap;
+}
+.speaking .content .schedule .events {
+  display: flex;
+  flex-direction: column;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+.speaking .content .schedule .events .event {
+  border-radius: 8px;
+  background-color: #667068;
+  /* border: 2px solid palette.$null-green; */
+  padding: 10px;
+  color: white;
+  width: 700px;
+  margin-bottom: 8px;
+}
+.speaking .content .schedule a {
+  color: inherit;
+}
+.speaking .content .notables {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.speaking .content .notables .event {
+  border: 2px solid white;
+  border-radius: 4px;
+  width: 300px;
+  /* height: 200px; */
+  background-color: #667068;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+}
+.speaking .content .notables .event .title {
+  color: white;
+  height: 24px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.speaking .content .notables .event .date {
+  color: white;
+  height: 24px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.speaking .content .notables .event .image {
+  margin-top: 4px;
+  width: 100%;
+  flex: 1;
+}
+.speaking .content .notables .event .image img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  height: 160px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 40%;
+     object-position: 40%;
+  border-radius: 4px;
+}
+.speaking .division {
+  width: 100%;
+  background-color: white;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  height: 4px;
+}
+.speaking .notable {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  height: 220px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  -webkit-backdrop-filter: blur(5%);
+          backdrop-filter: blur(5%);
+  -webkit-backdrop-filter: brightness(0.5);
+          backdrop-filter: brightness(0.5);
+  display: flex;
+  flex-direction: column;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  /* border-radius: $radius; */
+}
+@media screen and (max-width: 450px) {
+  .speaking .notable {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+.speaking p {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  width: 50%;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 900px) {
+  .speaking p {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .speaking h1 {
+    font-size: 34px;
+  }
+  .speaking p {
+    width: 90%;
+    font-size: 18px;
+  }
+}
+.speaking h1 {
+  color: white;
+}
+.speaking h2 {
+  margin-top: 0;
+  color: white;
+  font-size: 32px;
+}/*# sourceMappingURL=speaking.css.map */

@@ -1,0 +1,76 @@
+@use '../../shared/common/common.scss' as common;
+@use '../../shared/palette/palette.scss' as p;
+
+
+.info {
+    position: relative;
+    z-index: 9999;
+    background-color: p.$primary;
+    @include common.section();
+
+    h1 {
+        color: white;
+        font-size: 40px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+    h2 {
+        color: white;
+        font-size: 32px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+    p {
+        color: white;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    @media screen and (max-width: 450px) {
+        h1 {
+            font-size: 34px;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .about {
+        display: flex;
+        flex-direction: row;
+        height: min-content;
+
+        .blob {
+            background-image: url(../../assets/static/blob.png);
+            height: 100px;
+        }
+
+        .left {
+            width: 55%;
+            padding-right: 60px;
+        }
+
+        .right {
+
+            display: flex;
+            justify-content: end;
+
+            .block {
+                position: absolute;
+                    z-index: 10;
+                    width: 45%;
+                    height: 100%;
+                    top: 0;
+                    right: 0px;
+                    background-image: url(../../assets/static/Jillian\ White_00058.jpg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    border-left: 2px solid white;
+                    border-bottom: 2px solid white;
+                    filter: brightness(80%);
+            }
+        }
+    }
+}
