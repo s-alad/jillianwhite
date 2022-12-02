@@ -56,22 +56,23 @@ function Work() {
                         : items.map((item: any) => (
                             <div className='peice' key={item['fields']['title']}>
 
-                                <a href={item['fields']['link']}>
+                                <a href={item['fields']['link']} target="_blank">
                                     <div className='banner'>
                                         <img src={item['fields']['banner']['fields']['file']['url']} alt='work' />
                                     </div>
-                                </a>
 
-                                <div className='data'>
-                                    <div className='title'>
-                                        {item['fields']['title']}
+
+                                    <div className='data'>
+                                        <div className='title'>
+                                            {item['fields']['title']}
+                                        </div>
+                                        <div className='flexspace'></div>
+                                        <div className='description'>
+                                            {item['fields']['outlet']}
+                                        </div>
+                                        <div className='date'>{item['fields']['datetime']}</div>
                                     </div>
-                                    <div className='flexspace'></div>
-                                    <div className='description'>
-                                        {item['fields']['outlet']}
-                                    </div>
-                                    <div className='date'>{item['fields']['datetime']}</div>
-                                </div>
+                                </a>
                             </div>
                         ))
                 }

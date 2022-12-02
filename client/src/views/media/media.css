@@ -36,6 +36,9 @@ h2 {
   /* background-color: p.$primary; */
   position: relative;
 }
+.work a {
+  text-decoration: none;
+}
 .work h1 {
   color: white;
   font-size: 40px;

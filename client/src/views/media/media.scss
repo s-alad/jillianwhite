@@ -6,7 +6,9 @@
     /* @include common.section(); */
     /* background-color: p.$primary; */
     position: relative;
-
+    a {
+        text-decoration: none;
+    }
     h1 {
         color: white;
         font-size: 40px;

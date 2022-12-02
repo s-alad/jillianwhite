@@ -40,7 +40,7 @@ h2 {
   padding-top: 55px;
   padding-bottom: 55px;
   /* border-radius: $radius; */
-  background-image: url(../../assets/static/speaking-background-nolight.png);
+  background-image: url(../../assets/static/speaking-background-spotlight.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
