@@ -30,6 +30,7 @@
         margin-top: 0px !important;
     }
     .mobile-contact-up {
+        display: block !important;
         margin-top: 20px !important;
     }
     .mobile-contact {
@@ -203,5 +204,12 @@
         .left {
 
         }
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .mobile-contact-up {
+        display: block !important;
+        margin-top: 20px !important;
     }
 }
