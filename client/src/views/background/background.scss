@@ -2,6 +2,7 @@
     /* overflow-x: hidden; */
     position: relative;
     height: 100vh;
+    overflow-y: hidden;
 
     .bg {
         
@@ -88,6 +89,10 @@
 }
 
 @media screen and (max-width: 550px) {
+    .bg {
+        height: 140% !important;
+        /* background-position-y: bottom !important; */
+    }
     .resize-button {
         display: none;
     }
@@ -97,14 +102,14 @@
 
     .brief-right {
         margin-left: 40px !important;
-        top: 3% !important;
+        top: 5% !important;
         
         .name {
             font-size: 80px !important;
             div {height: 80px !important;} //name vertical spacing fix
         }
         .punchline {
-            margin-left: -7px;
+            margin-left: 4px !important;
             margin-top: 30px !important;
             font-size: 20px !important;
             width: 50%;
