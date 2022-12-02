@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Gobutton from '../../components/gobutton/gobutton';
 import './appraisal.css';
 import V from '../../assets/static/video/lianacoya.mp4';
@@ -7,7 +7,7 @@ import A from '../../assets/static/video/abc.mp4';
 function Appraisal() {
 
     return (
-        <div>
+        <Fragment>
             <div className="appraisal" id="appraisal">
                 <h1>Have an issue with your appraisal?</h1>
                 <div className='leftright'>
@@ -69,7 +69,7 @@ function Appraisal() {
                 </div>
             </div>
             
-        </div>
+        </Fragment>
     );
 }
 
