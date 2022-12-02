@@ -10,7 +10,11 @@ import Media from '../media/media';
 function About() {
     return (
         <div>
+            <div className='mobile-image'>
+                    
+                    </div>
             <div className='info' id='about'>
+                
                 <div className='about'>
                     <div className='left'>
                         <h1>About</h1>

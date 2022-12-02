@@ -30,6 +30,10 @@ h2 {
   background-color: #3e4a3c !important;
 }
 
+.mobile-image {
+  display: none;
+}
+
 .info {
   position: relative;
   z-index: 9999;
@@ -121,6 +125,19 @@ h2 {
 }
 
 @media screen and (max-width: 550px) {
+  .mobile-image {
+    display: block !important;
+    height: 400px;
+    width: 120%;
+    position: relative;
+    top: 0;
+    left: -19%;
+    background-image: url(../../assets/static/Jillian\ White_00058.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-position-x: -50%;
+  }
   .about {
     flex-direction: column;
   }

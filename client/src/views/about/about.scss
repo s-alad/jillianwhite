@@ -1,7 +1,9 @@
 @use '../../shared/common/common.scss' as common;
 @use '../../shared/palette/palette.scss' as p;
 
-
+.mobile-image {
+    display: none;
+}
 .info {
     position: relative;
     z-index: 9999;
@@ -28,6 +30,7 @@
         margin-top: 20px;
     }
     @media screen and (max-width: 450px) {
+    
         h1 {
             font-size: 34px;
         }
@@ -76,6 +79,20 @@
 }
 
 @media screen and (max-width: 550px) {
+    .mobile-image {
+        display: block !important;
+        height: 400px;
+        width: 120%;
+
+        position: relative;
+        top: 0;
+        left: -19%;
+        background-image: url(../../assets/static/Jillian\ White_00058.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        background-position-x: -50%;
+    }
     .about {
         flex-direction: column;
         .left {
