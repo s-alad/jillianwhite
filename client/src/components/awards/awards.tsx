@@ -16,7 +16,7 @@ function Awards() {
                 </div>
                 <div className='award-text'>
                     <p>
-                        Jillian was named part of the Women In Leadership by Housing Finance Strategies
+                        #HousingDC2021 Hero Award presented by Housing Finance Strategies
                     </p>
                 </div>
             </div>
@@ -26,7 +26,7 @@ function Awards() {
                 </div>
                 <div className='award-text'>
                     <p>
-                        Jillian was named the Young Entrepreneur of the Year by the Small Business Administration.
+                        2007 Young Entrepreneur of the Year, Small Business Administration Metro NY District
                     </p>
                 </div>
             </div>
@@ -36,7 +36,7 @@ function Awards() {
                 </div>
                 <div className='award-text'>
                     <p>
-                        Jillian was named one of the ten most influential black leaders changing Westchester County.
+                        2010 Influential Blacks Honoree presented by African American Chamber of Commerce of Westchester
                     </p>
                 </div>
             </div>

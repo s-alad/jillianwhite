@@ -12,12 +12,12 @@ function Appraisal() {
                 <h1>Have an issue with your appraisal?</h1>
                 <div className='leftright'>
                     <div className='left'>
-                        <h2>Let Jillian teach you how to get a fair value for your home</h2>
+                        <h2>What to do when appraisal comes in low</h2>
                         <p>
                             Motivated by her professional experience as an appraiser and personal experience whitewashing her family’s home in order to get a fair value, Jillian has made it her personal mission to educate and empower all homeowners by seeking fairness in appraisals.
                             <br />
                             <br />
-                            Reach out to Jillian to learn more about how she can help you get a fair value for your home.
+                            Reach out to learn more about how to get a fair value for your home.
                         </p>
 
                         <Gobutton text={'Contact About Appraisals'} wide={true}></Gobutton>
