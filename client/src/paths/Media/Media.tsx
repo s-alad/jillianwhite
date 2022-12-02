@@ -3,6 +3,7 @@ import Gallery from "../../components/gallery/gallery";
 import News from "../../views/media/media";
 import './Media.css';
 import V from '../../assets/static/video/lianacoya.mp4';
+import AP from '../../assets/static/aprb.png';
 
 function Media() {
 
@@ -35,6 +36,20 @@ function Media() {
                 <h1>Podcasts</h1>
                 <div className="pod">
                     <div className="head">
+                        <img src="https://pbs.twimg.com/profile_images/1267455114593345537/KcO8NfNN_400x400.jpg"/>
+                    </div>
+                    <div className="vertical-line"></div>
+                    <div className="pod-body">
+                        <div className="title">Fears Run Rampant, Creating Opportunity For The Bold </div>
+                        <div className="description">12th October 2022 </div>
+                        <div className="flexspace"></div>
+                        <a href="https://nationalmortgageprofessional.com/video/interest/fears-run-rampant-creating-opportunity-bold" target={'_blank'}>
+                            <div className="outlet blue">National Mortgage Professional</div>
+                        </a>
+                    </div>
+                </div>
+                <div className="pod">
+                    <div className="head">
                         <img src="https://artwork.captivate.fm/2b679af9-711f-4aef-aa2f-fecf7074c1d8/5K5y6fkwfvnb_FJ9D9vCvxct.jpg"/>
                     </div>
                     <div className="vertical-line"></div>
@@ -42,19 +57,21 @@ function Media() {
                         <div className="title">A Path To Appraisals</div>
                         <div className="description">7th October 2022 </div>
                         <div className="flexspace"></div>
-                        <div className="outlet blue">National Mortgage News</div>
+                        <a href='https://nationalmortgageprofessional.com/podcasts/principal/path-appraisals' target={"_blank"}><div className="outlet blue">National Mortgage Professional</div></a>
                     </div>
                 </div>
                 <div className="pod">
                     <div className="head">
-                        <img src="https://appraisalbuzz.com/wp-content/uploads/2021/01/appraisal-buzz-logo.png"/>
+                        <img src={AP}/>
                     </div>
                     <div className="vertical-line"></div>
                     <div className="pod-body">
-                        <div className="title">A Path To Appraisals</div>
-                        <div className="description">7th October 2022 </div>
+                        <div className="title">Racial and Ethnic Bias in the Appraisal Process</div>
+                        <div className="description">3rd February 2021 </div>
                         <div className="flexspace"></div>
-                        <div className="outlet">Appraisal Buzz</div>
+                        <a href="https://appraisalbuzz.com/racial-and-ethnic-bias-in-the-appraisal-process/" target={'_blank'}>
+                            <div className="outlet">Appraisal Buzz</div>
+                        </a>
                     </div>
                 </div>
 
@@ -74,7 +91,7 @@ function Media() {
                     <div className="description">
                         Getting a Fair Appraisal 
                     </div>
-                    <video controls className="video">
+                    <video controls className="vid">
 								<source src={"https://embed-ssl.wistia.com/deliveries/a248766c87e69991cba26fab7048f266.mp4#t=1"} height="300" width="200" type="video/mp4"></source>
 							</video>
                 </div>

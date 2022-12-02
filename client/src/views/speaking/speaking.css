@@ -152,9 +152,8 @@ h2 {
 }
 .speaking .division {
   width: 50%;
-  background-color: white;
+  /* background-color: white; */
   margin-top: 32px;
-  margin-bottom: 32px;
   height: 4px;
 }
 .speaking p {
@@ -189,16 +188,16 @@ h2 {
 
 @media screen and (max-width: 540px) {
   .speaking {
-    background-position: 76% !important;
-    /* background-image: none !important;
-    background-color: palette.$primary !important;
-    background: palette.$primary !important; */
+    background-position-x: 105%;
+    background-image: none !important;
+    background-color: #3e4a3c !important;
+    background: #3e4a3c !important;
   }
   .mobile-hide {
     display: none;
   }
   .speaking {
-    padding-top: 60px !important;
+    /* padding-top: 60px !important; */
   }
   .speaking .event {
     margin-bottom: 18px !important;

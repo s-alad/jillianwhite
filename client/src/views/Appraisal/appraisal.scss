@@ -103,8 +103,11 @@
         }
     }
 }
-
+.mobile-contact-up {
+    display: none !important;
+}
 .appraisal, .prem, .information {
+
     .mobile-contact {
         display: none;
     }

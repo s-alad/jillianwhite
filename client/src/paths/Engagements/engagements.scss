@@ -1,6 +1,22 @@
 @use '../../shared/common/common.scss' as c;
 @use '../../shared/palette/palette.scss' as p;
 
+@media screen and (max-width: 540px) {
+    .mobile-image-speaking {
+        display: block !important;
+        height: 400px;
+        width: 120%;
+        position: relative;
+        top: 0;
+        left: -19%;
+        background-image: url(../../assets/static/speaking-background-darkened.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        background-position-x: 105%;
+    }
+}
+
 .back {
 
         position: absolute;

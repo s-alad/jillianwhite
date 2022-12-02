@@ -134,6 +134,10 @@ h2 {
     width: 100% !important;
   }
 }
+.mobile-contact-up {
+  display: none !important;
+}
+
 .appraisal, .prem, .information {
   display: flex;
   flex-direction: column;
