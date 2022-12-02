@@ -48,7 +48,7 @@ function Header() {
             <a href="/speaking" onClick={() => closeOut()}>Speaking</a>
             <a href="/#appraisal" onClick={() => closeOut()}>Appraisal</a>
             <a href="/#premiere" onClick={() => closeOut()}>Premiere</a>
-            <a href="/media" onClick={() => closeOut()}>Media</a>
+            {/* <a href="/media" onClick={() => closeOut()}>Media</a> */}
             <a href="/#contact" onClick={() => closeOut()}>Contact</a>
 
       </div>

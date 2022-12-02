@@ -26,7 +26,7 @@ function Appraisal() {
                     </div>
                     <div className='right'>
                         <video controls>
-                            <source src={V} height="300" width="300" type="video/mp4"></source>
+                            <source src={(V as string)+"#t=1"} height="300" width="300" type="video/mp4"></source>
                         </video>
                     </div>
                     <div className='mobile-contact'>
