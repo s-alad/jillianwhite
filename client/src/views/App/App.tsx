@@ -26,7 +26,7 @@ function App() {
         <Routes>
           <Route path="/" element={
             <div>
-                <Background></Background>
+                {/* <Background></Background> */}
                 <Main ></Main>
             </div>
           }/>

@@ -15,7 +15,7 @@ function Background() {
       }, []);
       
     return (
-        <div className='back'>
+        <div className='back-bg'>
             <div className='bg'>
                 {/* image credits https://www.nbcnews.com/news/us-news/black-appraisers-call-out-industry-s-racial-bias-need-systemic-n1269452 */}
                 <div className='credits'><a href='https://www.nbcnews.com/news/us-news/black-appraisers-call-out-industry-s-racial-bias-need-systemic-n1269452' target={'_blank'}>Image Credits: NBC News</a></div>

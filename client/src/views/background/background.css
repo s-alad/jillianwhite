@@ -1,16 +1,18 @@
-.back {
+.back-bg {
   /* overflow-x: hidden; */
+  position: relative;
+  height: 100vh;
 }
-.back .bg {
+.back-bg .bg {
   position: relative;
   height: 100%;
   width: 100%;
 }
-.back .bg a {
+.back-bg .bg a {
   text-decoration: none;
   color: white;
 }
-.back .bg .credits {
+.back-bg .bg .credits {
   position: absolute;
   color: white;
   opacity: 0.5;
@@ -20,37 +22,37 @@
   font-size: 14px;
   text-decoration: underline;
 }
-.back .bg .brief-right {
+.back-bg .bg .brief-right {
   z-index: 99;
   position: absolute;
   top: 8%;
   width: 500px;
   margin-left: 70px;
 }
-.back .bg .brief-right .name {
+.back-bg .bg .brief-right .name {
   position: relative;
   font-size: 162px;
   color: white;
   z-index: 99;
 }
-.back .bg .brief-right .name div {
+.back-bg .bg .brief-right .name div {
   height: 160px;
 }
-.back .bg .brief-right .punchline {
+.back-bg .bg .brief-right .punchline {
   margin-left: 20px;
   margin-top: 60px;
   position: relative;
   color: white;
   font-size: 30px;
 }
-.back .bg .brief-right .punchline .go {
+.back-bg .bg .brief-right .punchline .go {
   z-index: 1;
   margin-top: 30px;
   font-size: initial;
   position: relative;
   display: flex;
 }
-.back .bg .background {
+.back-bg .bg .background {
   background: url(../../assets/static/jwbgl.png) no-repeat center center;
   background-size: cover;
   height: 100%;
@@ -61,7 +63,7 @@
   transition: all 1s ease;
   overflow-x: hidden;
 }
-.back .bg .background-darkened {
+.back-bg .bg .background-darkened {
   background: url(../../assets/static/jwbgh.png) no-repeat center center;
   background-size: cover;
   height: 100%;
@@ -72,7 +74,7 @@
   transition: all 1s ease;
   overflow-x: hidden;
 }
-.back .dim {
+.back-bg .dim {
   opacity: 0;
 }
 

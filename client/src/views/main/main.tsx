@@ -12,12 +12,14 @@ import Linkedin from '../linkedin/linkedin';
 import Contact from '../../components/contact/contact';
 import Appraisal from '../Appraisal/appraisal';
 import Premiere from '../premiere/premiere';
+import Background from '../background/background';
 
 function Main() {
     return (
         <div className='content' id='main'>
             {/* <About></About> */}
             {/* <Speaking></Speaking> */}
+            <Background></Background>
             <Appraisal></Appraisal>
             {/* <Premiere></Premiere> */}
             {/* <Consulting></Consulting> */}
