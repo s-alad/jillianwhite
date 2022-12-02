@@ -18,7 +18,6 @@ function Main() {
         <div className='content' id='main'>
             {/* <About></About> */}
             {/* <Speaking></Speaking> */}
-            
             <Appraisal></Appraisal>
             {/* <Premiere></Premiere> */}
             {/* <Consulting></Consulting> */}
