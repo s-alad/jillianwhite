@@ -14,7 +14,7 @@ function Appraisal() {
                     <div className='left'>
                         <h2 className='mobile-close'>What to do when appraisal comes in low</h2>
                         <p>
-                            Motivated by her professional experience as an appraiser and personal experience whitewashing her family’s home in order to get a fair value, Jillian has made it her personal mission to educate and empower all homeowners by seeking fairness in appraisals.
+                            Motivated by her professional experience as an appraiser and personal experience whitewashing her family’s home, Jillian has made it her personal mission to educate and empower all homeowners by seeking fairness in appraisals.
                             <br />
                             <br />
                             Reach out to learn more about how to get a fair value for your home.
@@ -58,7 +58,7 @@ function Appraisal() {
                     <div className='left'>
                         <h2>Premiered on December 2nd</h2>
                         <p>
-                            "Our America: Lowballed" follows Black and Latino families as they fight for fair home values after lower than expected appraisals. ABC's 18-month long investigation explores appraisal discrimination and solutions to a problem potentially costing families billions in equity.
+                            Jillian was featured in "Our America: Lowballed", a documentary from ABC that follows Black and Latino families as they fight for fair home values after lower than expected appraisals. ABC's 18-month long investigation explores appraisal discrimination and solutions to a problem potentially costing families billions in equity
                         </p>
 
                         <a href='https://abc7.com/our-america-lowball-home-appraisal-racial-bias-discrimination/12325606/' target={'_blank'}><Gobutton text={'Watch'} wide={false}></Gobutton></a>

@@ -50,6 +50,7 @@ function Header() {
             <a href="/#premiere" onClick={() => closeOut()}>Premiere</a>
             {/* <a href="/media" onClick={() => closeOut()}>Media</a> */}
             <a href="/#contact" onClick={() => closeOut()}>Contact</a>
+            <a href="https://www.linkedin.com/in/jillian-white-sra-93a23b6/" onClick={() => closeOut()}>Linkedin</a>
 
       </div>
       {/* <Logo></Logo> */}
