@@ -6,6 +6,11 @@ h1 {
   margin-bottom: 30px;
 }
 
+@media screen and (max-width: 450px) {
+  h1 {
+    font-size: 34px !important;
+  }
+}
 h2 {
   font-weight: 600;
   color: #fffcf7;
@@ -113,4 +118,17 @@ h2 {
   border-left: 2px solid white;
   border-bottom: 2px solid white;
   filter: brightness(80%);
+}
+
+@media screen and (max-width: 450px) {
+  .about {
+    flex-direction: column;
+  }
+  .about .left {
+    width: 100%;
+    padding-right: 0px;
+  }
+  .about .right {
+    display: none;
+  }
 }/*# sourceMappingURL=about.css.map */
