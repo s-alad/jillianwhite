@@ -25,9 +25,10 @@ function Appraisal() {
                         </a>
                     </div>
                     <div className='right'>
-                        <video controls>
+                        {/* <video controls>
                             <source src={(V as string)+"#t=1"} height="300" width="300" type="video/mp4"></source>
-                        </video>
+                        </video> */}
+                        <iframe width="560" height="375" src="https://www.youtube.com/embed/XKCDZbNjoL4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
                     </div>
                     <a href="/#contact" className='mobile-contact-up'>
                         {/* <div className='mobile-contact'>

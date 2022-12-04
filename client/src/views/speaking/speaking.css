@@ -113,7 +113,7 @@ h2 {
   margin-bottom: 30px;
 }
 .speaking .content .notables .event {
-  border: 2px solid white;
+  /* border: 2px solid white; */
   border-radius: 4px;
   width: 300px;
   /* height: 200px; */

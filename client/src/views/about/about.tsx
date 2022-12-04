@@ -9,10 +9,10 @@ import Media from '../media/media';
 
 function About() {
     return (
-        <div>
+        <div className='about-wrapper'>
             <div className='mobile-image'>
                     
-                    </div>
+            </div>
             <div className='info' id='about'>
                 
                 <div className='about'>
@@ -31,7 +31,7 @@ function About() {
     
                 
             </div>
-            <div className='section'><Media></Media></div>
+            <div className='about-section'><Media></Media></div>
         </div>
     );
 }

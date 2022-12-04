@@ -73,7 +73,7 @@ function Speaking() {
                     
                     
                 </div>
-                <a href='#schedule' className='mobile-hide'><Gobutton text='See All Appearances' wide={true}></Gobutton></a>
+                {/* <a href='#schedule' className='mobile-hide'><Gobutton text='See All Appearances' wide={true}></Gobutton></a> */}
                 
 
                 {/* <Schedule></Schedule> */}

@@ -1,6 +1,11 @@
 @use '../../shared/common/common.scss' as common;
 @use '../../shared/palette/palette.scss' as p;
 
+
+.about-wrapper {
+    background-color: p.$primary;
+}
+
 .mobile-image {
     display: none;
 }
@@ -71,7 +76,7 @@
                     background-size: cover;
                     background-position: top;
                     border-left: 2px solid white;
-                    border-bottom: 2px solid white;
+                    /* border-bottom: 2px solid white; */
                     filter: brightness(80%);
             }
         }
@@ -110,4 +115,11 @@
         }
     }
     
+}
+
+.about-section {
+    @include common.section();
+    background-color: p.$creme;
+    border-top-left-radius: 42px;
+    /* border-top-right-radius: 42px; */
 }

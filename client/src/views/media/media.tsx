@@ -18,6 +18,18 @@ function Work() {
         promise.then((blogPosts: any) => {
 
             let sorted = blogPosts.sort((a: any, b: any) => {
+                if (a['fields']['outlet'] == 'NBC News ') {
+                    return -999;
+                }
+                if (b['fields']['outlet'] == 'NBC News ') {
+                    return 999;
+                }
+                if (a['fields']['outlet'] == 'Bloomberg') {
+                    return -999;
+                }
+                if (b['fields']['outlet'] == 'Bloomberg') {
+                    return 999;
+                }
                 return Date.parse(b['fields']['datetime']) - Date.parse(a['fields']['datetime']);
             });
 
@@ -46,13 +58,10 @@ function Work() {
         }
     };
 
-    return (
-        <div className='work' id='media'>
-            <h1>In The News</h1>
-            <Carousel responsive={responsive} className='works' itemClass="nowidth" >
-                
-                    <div className='peice'>
-                        <div className='pin'></div>
+    function preset() {
+        return (
+            <div className='peice'>
+                    <div className='pin'></div>
                         <a href={"https://www.nbcnews.com/news/us-news/black-appraisers-call-out-industry-s-racial-bias-need-systemic-n1269452"} target="_blank">
                             <div className='banner'>
                                 <img src={"http://images.ctfassets.net/wm1hz9m6fq76/2iF4a3ZrmgiLS4bdT04CVY/fddbca1f2cccd55fee59e929def3c62a/210607-jillian-white-mn-0905.jpg"} alt='work' />
@@ -71,26 +80,37 @@ function Work() {
                             </div>
                         </a>
                     </div>
-                    <div className='peice'>
-                        <div className='pin'></div>
-                        <a href={"https://www.bloomberg.com/news/articles/2021-03-03/appraisers-acknowledge-bias-in-home-valuations"}>
-                            <div className='banner'>
-                                <img src={"http://images.ctfassets.net/wm1hz9m6fq76/5l3PWtkHhrH9zOBkGxre51/53123f23f27e1bd8c26139ee59c06b79/-1x-1.jpg"} alt='work' />
-                            </div>
+        )
+    }
+    function presetTwo() {
+        <div className='peice'>
+        <div className='pin'></div>
+        <a href={"https://www.bloomberg.com/news/articles/2021-03-03/appraisers-acknowledge-bias-in-home-valuations"}>
+            <div className='banner'>
+                <img src={"http://images.ctfassets.net/wm1hz9m6fq76/5l3PWtkHhrH9zOBkGxre51/53123f23f27e1bd8c26139ee59c06b79/-1x-1.jpg"} alt='work' />
+            </div>
 
 
-                            <div className='data'>
-                                <div className='title'>
-                                What It Will Take to Close the Race Gap in Home Appraisals
-                                </div>
-                                <div className='flexspace'></div>
-                                <div className='description'>
-                                    Bloomberg
-                                </div>
-                                <div className='date'>2021-03-03</div>
-                            </div>
-                        </a>
-                    </div>
+            <div className='data'>
+                <div className='title'>
+                What It Will Take to Close the Race Gap in Home Appraisals
+                </div>
+                <div className='flexspace'></div>
+                <div className='description'>
+                    Bloomberg
+                </div>
+                <div className='date'>2021-03-03</div>
+            </div>
+        </a>
+    </div>
+    }
+
+    return (
+        <div className='work' id='media'>
+            <h1>In The News</h1>
+            <Carousel responsive={responsive} className='works' itemClass="nowidth" >
+                
+                    
                 
                 {
                     loading
