@@ -64,11 +64,11 @@
             overflow-x: hidden;
         }
         .background {
-            background: url(../../assets/static/jwbgl.png) no-repeat center center; //fixed;
+            background: url('https://jillianwhite.nyc3.cdn.digitaloceanspaces.com/jwbgl.png') no-repeat center center; //fixed;
             @include bg();
         }
         .background-darkened {
-            background: url(../../assets/static/jwbgh.png) no-repeat center center; //fixed;
+            background: url('https://jillianwhite.nyc3.cdn.digitaloceanspaces.com/jwbgh.png') no-repeat center center; //fixed;
             @include bg();
         }
     }
