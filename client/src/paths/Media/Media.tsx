@@ -4,7 +4,7 @@ import News from "../../views/media/media";
 import './Media.css';
 import V from '../../assets/static/video/lianacoya.mp4';
 import AP from '../../assets/static/aprb.png';
-import HA from '../../assets/static/video/HeroAward.mp4';
+/* import HA from '../../assets/static/video/HeroAward.mp4'; */
 
 function Media() {
 
@@ -122,7 +122,7 @@ function Media() {
                                     Housing Finance Stratagey 2021 Conference 
                                 </div>
                                 <video controls className="vid">
-                                    <source src={HA} height="300" width="200" type="video/mp4"></source>
+                                    <source src={""} height="300" width="200" type="video/mp4"></source>
                                 </video>
                             </div>
                         </a>
