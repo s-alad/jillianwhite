@@ -2,7 +2,8 @@ import React from "react";
 import Gallery from "../../components/gallery/gallery";
 import News from "../../views/media/media";
 import './Media.css';
-import V from '../../assets/static/video/lianacoya.mp4';
+/* import V from '../../assets/static/video/lianacoya.mp4'; */
+import V from 'https://jillianwhite.nyc3.digitaloceanspaces.com/lianacoya.mp4';
 import AP from '../../assets/static/aprb.png';
 /* import HA from '../../assets/static/video/HeroAward.mp4'; */
 
