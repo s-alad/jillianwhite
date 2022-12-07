@@ -5,7 +5,7 @@ import Schedule from '../../components/schedule/schedule';
 import Header from '../../components/header/header';
 import './engagements.css';
 /* import RB from '../../assets/static/video/racialbiases.mp4'; */
-import RB from 'https://jillianwhite.nyc3.digitaloceanspaces.com/racialbiases.mp4';
+/* import RB from 'https://jillianwhite.nyc3.digitaloceanspaces.com/racialbiases.mp4'; */
 import Speaking from '../../views/speaking/speaking';
 
 function Engagements() {
@@ -60,7 +60,7 @@ function Engagements() {
 									Racial And Ethnic Biases in the Appraisal Process
 								</div>
 								<video controls className="">
-									<source src={(RB as string) + "#t=6"} height="300" width="300" type="video/mp4"></source>
+									<source src={('https://jillianwhite.nyc3.digitaloceanspaces.com/racialbiases.mp4' as string) + "#t=6"} height="300" width="300" type="video/mp4"></source>
 								</video>
 							</div>
 							<div className='speech'>

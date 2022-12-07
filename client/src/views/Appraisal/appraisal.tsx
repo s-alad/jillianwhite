@@ -2,9 +2,8 @@ import React, { Fragment } from 'react';
 import Gobutton from '../../components/gobutton/gobutton';
 import './appraisal.css';
 /* import V from '../../assets/static/video/lianacoya.mp4'; */
-import V from 'https://jillianwhite.nyc3.digitaloceanspaces.com/lianacoya.mp4';
 /* import A from '../../assets/static/video/abc.mp4'; */
-import A from 'https://jillianwhite.nyc3.cdn.digitaloceanspaces.com/abc.mp4';
+/* import A from 'https://jillianwhite.nyc3.cdn.digitaloceanspaces.com/abc.mp4'; */
 
 function Appraisal() {
 
@@ -53,7 +52,7 @@ function Appraisal() {
                     </div>
                     <div className='right'>
                         <video controls>
-                            <source src={(A as string)+"#t=6"} height="300" width="300" type="video/mp4"></source>
+                            <source src={('https://jillianwhite.nyc3.cdn.digitaloceanspaces.com/abc.mp4' as string)+"#t=6"} height="300" width="300" type="video/mp4"></source>
                         </video>
                     </div>
                 </div>

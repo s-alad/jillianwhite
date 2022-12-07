@@ -3,7 +3,7 @@ import Gallery from "../../components/gallery/gallery";
 import News from "../../views/media/media";
 import './Media.css';
 /* import V from '../../assets/static/video/lianacoya.mp4'; */
-import V from 'https://jillianwhite.nyc3.digitaloceanspaces.com/lianacoya.mp4';
+/* import V from 'https://jillianwhite.nyc3.digitaloceanspaces.com/lianacoya.mp4'; */
 import AP from '../../assets/static/aprb.png';
 /* import HA from '../../assets/static/video/HeroAward.mp4'; */
 
@@ -103,7 +103,7 @@ function Media() {
                                     Getting a Fair Appraisal
                                 </div>
                                 <video controls className="vid">
-                                    <source src={V} height="300" width="200" type="video/mp4"></source>
+                                    <source src={'https://jillianwhite.nyc3.digitaloceanspaces.com/lianacoya.mp4'} height="300" width="200" type="video/mp4"></source>
                                 </video>
                             </div>
                         </a>
