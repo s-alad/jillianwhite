@@ -122,7 +122,7 @@ function Media() {
                                     Housing Finance Stratagey 2021 Conference 
                                 </div>
                                 <video controls className="vid">
-                                    <source src={""} height="300" width="200" type="video/mp4"></source>
+                                    <source src={"https://jillianwhite.nyc3.cdn.digitaloceanspaces.com/HeroAward.mp4"} height="300" width="200" type="video/mp4"></source>
                                 </video>
                             </div>
                         </a>
