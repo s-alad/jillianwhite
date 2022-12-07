@@ -86,7 +86,7 @@ function Media() {
                     </div>
                     <div className="videos" id="videos">
                         <h1>Videos</h1>
-                        <a href="">
+                        {/* <a href="">
                             <div className="video">
                                 <div className="description">
                                     ABC
@@ -95,7 +95,7 @@ function Media() {
                                     <source src="blob:https://abc7news.com/b42668ba-537f-422f-9a6f-f9ef18d1b2ed" height="300" width="200" type="video/mp4"></source>
                                 </video>
                             </div>
-                        </a>
+                        </a> */}
                         <a href="">
                             <div className="video">
                                 <div className="description">
