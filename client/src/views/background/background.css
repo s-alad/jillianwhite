@@ -54,7 +54,7 @@
   display: flex;
 }
 .back-bg .bg .background {
-  background: url(../../assets/static/jwbgl.png) no-repeat center center;
+  background: url("https://jillianwhite.nyc3.cdn.digitaloceanspaces.com/jwbgl.png") no-repeat center center;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -65,7 +65,7 @@
   overflow-x: hidden;
 }
 .back-bg .bg .background-darkened {
-  background: url(../../assets/static/jwbgh.png) no-repeat center center;
+  background: url("https://jillianwhite.nyc3.cdn.digitaloceanspaces.com/jwbgh.png") no-repeat center center;
   background-size: cover;
   height: 100%;
   width: 100%;
