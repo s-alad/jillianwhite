@@ -176,6 +176,9 @@ h2 {
 .Media .twoway .way .podcasts .pod .pod-body .blue {
   background-color: #101c94;
 }
+.Media .twoway .way .podcasts .pod .pod-body .red {
+  background-color: #cf0011;
+}
 .Media .twoway .way h1 {
   font-weight: 600;
   color: #fffcf7;

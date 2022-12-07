@@ -29,6 +29,20 @@ function Media() {
                         <h1>Podcasts</h1>
                         <div className="pod">
                             <div className="head">
+                                <img src="https://www.buzzsprout.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCTW9mV0FNPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--557a6950e0ee3aca008f574ef07c177136282ac4/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2QzNKbGMybDZaVWtpRFRZd01IZzJNREJlQmpzR1ZEb01aM0poZG1sMGVVa2lDMk5sYm5SbGNnWTdCbFE2QzJWNGRHVnVkRWtpRERZd01IZzJNREFHT3daVU9neHhkV0ZzYVhSNWFWVTZEMk52Ykc5eWMzQmhZMlZKSWdselVrZENCanNHVkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--8a9b4b1bc245a46b538f72d4d9b2ab0a7fbe8ac1/HousingWire%20Daily%20Podcast_Cover-01%20(1).jpg" />
+                            </div>
+                            <div className="vertical-line"></div>
+                            <div className="pod-body">
+                                <div className="title">Jillian White on tackling appraisal bias </div>
+                                <div className="description">6th December 2022 </div>
+                                <div className="flexspace"></div>
+                                <a href="https://www.housingwire.com/podcast/jillian-white-on-tackling-appraisal-bias/?_hsmi=236850504&_hsenc=p2ANqtz-9b18fXdrC9ioz4OnqMiWB5Nr4DKXkw4ug6RqVfJfA-obwsBWhge-BE5vlYaKwz9qBgMJAHPj0zi-YPosi7ccz-so1mPg" target={'_blank'}>
+                                    <div className="outlet red">Housing Wire</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="pod">
+                            <div className="head">
                                 <img src="https://pbs.twimg.com/profile_images/1267455114593345537/KcO8NfNN_400x400.jpg" />
                             </div>
                             <div className="vertical-line"></div>
