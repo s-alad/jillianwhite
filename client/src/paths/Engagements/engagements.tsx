@@ -4,7 +4,8 @@ import Gobutton from '../../components/gobutton/gobutton';
 import Schedule from '../../components/schedule/schedule';
 import Header from '../../components/header/header';
 import './engagements.css';
-import RB from '../../assets/static/video/racialbiases.mp4';
+/* import RB from '../../assets/static/video/racialbiases.mp4'; */
+import RB from 'https://jillianwhite.nyc3.digitaloceanspaces.com/racialbiases.mp4';
 import Speaking from '../../views/speaking/speaking';
 
 function Engagements() {
