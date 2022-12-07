@@ -105,6 +105,7 @@ h2 {
   flex-direction: column;
   background-color: #667068;
   border-radius: 4px;
+  overflow: hidden;
   border: 2px solid white;
 }
 .Media .twoway .way .videos .video .description {
@@ -115,6 +116,9 @@ h2 {
 }
 .Media .twoway .way .videos .video video {
   border: none;
+}
+.Media .twoway .way .videos .video iframe {
+  overflow: hidden;
 }
 .Media .twoway .way .podcasts .pod {
   display: flex;

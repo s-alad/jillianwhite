@@ -1,0 +1,11 @@
+@use '../../shared/common/common.scss' as c;
+@use '../../shared/palette/palette.scss' as p;
+
+.medium {
+    @include c.section();
+    background-color: p.$primary;
+
+    .medium-listen {
+        
+    }
+}

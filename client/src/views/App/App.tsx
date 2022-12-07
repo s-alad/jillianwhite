@@ -15,6 +15,7 @@ import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react
 import Media from '../../paths/Media/Media';
 import Business from '../../paths/Business/Business';
 import About from '../about/about';
+import Medium from '../../paths/Medium/Medium';
 
 function App() {
   
@@ -42,6 +43,9 @@ function App() {
           }/>
           <Route path='appraisal' element={
             <Business></Business>
+          }/>
+          <Route path='medium' element={
+            <Medium></Medium>
           }/>
         </Routes>
       </Router>

@@ -54,6 +54,7 @@
                     flex-direction: column;
                     background-color: p.$accent;
                     border-radius: 4px;
+                    overflow: hidden;
                     border: 2px solid white;
                     .description {
                         flex: 1;
@@ -63,6 +64,9 @@
                     }
                     video {
                         border: none;
+                    }
+                    iframe {
+                        overflow: hidden;
                     }
                 }
             }

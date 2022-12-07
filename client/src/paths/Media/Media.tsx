@@ -4,6 +4,7 @@ import News from "../../views/media/media";
 import './Media.css';
 import V from '../../assets/static/video/lianacoya.mp4';
 import AP from '../../assets/static/aprb.png';
+import HA from '../../assets/static/video/HeroAward.mp4';
 
 function Media() {
 
@@ -18,7 +19,7 @@ function Media() {
                     <div className="nav-item"><a href="#videos">Videos</a></div>
                 </div>
                 <div className="way">
-                    {/*<div className="photos" id="photos">
+                    {/* <div className="photos" id="photos">
                         <h1>Photos</h1>
                         <Gallery></Gallery>
                     </div> */}
@@ -85,7 +86,16 @@ function Media() {
                     </div>
                     <div className="videos" id="videos">
                         <h1>Videos</h1>
-
+                        <a href="">
+                            <div className="video">
+                                <div className="description">
+                                    ABC
+                                </div>
+                                <video preload="none" crossOrigin="anonymous" lang="en">
+                                    <source src="blob:https://abc7news.com/b42668ba-537f-422f-9a6f-f9ef18d1b2ed" height="300" width="200" type="video/mp4"></source>
+                                </video>
+                            </div>
+                        </a>
                         <a href="">
                             <div className="video">
                                 <div className="description">
@@ -103,6 +113,16 @@ function Media() {
                                 </div>
                                 <video controls className="vid">
                                     <source src={"https://embed-ssl.wistia.com/deliveries/a248766c87e69991cba26fab7048f266.mp4#t=42"} height="300" width="200" type="video/mp4"></source>
+                                </video>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div className="video">
+                                <div className="description">
+                                    Housing Finance Stratagey 2021 Conference 
+                                </div>
+                                <video controls className="vid">
+                                    <source src={HA} height="300" width="200" type="video/mp4"></source>
                                 </video>
                             </div>
                         </a>
