@@ -2,7 +2,8 @@ import React, { Fragment } from 'react';
 import Gobutton from '../../components/gobutton/gobutton';
 import './appraisal.css';
 import V from '../../assets/static/video/lianacoya.mp4';
-import A from '../../assets/static/video/abc.mp4';
+/* import A from '../../assets/static/video/abc.mp4'; */
+import A from 'https://jillianwhite.nyc3.cdn.digitaloceanspaces.com/abc.mp4';
 
 function Appraisal() {
 
