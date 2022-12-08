@@ -101,7 +101,7 @@ h2 {
   height: min-content;
 }
 .info .about .blob {
-  background-image: url(../../assets/static/blob.png);
+  /* background-image: url(../../assets/static/blob.png); */
   height: 100px;
 }
 .info .about .left {
