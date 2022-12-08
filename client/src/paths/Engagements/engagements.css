@@ -338,7 +338,7 @@ h2 {
   height: 100vh;
   top: 0px;
   right: 0px;
-  background-image: url(../../assets/static/three.jpeg);
+  /* background-image: url(../../assets/static/three.jpeg); */
   background-repeat: no-repeat;
   background-size: cover;
   border-left: 2px solid white;
