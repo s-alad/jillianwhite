@@ -7,8 +7,16 @@ import './engagements.css';
 /* import RB from '../../assets/static/video/racialbiases.mp4'; */
 /* import RB from 'https://jillianwhite.nyc3.digitaloceanspaces.com/racialbiases.mp4'; */
 import Speaking from '../../views/speaking/speaking';
+import { getSpeech } from '../../api/api';
+
+const speechPromise = getSpeech();
 
 function Engagements() {
+
+
+	const [speech, setSpeech] = React.useState([]);
+	const [loading, setLoading] = React.useState(true);
+
 	useEffect(() => {
 		//get element with classname background
 		const background = document.getElementsByClassName('background')[0];
@@ -16,6 +24,16 @@ function Engagements() {
 		setTimeout(() => {
 			background.classList.add('dim');
 		}, 200);
+
+		speechPromise.then((speech: any) => {
+
+            let sorted = speech.sort((a: any, b: any) => {
+                return Date.parse(b['fields']['date']) - Date.parse(a['fields']['date']);
+            });
+
+            setSpeech(sorted)
+            setLoading(false)
+        })
 	}, []);
 
 	return (
@@ -55,7 +73,21 @@ function Engagements() {
 					</div> */}
 					<div className='split'>
 						<div className='left'>
-							<div className='speech'>
+							{
+								loading ? <div className='loading'>Loading...</div> : speech.map((speech: any) => {
+									return (
+										<div className='speech'>
+											<div className="description">
+												{speech['fields']['title']}
+											</div>
+											<video controls className="video">
+												<source src={speech['fields']['cdnvideo']} height="300" width="300" type="video/mp4"></source>
+											</video>
+										</div>
+									)
+								})	
+							}
+							{/* <div className='speech'>
 								<div className="description">
 									Racial And Ethnic Biases in the Appraisal Process
 								</div>
@@ -70,8 +102,7 @@ function Engagements() {
 								<video controls className="video">
 									<source src={"https://embed-ssl.wistia.com/deliveries/a248766c87e69991cba26fab7048f266.mp4#t=1"} height="300" width="300" type="video/mp4"></source>
 								</video>
-								{/* <iframe src="https://embed-ssl.wistia.com/deliveries/a248766c87e69991cba26fab7048f266.mp4" scrolling="no" className="wistia_embed" name="wistia_embed" width="300" height="300"></iframe> */}
-							</div>
+							</div> */}
 							{/* <div className='reach'>
 								<h2>Let Jillian spruce up your next event. </h2>
 								<div className='row'>

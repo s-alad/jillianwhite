@@ -30,5 +30,11 @@ function getVideos() {
     }).then((response: { items: any; }) => {console.log(response.items); return response.items})
 }
 
+function getSpeech() {
+    return client.getEntries({
+        content_type: 'speech'
+    }).then((response: { items: any; }) => {console.log(response.items); return response.items})
+}
 
-export {getMedia, getEvents, getPodcasts, getVideos}
+
+export {getMedia, getEvents, getPodcasts, getVideos, getSpeech}
