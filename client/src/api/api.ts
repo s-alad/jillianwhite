@@ -1,6 +1,3 @@
-
-import env from 'node:process';
-
 //insecure add a backend
 const client = require('contentful').createClient({
     space: 'wm1hz9m6fq76',
@@ -9,7 +6,7 @@ const client = require('contentful').createClient({
   })
 
 function getMedia() {
-    console.log(client)
+    /* console.log(client) */
     return client.getEntries({
         content_type: 'media'
     }).then((response: { items: any; }) => {console.log(response.items); return response.items})
@@ -21,5 +18,17 @@ function getEvents() {
     }).then((response: { items: any; }) => {console.log(response.items); return response.items})
 }
 
+function getPodcasts() {
+    return client.getEntries({
+        content_type: 'podcast'
+    }).then((response: { items: any; }) => {console.log(response.items); return response.items})
+}
 
-export {getMedia, getEvents}
+function getVideos() {
+    return client.getEntries({
+        content_type: 'video'
+    }).then((response: { items: any; }) => {console.log(response.items); return response.items})
+}
+
+
+export {getMedia, getEvents, getPodcasts, getVideos}

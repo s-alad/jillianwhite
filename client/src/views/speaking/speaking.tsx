@@ -34,7 +34,7 @@ function Speaking() {
                             October, 2022 | Dallas, TX
                         </div>
                         <div className='image'>
-                            <img src='https://media-exp1.licdn.com/dms/image/sync/C4D27AQHL5mmsD8XeSg/articleshare-shrink_800/0/1668881562470?e=1670191200&v=beta&t=10t8xrSg0wOtxyiXoI1qkmrXeOoSd1MCb4Tx0W6GwH0' />
+                            <img src='https://urbanland.uli.org/wp-content/uploads/sites/5/2022/10/ValuationChangesforPeopleofColor-4998_2.jpg' />
                         </div>
                     </div>
                     <div className='event'>
