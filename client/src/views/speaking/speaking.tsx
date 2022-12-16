@@ -50,7 +50,7 @@ function Speaking() {
                     </div>
                     <div className='event'>
                         <div className='title'>
-                            TAFAC & IAC
+                            The Appraisal Foundation Advisory Council
                         </div>
                         <div className='date'>
                             June, 2022

@@ -46,7 +46,7 @@ function Engagements() {
 						<div className='background'></div> */}
 				<Speaking></Speaking>
 				<div className='speech-content' id='start'>
-					<h1>Past Speeches</h1>
+					<h1>Videos</h1>
 					{/* <div className="twoway">
 						<div className="nav">
 							<div className="nav-item"><a href="#photos">Speeches</a></div>
