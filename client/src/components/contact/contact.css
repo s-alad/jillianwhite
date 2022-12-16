@@ -164,7 +164,7 @@ h2 {
   justify-content: flex-end;
 }
 .contact .contact-form .right .blob {
-  background-image: url(../../assets/static/rock.jpg);
+  background-image: url(../../assets/static/rock-w.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border-left: 2px solid #fffcf7;
@@ -174,7 +174,7 @@ h2 {
   right: 0;
   top: 0;
   width: 45%;
-  background-position-x: 86%;
+  background-position-x: 76%;
 }
 
 @media screen and (max-height: 1370px) {

@@ -60,7 +60,7 @@ function Appraisal() {
                     <div className='left'>
                         <h2>Premiered on December 2nd</h2>
                         <p>
-                            Jillian was featured in "Our America: Lowballed", a documentary from ABC that follows Black and Latino families as they fight for fair home values after lower than expected appraisals. ABC's 18-month long investigation explores appraisal discrimination and solutions to a problem potentially costing families billions in equity
+                            Jillian was featured in "Our America: Lowballed", a documentary from ABC that follows Black and Latino families as they fight for fair home values after lower than expected appraisals. ABC's 18-month long investigation explores appraisal discrimination and solutions to a problem potentially costing families billions in equity.
                         </p>
 
                         <a href='https://abc7.com/our-america-lowball-home-appraisal-racial-bias-discrimination/12325606/' target={'_blank'}><Gobutton text={'Watch'} wide={false}></Gobutton></a>
