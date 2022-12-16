@@ -21,7 +21,9 @@ $offset: /* 15px */ 0px;
             color: palette.$secondary;
             font-size: 22px;
         }
-
+        .notable-title {
+            margin-bottom: 0px;
+        }
         .schedule {
             margin-top: 58px;
             width: 800px;
@@ -60,12 +62,12 @@ $offset: /* 15px */ 0px;
         .notables {
             display: flex;
             flex-wrap: wrap;
-            margin-top: 20px;
             margin-bottom: 30px;
 
             .event {
                 /* border: 2px solid white; */
                 border-radius: 4px;
+                margin-top: 20px;
                 width: 300px;
                 /* height: 200px; */
                 background-color: palette.$accent;
@@ -75,7 +77,7 @@ $offset: /* 15px */ 0px;
                 padding: 14px;
                 .title {
                     color: white;
-                    height: 24px;
+                    /* height: 54px; */
                     font-size: 20px;
                     font-weight: 600;
                 }

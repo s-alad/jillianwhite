@@ -24,7 +24,7 @@ function Speaking() {
                 </p>
                 <a href='/#contact' className='mobile-hide'><Gobutton text='inquire about speaking' wide={true}></Gobutton></a>
                 <div className='division'></div>
-                <h1>Notable Appearances</h1>
+                <h1 className='notable-title'>Notable Appearances</h1>
                 <div className='notables'>
                     <div className='event'>
                         <div className='title'>
@@ -33,6 +33,7 @@ function Speaking() {
                         <div className='date'>
                             October, 2022 | Dallas, TX
                         </div>
+                        <div className='flexspace'></div>
                         <div className='image'>
                             <img src='https://urbanland.uli.org/wp-content/uploads/sites/5/2022/10/ValuationChangesforPeopleofColor-4998_2.jpg' />
                         </div>
@@ -44,6 +45,7 @@ function Speaking() {
                         <div className='date'>
                             August, 2022 | Washington D.C
                         </div>
+                        <div className='flexspace'></div>
                         <div className='image'>
                             <img src='https://media-exp1.licdn.com/dms/image/C4E22AQHkLH3E5HFXsg/feedshare-shrink_800/0/1662470673714?e=1672272000&v=beta&t=YC9P9mJ-94L9WzZ2nfp2CMs68Kkabm01aHQB3gIqBRo' />
                         </div>
@@ -55,6 +57,7 @@ function Speaking() {
                         <div className='date'>
                             June, 2022
                         </div>
+                        <div className='flexspace'></div>
                         <div className='image'>
                             <img src='https://media-exp1.licdn.com/dms/image/C4E22AQHuNX7hTw-QKQ/feedshare-shrink_800/0/1656455042040?e=1672272000&v=beta&t=sXFzdp2KgOJFEqsve_3MH6RUX-z3zADyBzGyaZ2i5ag' />
                         </div>
@@ -66,6 +69,7 @@ function Speaking() {
                         <div className='date'>
                             April, 2022 | Las Vegas, NV
                         </div>
+                        <div className='flexspace'></div>
                         <div className='image'>
                             <img src='https://media-exp1.licdn.com/dms/image/C4D22AQE8ONbnMXbxGA/feedshare-shrink_800/0/1650466005206?e=1672272000&v=beta&t=-OFEdcuw2pfGLjH-B0T30diZOXhPPhiCav2o4pr8t9Y' />
                         </div>

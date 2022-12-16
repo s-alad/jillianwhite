@@ -72,7 +72,7 @@ h2 {
   border: 2px solid white;
   border-radius: 4px;
   width: 95%;
-  height: 150px;
+  height: 110px;
   background-color: #667068;
   display: flex;
   flex-direction: column;
@@ -80,13 +80,13 @@ h2 {
 }
 .schedule .events .event .title {
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
 }
 .schedule .events .event .date {
   color: white;
   height: 24px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
 }
 .schedule .events .event .image {
