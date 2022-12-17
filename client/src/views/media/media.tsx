@@ -18,6 +18,12 @@ function Work() {
         promise.then((blogPosts: any) => {
 
             let sorted = blogPosts.sort((a: any, b: any) => {
+                if (a['fields']['pinned'] == true) {
+                    return -999;
+                }
+                if (b['fields']['pinned'] == true) {
+                    return 999;
+                }
                 if (a['fields']['outlet'] == 'NBC News ') {
                     return -999;
                 }

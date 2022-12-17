@@ -13,6 +13,14 @@ const speechPromise = getSpeech();
 
 function Engagements() {
 
+	function getUrl(item: any) {
+        if (item['fields']['cdnvideo'] != undefined) {
+            return item['fields']['cdnvideo']
+        } else {
+            return item['fields']['video']['fields']['file']['url']
+        }
+    }
+
 
 	const [speech, setSpeech] = React.useState([]);
 	const [loading, setLoading] = React.useState(true);
@@ -81,7 +89,7 @@ function Engagements() {
 												{speech['fields']['title']}
 											</div>
 											<video controls className="video">
-												<source src={speech['fields']['cdnvideo']} height="300" width="300" type="video/mp4"></source>
+												<source src={getUrl(speech)} height="300" width="300" type="video/mp4"></source>
 											</video>
 										</div>
 									)
