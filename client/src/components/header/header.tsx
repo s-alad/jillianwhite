@@ -47,7 +47,7 @@ function Header() {
           <div className='exit' onClick={() => closeOut()}>X</div>
             <HashLink to="/" onClick={() => closeOut()}>Home</HashLink>
             <HashLink to="/about" onClick={() => closeOut()}>About</HashLink>
-            <HashLink to="/speaking#speaking" onClick={() => closeOut()}>Speaking</HashLink>
+            <HashLink to="/speaking" onClick={() => closeOut()}>Speaking</HashLink>
             <HashLink to="/#appraisal" onClick={() => closeOut()}>Appraisal</HashLink>
             <HashLink to="/#premiere" onClick={() => closeOut()}>Premiere</HashLink>
             {/* <a href="/media" onClick={() => closeOut()}>Media</a> */}
