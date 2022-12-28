@@ -59,7 +59,7 @@ function Header() {
       <div className="navflexspace"></div>
       <div className='underline'>
         <ul>
-        <li><a href="/#home">Home</a></li>
+          <li><HashLink to="/#home">Home</HashLink></li>
           <li><HashLink to="/about">About</HashLink></li>
           <li><HashLink to="/speaking#speaking">Speaking</HashLink></li>
           <li><HashLink to="/#appraisal">Appraisal</HashLink></li>
