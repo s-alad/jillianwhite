@@ -47,7 +47,7 @@ function Header() {
           <div className='exit' onClick={() => closeOut()}>X</div>
             <HashLink to="/" onClick={() => closeOut()}>Home</HashLink>
             <HashLink to="/about" onClick={() => closeOut()}>About</HashLink>
-            <HashLink to="/speaking" onClick={() => closeOut()}>Speaking</HashLink>
+            <HashLink to="/speaking#start" onClick={() => closeOut()}>Speaking</HashLink>
             <HashLink to="/#appraisal" onClick={() => closeOut()}>Appraisal</HashLink>
             <HashLink to="/#premiere" onClick={() => closeOut()}>Premiere</HashLink>
             {/* <a href="/media" onClick={() => closeOut()}>Media</a> */}
@@ -59,13 +59,13 @@ function Header() {
       <div className="navflexspace"></div>
       <div className='underline'>
         <ul>
-          <li><HashLink to="/#home">Home</HashLink></li>
-          <li><HashLink to="/about">About</HashLink></li>
-          <li><HashLink to="/speaking">Speaking</HashLink></li>
-          <li><HashLink to="/#appraisal">Appraisal</HashLink></li>
-          <li><HashLink to="/#premiere">Premiere</HashLink></li>
-          <li><HashLink to="/media">Media</HashLink></li>
-          <li><HashLink to="/#contact">Contact</HashLink></li>
+          <li><HashLink smooth to="/#home">Home</HashLink></li>
+          <li><HashLink smooth to="/about">About</HashLink></li>
+          <li><HashLink smooth to="/speaking#start">Speaking</HashLink></li>
+          <li><HashLink smooth to="/#appraisal">Appraisal</HashLink></li>
+          <li><HashLink smooth to="/#premiere">Premiere</HashLink></li>
+          <li><HashLink smooth to="/media">Media</HashLink></li>
+          <li><HashLink smooth to="/#contact">Contact</HashLink></li>
         </ul>
       </div>
       <div className='divider'></div>

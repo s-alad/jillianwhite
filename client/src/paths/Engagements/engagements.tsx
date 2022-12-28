@@ -46,14 +46,14 @@ function Engagements() {
 
 	return (
 		<Fragment>
-			<div className='mobile-image-speaking'>
+			<div className='mobile-image-speaking' id='start'>
                     
             </div>
 			<div className='back'>
 				{/* <div className='background-darkened'></div>
 						<div className='background'></div> */}
 				<Speaking></Speaking>
-				<div className='speech-content' id='start'>
+				<div className='speech-content'>
 					<h1>Videos</h1>
 					{/* <div className="twoway">
 						<div className="nav">
