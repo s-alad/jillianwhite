@@ -45,8 +45,8 @@ function Header() {
       </div>
       <div className='mobile-navigation'>
           <div className='exit' onClick={() => closeOut()}>X</div>
-            <HashLink to="/" onClick={() => closeOut()}>Home</HashLink>
-            <HashLink to="/about" onClick={() => closeOut()}>About</HashLink>
+            <HashLink to="/#home" onClick={() => closeOut()}>Home</HashLink>
+            <HashLink to="/about#me" onClick={() => closeOut()}>About</HashLink>
             <HashLink to="/speaking#start" onClick={() => closeOut()}>Speaking</HashLink>
             <HashLink to="/#appraisal" onClick={() => closeOut()}>Appraisal</HashLink>
             <HashLink to="/#premiere" onClick={() => closeOut()}>Premiere</HashLink>
@@ -60,11 +60,11 @@ function Header() {
       <div className='underline'>
         <ul>
           <li><HashLink smooth to="/#home">Home</HashLink></li>
-          <li><HashLink smooth to="/about">About</HashLink></li>
+          <li><HashLink smooth to="/about#me">About</HashLink></li>
           <li><HashLink smooth to="/speaking#start">Speaking</HashLink></li>
           <li><HashLink smooth to="/#appraisal">Appraisal</HashLink></li>
           <li><HashLink smooth to="/#premiere">Premiere</HashLink></li>
-          <li><HashLink smooth to="/media">Media</HashLink></li>
+          <li><Link to="/media">Media</Link></li>
           <li><HashLink smooth to="/#contact">Contact</HashLink></li>
         </ul>
       </div>

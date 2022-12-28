@@ -9,7 +9,7 @@ import Media from '../media/media';
 
 function About() {
     return (
-        <div className='about-wrapper'>
+        <div className='about-wrapper' id="me">
             <div className='mobile-image'>
                     
             </div>
