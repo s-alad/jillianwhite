@@ -161,6 +161,10 @@
 	}
 }
 @media screen and (max-width: 670px) {
+	.navigation {
+		-webkit-backdrop-filter: none !important;
+		backdrop-filter: none !important;  
+	}
 	ul {
 		font-size: 12px !important;
 	}
@@ -169,8 +173,18 @@
 		width: 30px !important;
 		top: -5px !important;
 	}
+	.mobile-lines {
+		box-sizing: content-box;
+		/* padding: 4px; */
+		-webkit-backdrop-filter: blur(3px);
+		backdrop-filter: blur(3px);
+	}
 }
 @media screen and (max-width: 575px) {
+	.navigation {
+		-webkit-backdrop-filter: none !important;
+		backdrop-filter: none !important;  
+	}
 	.underline, .divider, .social-svg {
 		display: none !important;
 	}
