@@ -28,6 +28,13 @@ function Schedule() {
 
             setPastSpeakingitems(past)
             setUpcomingSpeakingItems(upcoming)
+
+            //sort past items by date
+            let sorted = past.sort((a: any, b: any) => {
+                return Date.parse(b['fields']['date']) - Date.parse(a['fields']['date']);
+            });
+
+            setPastSpeakingitems(sorted)
             setLoading(false)
         })
     }, [])
