@@ -1,5 +1,6 @@
 import React, { Fragment, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import { getEvents } from '../../api/api';
 import Gobutton from '../../components/gobutton/gobutton';
 import Schedule from '../../components/schedule/schedule';
@@ -22,7 +23,7 @@ function Speaking() {
 
                     {/* Through speaking about her two decades as an executive in the appraisal industry, or her personal experience whitewashing her family’s home in order to get a fair appraisal, Jillian believes she can make an impact by helping shine a light on inequality in homeownership.  */}{/* Whether it’s calling out specific examples of injustice, or discussing appraisal best practices, proposed reforms and solutions to bias plaguing the country’s homeownership industry, Jillian believes in having difficult conversations to empower people to build their best life, through real estate and otherwise. */}
                 </p>
-                <a href='/#contact' className='mobile-hide'><Gobutton text='inquire about speaking' wide={true}></Gobutton></a>
+                <HashLink to='/#contact' className='mobile-hide'><Gobutton text='inquire about speaking' wide={true}></Gobutton></HashLink>
                 <div className='division'></div>
                 <h1 className='notable-title'>Notable Appearances</h1>
                 <div className='notables'>
