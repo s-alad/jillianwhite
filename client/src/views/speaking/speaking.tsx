@@ -48,7 +48,7 @@ function Speaking() {
                         </div>
                         <div className='flexspace'></div>
                         <div className='image'>
-                            <img src='https://media-exp1.licdn.com/dms/image/C4E22AQHkLH3E5HFXsg/feedshare-shrink_800/0/1662470673714?e=1672272000&v=beta&t=YC9P9mJ-94L9WzZ2nfp2CMs68Kkabm01aHQB3gIqBRo' />
+                            <img src='https://media.licdn.com/dms/image/C4E22AQHkLH3E5HFXsg/feedshare-shrink_800/0/1662470673714?e=1672272000&v=beta&t=YC9P9mJ-94L9WzZ2nfp2CMs68Kkabm01aHQB3gIqBRo' />
                         </div>
                     </div>
                     <div className='event'>
@@ -60,7 +60,7 @@ function Speaking() {
                         </div>
                         <div className='flexspace'></div>
                         <div className='image'>
-                            <img src='https://media-exp1.licdn.com/dms/image/C4E22AQHuNX7hTw-QKQ/feedshare-shrink_800/0/1656455042040?e=1672272000&v=beta&t=sXFzdp2KgOJFEqsve_3MH6RUX-z3zADyBzGyaZ2i5ag' />
+                            <img src='https://media.licdn.com/dms/image/C4E22AQHuNX7hTw-QKQ/feedshare-shrink_800/0/1656455042040?e=1672272000&v=beta&t=sXFzdp2KgOJFEqsve_3MH6RUX-z3zADyBzGyaZ2i5ag' />
                         </div>
                     </div>
                     <div className='event'>
@@ -72,7 +72,7 @@ function Speaking() {
                         </div>
                         <div className='flexspace'></div>
                         <div className='image'>
-                            <img src='https://media-exp1.licdn.com/dms/image/C4D22AQE8ONbnMXbxGA/feedshare-shrink_800/0/1650466005206?e=1672272000&v=beta&t=-OFEdcuw2pfGLjH-B0T30diZOXhPPhiCav2o4pr8t9Y' />
+                            <img src='https://media.licdn.com/dms/image/C4D22AQE8ONbnMXbxGA/feedshare-shrink_800/0/1650466005206?e=1675900800&v=beta&t=WqU6JNfsOjuRLEW15M6I-NNfLNp2IOvq7TAG1dj7rCA' />
                         </div>
                     </div>
                     
