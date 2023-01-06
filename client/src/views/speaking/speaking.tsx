@@ -62,6 +62,7 @@ function Speaking() {
                         <div className='flexspace'></div>
                         <div className='image'>
                            {/*  <img src='https://media-exp1.licdn.com/dms/image/C4E22AQHuNX7hTw-QKQ/feedshare-shrink_800/0/1656455042040?e=1672272000&v=beta&t=sXFzdp2KgOJFEqsve_3MH6RUX-z3zADyBzGyaZ2i5ag' /> */}
+                           <img src='https://media.licdn.com/dms/image/C4E22AQHuNX7hTw-QKQ/feedshare-shrink_800/0/1656455042040?e=1675900800&v=beta&t=gVs1baeQck9eBGjECd1fpJLPhFcLbF2SUnpjkAS1HDM'/>
                            
                         </div>
                     </div>
