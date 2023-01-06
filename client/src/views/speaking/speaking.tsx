@@ -48,7 +48,8 @@ function Speaking() {
                         </div>
                         <div className='flexspace'></div>
                         <div className='image'>
-                            <img src='https://media.licdn.com/dms/image/C4E22AQHkLH3E5HFXsg/feedshare-shrink_800/0/1662470673714?e=1672272000&v=beta&t=YC9P9mJ-94L9WzZ2nfp2CMs68Kkabm01aHQB3gIqBRo' />
+                            {/* <img src='https://media-exp1.licdn.com/dms/image/C4E22AQHkLH3E5HFXsg/feedshare-shrink_800/0/1662470673714?e=1672272000&v=beta&t=YC9P9mJ-94L9WzZ2nfp2CMs68Kkabm01aHQB3gIqBRo' /> */}
+                            <img src='https://newslink.mba.org/wp-content/uploads/2022/08/MISMOFallSummit2022Appraiser.jpg?w=400&h=222&crop=1'/>
                         </div>
                     </div>
                     <div className='event'>
@@ -60,7 +61,8 @@ function Speaking() {
                         </div>
                         <div className='flexspace'></div>
                         <div className='image'>
-                            <img src='https://media.licdn.com/dms/image/C4E22AQHuNX7hTw-QKQ/feedshare-shrink_800/0/1656455042040?e=1672272000&v=beta&t=sXFzdp2KgOJFEqsve_3MH6RUX-z3zADyBzGyaZ2i5ag' />
+                           {/*  <img src='https://media-exp1.licdn.com/dms/image/C4E22AQHuNX7hTw-QKQ/feedshare-shrink_800/0/1656455042040?e=1672272000&v=beta&t=sXFzdp2KgOJFEqsve_3MH6RUX-z3zADyBzGyaZ2i5ag' /> */}
+                           
                         </div>
                     </div>
                     <div className='event'>
