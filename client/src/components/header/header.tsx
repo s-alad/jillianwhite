@@ -53,6 +53,7 @@ function Header() {
             {/* <a href="/media" onClick={() => closeOut()}>Media</a> */}
             <HashLink to={'/#contact'} onClick={() => closeOut()}>Contact</HashLink>
             <a href="https://www.linkedin.com/in/jillian-white-sra-93a23b6/" onClick={() => closeOut()}>Linkedin</a>
+            <a href="https://www.twitter.com" onClick={() => closeOut()}>Twitter</a>
 
       </div>
       {/* <Logo></Logo> */}
