@@ -70,7 +70,7 @@ function Header() {
       </div>
       <div className='divider'></div>
       <SocialIcon target={'_blank'} url='https://www.linkedin.com/in/jillian-white-sra-93a23b6/' bgColor='transparent' fgColor='white' className='ico'></SocialIcon>
-      {/* <SocialIcon target={'_blank'} url='https://www.twitter.com/' bgColor='transparent' fgColor='white' className='ico'></SocialIcon> */}
+      <SocialIcon target={'_blank'} url='https://www.twitter.com/' bgColor='transparent' fgColor='white' className='ico'></SocialIcon>
       {/* <div className="media item">leadership</div>
       <div className="media item">press</div>
       <div className="blog item">blog</div>
