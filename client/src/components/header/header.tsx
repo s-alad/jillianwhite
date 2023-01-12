@@ -53,7 +53,7 @@ function Header() {
             {/* <a href="/media" onClick={() => closeOut()}>Media</a> */}
             <HashLink to={'/#contact'} onClick={() => closeOut()}>Contact</HashLink>
             <a href="https://www.linkedin.com/in/jillian-white-sra-93a23b6/" onClick={() => closeOut()}>Linkedin</a>
-            <a href="https://www.twitter.com" onClick={() => closeOut()}>Twitter</a>
+            <a href="https://twitter.com/JillianWhiteSRA" onClick={() => closeOut()}>Twitter</a>
 
       </div>
       {/* <Logo></Logo> */}
@@ -71,7 +71,7 @@ function Header() {
       </div>
       <div className='divider'></div>
       <SocialIcon target={'_blank'} url='https://www.linkedin.com/in/jillian-white-sra-93a23b6/' bgColor='transparent' fgColor='white' className='ico'></SocialIcon>
-      <SocialIcon target={'_blank'} url='https://www.twitter.com/' bgColor='transparent' fgColor='white' className='ico'></SocialIcon>
+      <SocialIcon target={'_blank'} url='https://twitter.com/JillianWhiteSRA' bgColor='transparent' fgColor='white' className='ico'></SocialIcon>
       {/* <div className="media item">leadership</div>
       <div className="media item">press</div>
       <div className="blog item">blog</div>
